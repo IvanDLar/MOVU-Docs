@@ -553,7 +553,7 @@ Once the test environment is setup and the testers and CI service is ready the p
 
 ### 4.3.2 Project Management
 
-The project manager should review the test plan, strategy and estimates and sign off on it. The project manager should also be responsible for enforcing reviews and the testing strategy. Additionally, the project manager should be involved in formal reviews.
+The project manager and tech leads should review the test plan, strategy and estimates and sign off on it. The project manager and the tech lead should also be responsible for enforcing reviews and the testing strategy. Additionally, the project manager should be involved in formal reviews. The tech lead will also be included in this meetings, since he will have a better technical understanding of all the differents tests of their area. 
 
 ### 4.3.3 Activities Schedule
 
@@ -565,15 +565,20 @@ The project manager should review the test plan, strategy and estimates and sign
 
 Unit Tests:
 
-- Upon PR creation an automatic pipeline will be in charge of running the application in a dockerized environment where we can run NodeJS 18 in a linux system, all dependencies for the project must be installed, and mock servers for stripe, postgressql, elasticsearch.
+- Upon PR creation an automatic pipeline will be in charge of running github actions that run different tests, this will be done for specific requirements.
 
 E2E:
 
-- We will require a dockerized environment using linux, cypress, NodeJS 18 and project dependencies.
+- We will run run github actions for specific requirements with an automatic pipeline.
 
 Integration Tests:
 
-- We will require a dockerized environment using linux, NodeJS 18, project dependencies.
+- We will run run github actions for specific requirements with an automatic pipeline.
+
+Tools:
+
+- For unit tests, integration tests and E2E we will use cypress to tests all our requirements
+- If we have time, we will use locust for performance tests. 
 
 # 6. Tests
 
