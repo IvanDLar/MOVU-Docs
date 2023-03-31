@@ -205,8 +205,8 @@ Some of the requirements that we will be testing are the following:
 
 The complete list of requirements can be found in:
 
-- [Functional Requirements](https://github.com/PRocha0503/Planeacion-de-sistemas-de-software/blob/main/wiki/Functional%20requirements.md)
-- [Non Functional Requirements](https://github.com/PRocha0503/Planeacion-de-sistemas-de-software/blob/main/wiki/Non%20Functional%20requirements.md)
+- [Functional Requirements](https://github.com/IvanDLar/MOVU-Docs/blob/main/wiki/Non%20Functional%20requirements.md)
+- [Non Functional Requirements](https://github.com/IvanDLar/MOVU-Docs/blob/main/wiki/Non%20Functional%20requirements.md)
 
 ## 2.3 Test Assumptions
 
