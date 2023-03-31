@@ -423,7 +423,7 @@ Front End only
 
 **Devops:**
 
-- After a merge to production containers are deployed to cloud environment with k8s
+- After a merge to production lambdas are deployed to cloud environment, using terraform
 
 ### 2.6.3 End to end testing (validation test)
 
@@ -568,7 +568,7 @@ The project manager should review the test plan, strategy and estimates and sign
 
 Unit Tests:
 
-- Upon PR creation an automatic pipeline will be in charge of running the application in a dockerized environment where we can run NodeJS 18 in a linux system, all dependencies for the project must be installed, and mock servers for stripe, redis, postgressql, elasticsearch.
+- Upon PR creation an automatic pipeline will be in charge of running the application in a dockerized environment where we can run NodeJS 18 in a linux system, all dependencies for the project must be installed, and mock servers for stripe, postgressql, elasticsearch.
 
 E2E:
 
