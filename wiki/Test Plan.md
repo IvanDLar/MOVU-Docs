@@ -498,17 +498,14 @@ Front End only
 4. To start the execution phase of testing, all activities listed in the Test Planning section of the schedule must be 100% completed.
 5. To start each cycle, all activities listed in the Test Execution section of the schedule must be 100% completed.
 
-| Exit Criteria                                   | Test Team | Technical Team | Notes |
-| ----------------------------------------------- | --------- | -------------- | ----- |
-| 100% Test Scripts executed                      |           |                |       |
-| 95% pass rate of Test Scripts                   |           |                |       |
-| No open Critical and High severity defects      |           |                |       |
-| 95% of Medium severity defects have been closed |           |                |       |
-
-| All remaining defects are either canceled or
-documented as Change Requests for a future release | | | |
-| All expected and actual results are captured and
-documented with the test script | | | |
+| Exit Criteria                                                                                   | Test Team | Technical Team | Notes |
+| ----------------------------------------------------------------------------------------------- | --------- | -------------- | ----- |
+| 100% Test Scripts executed                                                                      |           |                |       |
+| 95% pass rate of Test Scripts                                                                   |           |                |       |
+| No open Critical and High severity defects                                                      |           |                |       |
+| 95% of Medium severity defects have been closed                                                 |           |                |       |
+| All remaining defects are either canceled or documented as Change Requests for a future release |           |                |       |
+| All expected and actual results are captured and documented with the test script                |           |                |       |
 
 # 4. Test Management Process
 
