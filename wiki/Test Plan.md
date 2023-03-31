@@ -55,17 +55,13 @@ Tags: document# Document Information
 - [6. Tests](#6-tests)
 - [7. Conclusion](#7-conclusion)
 
-**Version**: 0.0.1
+**Version**: 0.1.0
 
 **Status:** DRAFT
 
 ### Team
 
-Pablo Rocha Ojeda
-
-Miguel Arriaga Velasco
-
-Jacobo Soffer Levy
+Grupo 502
 
 # Revision and Sign Off Sheet
 
