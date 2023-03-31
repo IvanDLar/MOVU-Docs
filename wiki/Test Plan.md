@@ -511,18 +511,7 @@ Front End only
 
 ## 4.1 Test Execution Process
 
-Once the test environment is setup and the testers and CI service is ready the process to ensure the application is stable the following process would be required:
-
-1. The test lead will be in charge of selecting the appropriate informal test
-2. Testers will be assigned an informal test by the test lead
-3. Testers will prepare the testing environment, there would be a document where we’ll track the status of the tests
-4. If any error surfaces during the informal testing process it shall be reported to the test lead, so it can be handled for fixes
-5. Upon pull request Units Tests should be run (pipeline) , to ensure changes to the codebase do not result in breaking existing features.
-6. If pipeline fails the users should fix the tests, in order to merge it’s pull request
-7. E2E and integration tests will be run automatically every 3h to ensure there are no unexpected errors
-8. If E2E tests fails, it should be escalated to the tests lead to address a fix as soon as possible.
-9. All bug, failure reports should be added by the test lead to a document, so that developers can get context for the existing bug
-10. During the cycle if there are any failed tests, fixes will be handled by the developer team
+![Execution diagram](/wiki/Test%20Plan/Testing-Flow-Diagram.png)
 
 ## 4.2 Test Risks and Mitigation Factors
 
@@ -553,7 +542,7 @@ Once the test environment is setup and the testers and CI service is ready the p
 
 ### 4.3.2 Project Management
 
-The project manager and tech leads should review the test plan, strategy and estimates and sign off on it. The project manager and the tech lead should also be responsible for enforcing reviews and the testing strategy. Additionally, the project manager should be involved in formal reviews. The tech lead will also be included in this meetings, since he will have a better technical understanding of all the differents tests of their area. 
+The project manager and tech leads should review the test plan, strategy and estimates and sign off on it. The project manager and the tech lead should also be responsible for enforcing reviews and the testing strategy. Additionally, the project manager should be involved in formal reviews. The tech lead will also be included in this meetings, since he will have a better technical understanding of all the differents tests of their area.
 
 ### 4.3.3 Activities Schedule
 
@@ -578,7 +567,7 @@ Integration Tests:
 Tools:
 
 - For unit tests, integration tests and E2E we will use cypress to tests all our requirements
-- If we have time, we will use locust for performance tests. 
+- If we have time, we will use locust for performance tests.
 
 # 6. Tests
 
