@@ -1,14 +1,13 @@
 # Test Plan
 
 Created: March 6, 2023 5:25 PM
-Last edited time: March 15, 2023 7:23 PM
-Tags: document# Document Information
+
+Last edited time: March 30, 2023 10:00 PM
 
 # Table of Contents
 
 - [Test Plan](#test-plan)
 - [Table of Contents](#table-of-contents)
-  - [Team](#team)
 - [Revision and Sign Off Sheet](#revision-and-sign-off-sheet)
   - [Document History](#document-history)
   - [Approvers Lists](#approvers-lists)
@@ -59,14 +58,6 @@ Tags: document# Document Information
 
 **Status:** DRAFT
 
-### Team
-
-Pablo Rocha Ojeda
-
-Miguel Arriaga Velasco
-
-Jacobo Soffer Levy
-
 # Revision and Sign Off Sheet
 
 ## Document History
@@ -89,10 +80,11 @@ Jacobo Soffer Levy
 
 ### Reference Documents
 
-| Version | Date           | Document                                                                                                               |
-| ------- | -------------- | ---------------------------------------------------------------------------------------------------------------------- |
-| v2      | @March 3, 2023 | [Functional Requirements ](https://github.com/IvanDLar/MOVU-Docs/blob/main/wiki/Functional%20requirements.md)          |
-| v2      | @March 3, 2023 | [Non Functional Requirements](https://github.com/IvanDLar/MOVU-Docs/blob/main/wiki/Non%20Functional%20requirements.md) |
+| Version | Date            | Document                                                                                                               |
+| ------- | --------------- | ---------------------------------------------------------------------------------------------------------------------- |
+| v2      | @March 3, 2023  | [Functional Requirements ](https://github.com/IvanDLar/MOVU-Docs/blob/main/wiki/Functional%20requirements.md)          |
+| v2      | @March 3, 2023  | [Non Functional Requirements](https://github.com/IvanDLar/MOVU-Docs/blob/main/wiki/Non%20Functional%20requirements.md) |
+| v3      | @March 30, 2023 | [Test Reports]()                                                                                                       |
 
 # 1. Introduction
 
