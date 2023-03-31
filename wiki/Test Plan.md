@@ -1,13 +1,14 @@
 # Test Plan
 
 Created: March 6, 2023 5:25 PM
-
-Last edited time: March 30, 2023 10:00 PM
+Last edited time: March 15, 2023 7:23 PM
+Tags: document# Document Information
 
 # Table of Contents
 
 - [Test Plan](#test-plan)
 - [Table of Contents](#table-of-contents)
+  - [Team](#team)
 - [Revision and Sign Off Sheet](#revision-and-sign-off-sheet)
   - [Document History](#document-history)
   - [Approvers Lists](#approvers-lists)
@@ -58,6 +59,14 @@ Last edited time: March 30, 2023 10:00 PM
 
 **Status:** DRAFT
 
+### Team
+
+Pablo Rocha Ojeda
+
+Miguel Arriaga Velasco
+
+Jacobo Soffer Levy
+
 # Revision and Sign Off Sheet
 
 ## Document History
@@ -80,11 +89,10 @@ Last edited time: March 30, 2023 10:00 PM
 
 ### Reference Documents
 
-| Version | Date            | Document                                                                                                               |
-| ------- | --------------- | ---------------------------------------------------------------------------------------------------------------------- |
-| v2      | @March 3, 2023  | [Functional Requirements ](https://github.com/IvanDLar/MOVU-Docs/blob/main/wiki/Functional%20requirements.md)          |
-| v2      | @March 3, 2023  | [Non Functional Requirements](https://github.com/IvanDLar/MOVU-Docs/blob/main/wiki/Non%20Functional%20requirements.md) |
-| v3      | @March 30, 2023 | [Test Reports]()                                                                                                       |
+| Version | Date           | Document                                                                                                               |
+| ------- | -------------- | ---------------------------------------------------------------------------------------------------------------------- |
+| v2      | @March 3, 2023 | [Functional Requirements ](https://github.com/IvanDLar/MOVU-Docs/blob/main/wiki/Functional%20requirements.md)          |
+| v2      | @March 3, 2023 | [Non Functional Requirements](https://github.com/IvanDLar/MOVU-Docs/blob/main/wiki/Non%20Functional%20requirements.md) |
 
 # 1. Introduction
 
@@ -560,6 +568,7 @@ Tools:
 
 - For unit tests, integration tests and E2E we will use cypress to tests all our requirements
 - If we have time, we will use locust for performance tests.
+- We will make use of Cypress Docker Images for running E2E and component tests in different browsers, such as Chrome and Firefox, by specifying container and browser attributes within the Github Actions .yml.
 
 # 6. Tests
 
