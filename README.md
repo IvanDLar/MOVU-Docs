@@ -10,15 +10,7 @@
 
 ## Participants
 
-- Pablo Rocha - A01028638
-
-- Miguel Arriaga - A01028570
-
-- Stephan Guingor - A01029421
-
-- Salvador Salgado - A01422874
-
-- Jacobo Soffer
+The MOVU Team
 
 ---
 
