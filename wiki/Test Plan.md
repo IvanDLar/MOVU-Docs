@@ -76,6 +76,7 @@ Jacobo Soffer Levy
 | 0.0.1   | 06/03/2023 | Pablo Rocha, Miguel Arriaga, Jacobo Soffer                                    | Initial Commit: Structure and introduction |
 | 0.0.2   | 08/03/2023 | Salvador Salgado                                                              | Test Strategy                              |
 | 0.0.3   | 13/03/2023 | Pablo Rocha, Miguel Arriaga, Jacobo Soffer, Salvador Salgado, Stephan Guingor | Execution strategy and corrections         |
+| 0.1.0   | 30/03/2023 | Miguel Arriaga, Diego Araque, Manuel Barreda, Juan Munian                     | Test plans merging                         |
 
 ## Approvers Lists
 
@@ -88,10 +89,10 @@ Jacobo Soffer Levy
 
 ### Reference Documents
 
-| Version | Date           | Document                                                                                                           |
-| ------- | -------------- | ------------------------------------------------------------------------------------------------------------------ |
-| v2      | @March 3, 2023 | https://github.com/PRocha0503/Planeacion-de-sistemas-de-software/blob/main/wiki/Functional%20requirements.md       |
-| v2      | @March 3, 2023 | https://github.com/PRocha0503/Planeacion-de-sistemas-de-software/blob/main/wiki/Non%20Functional%20requirements.md |
+| Version | Date           | Document                                                                                                               |
+| ------- | -------------- | ---------------------------------------------------------------------------------------------------------------------- |
+| v2      | @March 3, 2023 | [Functional Requirements ](https://github.com/IvanDLar/MOVU-Docs/blob/main/wiki/Functional%20requirements.md)          |
+| v2      | @March 3, 2023 | [Non Functional Requirements](https://github.com/IvanDLar/MOVU-Docs/blob/main/wiki/Non%20Functional%20requirements.md) |
 
 # 1. Introduction
 
@@ -447,45 +448,45 @@ Front End only
 
 ## 2.7 Test Deliverables
 
-| No. |              Name              |   Author  |         Reviewer         |
-|:---:|:------------------------------:|:---------:|:------------------------:|
-| 1   | Test Plan                      | Test Team | Esteban Castillo         |
-| 2   | Unit Test Cases                | Test Team | Test Lead                |
-| 3   | Recurrent Integration Tests    | Test Team | Esteban Castillo, Felipe |
-| 4   | Recurrent E2E Test             | Test Team | Esteban Castillo, Felipe |
-| 5   | Example of successful tests    | Test Team | Esteban Castillo, Felipe |
-| 6   | Test report                    | Test Lead | Project Manager          |
+| No. |            Name             |  Author   |         Reviewer         |
+| :-: | :-------------------------: | :-------: | :----------------------: |
+|  1  |          Test Plan          | Test Team |     Esteban Castillo     |
+|  2  |       Unit Test Cases       | Test Team |        Test Lead         |
+|  3  | Recurrent Integration Tests | Test Team | Esteban Castillo, Felipe |
+|  4  |     Recurrent E2E Test      | Test Team | Esteban Castillo, Felipe |
+|  5  | Example of successful tests | Test Team | Esteban Castillo, Felipe |
+|  6  |         Test report         | Test Lead |     Project Manager      |
 
 ## 2.8 Milestone List
 
-|   |      Test Type      |          Test Example (SUT)          |                                          Dependency (DOC)                                          |
-|:-:|:-------------------:|:------------------------------------:|:--------------------------------------------------------------------------------------------------:|
-| 1 | Unit testing        | Login functionality test.            | Login front end page, login endpoint, database created.                                            |
-| 2 | Unit testing        | Buy a car functionality              | Buy a car endpoint, database, interface, stripe integration.                                       |
-| 3 | Unit testing        | Search test                          | Elastic setup for search, database, filters                                                        |
-| 4 | Integration testing | Backend connection to stripe         | Database created, buy a car endpoint                                                               |
-| 5 | Integration testing | Natural language test                | ChatGPT integration with backend, database created, search functionality done, database populated. |
-| 6 | End to end testing  | UI test from production environment. | Users will test the applications functionalities from a production environment.                    |
+|     |      Test Type      |          Test Example (SUT)          |                                          Dependency (DOC)                                          |
+| :-: | :-----------------: | :----------------------------------: | :------------------------------------------------------------------------------------------------: |
+|  1  |    Unit testing     |      Login functionality test.       |                      Login front end page, login endpoint, database created.                       |
+|  2  |    Unit testing     |       Buy a car functionality        |                    Buy a car endpoint, database, interface, stripe integration.                    |
+|  3  |    Unit testing     |             Search test              |                            Elastic setup for search, database, filters                             |
+|  4  | Integration testing |     Backend connection to stripe     |                                Database created, buy a car endpoint                                |
+|  5  | Integration testing |        Natural language test         | ChatGPT integration with backend, database created, search functionality done, database populated. |
+|  6  | End to end testing  | UI test from production environment. |          Users will test the applications functionalities from a production environment.           |
 
 ## 2.9 Test Effort Estimate
 
 | Num. |                                                       Main functionality                                                       | Black box minutes | White box minutes (ideally not performed) |
-|:----:|:------------------------------------------------------------------------------------------------------------------------------:|:-----------------:|:-----------------------------------------:|
-| 1    | Authentication. Fulfill requirements: REQ_FUN_[002], REQ_FUN_[032], REQ_FUN_[033], REQ_FUN_[046], REQ_FUN_[047], REQ_FUN_[048] | 220               | 440                                       |
-| 2    | Role management                                                                                                                | 150               | 300                                       |
-| 3    | Search                                                                                                                         | 310               | 620                                       |
-| 4    | Consumer Dashboard                                                                                                             | 100               | 200                                       |
-| 5    | Admin Dashboard                                                                                                                | 100               | 200                                       |
-| 6    | Car management                                                                                                                 | 130               | 260                                       |
-| 7    | Payments and purchases                                                                                                         | 200               | 400                                       |
-| 8    | Metrics and data visualization                                                                                                 | 200               | 400                                       |
-|      | Total                                                                                                                          | 1,410             | 2,820                                     |
-|      | Other testing activities                                                                                                       |                   |                                           |
-| 9    | Test plan creation                                                                                                             | 2,400             | 4,800                                     |
-| 10   | Formal Review                                                                                                                  | 210               | 420                                       |
-| 11   | Inspection                                                                                                                     | 220               | 440                                       |
-|      | Total                                                                                                                          | 2,830             | 5,660                                     |
-|      | Global total                                                                                                                   | 4,240             | 8,480                                     |
+| :--: | :----------------------------------------------------------------------------------------------------------------------------: | :---------------: | :---------------------------------------: |
+|  1   | Authentication. Fulfill requirements: REQ*FUN*[002], REQ*FUN*[032], REQ*FUN*[033], REQ*FUN*[046], REQ*FUN*[047], REQ*FUN*[048] |        220        |                    440                    |
+|  2   |                                                        Role management                                                         |        150        |                    300                    |
+|  3   |                                                             Search                                                             |        310        |                    620                    |
+|  4   |                                                       Consumer Dashboard                                                       |        100        |                    200                    |
+|  5   |                                                        Admin Dashboard                                                         |        100        |                    200                    |
+|  6   |                                                         Car management                                                         |        130        |                    260                    |
+|  7   |                                                     Payments and purchases                                                     |        200        |                    400                    |
+|  8   |                                                 Metrics and data visualization                                                 |        200        |                    400                    |
+|      |                                                             Total                                                              |       1,410       |                   2,820                   |
+|      |                                                    Other testing activities                                                    |                   |                                           |
+|  9   |                                                       Test plan creation                                                       |       2,400       |                   4,800                   |
+|  10  |                                                         Formal Review                                                          |        210        |                    420                    |
+|  11  |                                                           Inspection                                                           |        220        |                    440                    |
+|      |                                                             Total                                                              |       2,830       |                   5,660                   |
+|      |                                                          Global total                                                          |       4,240       |                   8,480                   |
 
 # 3. Execution strategy
 
@@ -497,12 +498,13 @@ Front End only
 4. To start the execution phase of testing, all activities listed in the Test Planning section of the schedule must be 100% completed.
 5. To start each cycle, all activities listed in the Test Execution section of the schedule must be 100% completed.
 
-| Exit Criteria | Test Team | Technical Team | Notes |
-| --- | --- | --- | --- |
-| 100% Test Scripts executed | | | |
-| 95% pass rate of Test Scripts | | | |
-| No open Critical and High severity defects | | | |
-| 95% of Medium severity defects have been closed | | | |
+| Exit Criteria                                   | Test Team | Technical Team | Notes |
+| ----------------------------------------------- | --------- | -------------- | ----- |
+| 100% Test Scripts executed                      |           |                |       |
+| 95% pass rate of Test Scripts                   |           |                |       |
+| No open Critical and High severity defects      |           |                |       |
+| 95% of Medium severity defects have been closed |           |                |       |
+
 | All remaining defects are either canceled or
 documented as Change Requests for a future release | | | |
 | All expected and actual results are captured and
