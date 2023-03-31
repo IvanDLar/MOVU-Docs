@@ -93,6 +93,7 @@ Jacobo Soffer Levy
 | ------- | -------------- | ---------------------------------------------------------------------------------------------------------------------- |
 | v2      | @March 3, 2023 | [Functional Requirements ](https://github.com/IvanDLar/MOVU-Docs/blob/main/wiki/Functional%20requirements.md)          |
 | v2      | @March 3, 2023 | [Non Functional Requirements](https://github.com/IvanDLar/MOVU-Docs/blob/main/wiki/Non%20Functional%20requirements.md) |
+| v2      | @March 30, 2023 | [Test Templates](https://drive.google.com/drive/folders/1SAmzdMGOE4jMKBKnFlbp9TjuHa3fW9tI?usp=sharing) |
 
 # 1. Introduction
 
@@ -582,31 +583,9 @@ Tools:
 
 # 6. Tests
 
-This section will be completed in the following sprints.
+### Test Templates
 
-**Dynamic testing template:**
-
-**6.1 Integration test case I1**
-
-| Test Case Identifier | I1T1                                                                                                                                                                                                                                                    |
-| -------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Test Item(s)         | Login Functionality                                                                                                                                                                                                                                     |
-| Input Specification  | I1. Enter valid username and password. I2. Enter invalid credentials. I3. Leave field blanks.                                                                                                                                                           |
-| Output Specification | O1. User will log in successfully and enter main dashboard. O2. Error message will appear indicating that the information is wrong, without specifying which was incorrect. O3. The field blanks will mark a message requiring the missing information. |
-| Environmental Needs  | 1.1 A functional web browser. 1.2 A valid account to test functionality. 1.3 Internet connection.                                                                                                                                                       |
-
-**Route testing template:**
-
-**6.1 Integration test case I1**
-
-| Test Case Identifier | R1T1                                                                                              | Confirmed |
-| -------------------- | ------------------------------------------------------------------------------------------------- | --------- |
-| Test Item(s)         | Payment Functionality                                                                             | ✅        |
-| Test step 1          | 1. Select a car                                                                                   | ✅        |
-| Test step 2          | 2. Select car configuration                                                                       | ✅        |
-| Test step 3          | 3. Select payment                                                                                 | ✅        |
-| Test step 4          | 4. Checkout through stripe                                                                        | ✅        |
-| Environmental Needs  | 1.1 A functional web browser. 1.2 A valid account to test functionality. 1.3 Internet connection. |           |
+[Test Templates](https://drive.google.com/drive/folders/1SAmzdMGOE4jMKBKnFlbp9TjuHa3fW9tI?usp=sharing)
 
 # 7. Conclusion
 
