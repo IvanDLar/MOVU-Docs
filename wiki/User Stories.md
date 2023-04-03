@@ -314,7 +314,7 @@ When a manager uploads a car, he will need to fill out a cost section where he c
 
 **Estimate:** 1 week
 
-**Classification: ** Must Have
+**Classification:** Must Have
 
 
 **US41 - Sales price display**
@@ -331,7 +331,7 @@ When viewing vehicles in the catalog or in an overview on the main page (as feat
 
 **Estimate:** 1 week
 
-**Classification: **  Must Have
+**Classification:**  Must Have
 
 
 **US42 - Vehicles quotation**
@@ -348,11 +348,27 @@ When selecting a specific vehicle, approximate expenses can be selected in the c
 
 **Estimate:** 1 week
 
-**Classification: ** Could Have
+**Classification:** Could Have
 
 
 
 ## **Security**
+
+**US43 - Account movement notifications**
+
+As a user/consumer, I want to receive notifications of operations carried out on my account to be sure of my actions and that my account is not used by third parties.
+
+**Verification**
+When a change operation is made in an account, a verification email is sent to proceed with the change, when you operate such as quotes, requests for driving tests, or purchases, you are notified by email
+
+Request a test drive and have a notice sent by email
+Confirm a vehicle purchase and have confirmation sent to the email
+
+**Priority:** Medium
+
+**Estimate:** 1 week
+
+**Classification:** Must Have
 
 ## **Super Admin (NDS)**
 
