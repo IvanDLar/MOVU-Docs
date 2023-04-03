@@ -378,7 +378,7 @@ Confirm a vehicle purchase and have confirmation sent to the email
 
 **As** a super admin **I want** to visualize the statistics of every car dealership that are in the application  **to be able** to detect trends and patterns that would allow for future improvements, as well as detecting any suspicious activity.
 
-**Validation: **
+**Validation:**
 
 - In the Super Admin Dashboard, there will be a section which contains some data Summaries from all the car dealerships.
 
@@ -393,7 +393,7 @@ Confirm a vehicle purchase and have confirmation sent to the email
 
 **As a** <description of the user> **I want**<functionality>. **To be able** <benefit>
 
-**Validation: **
+**Validation:**
 
 <The requirements needed to accomplish the task>
 
@@ -408,7 +408,7 @@ Confirm a vehicle purchase and have confirmation sent to the email
   
 **As a** <description of the user> **I want**<functionality>. **To be able** <benefit>
 
-**Validation: **
+**Validation:**
 
 <The requirements needed to accomplish the task>
 
