@@ -122,6 +122,7 @@ Screen to register automotive groups:
 
 **Estimate**: 1 week
 
+
 **US08 - Sellers register**
 
 As a manager I want to be able to register sellers so they can make sales and contact customers within the application.
@@ -137,6 +138,7 @@ Screen to register sellers:
 **Priority**: High
 
 **Estimate**: 1 week
+
 
 **US09 - Cancel account**
 
@@ -154,6 +156,7 @@ When the user creates an account, he receives a confirmation email where he has 
 
 **Classification:** Could Have
 
+
 **US10 - Access without registration**
 
 As a user, I want to access the page without registering to see the catalog and decide whether to use the platform to buy a car.
@@ -169,6 +172,7 @@ The user accesses the page and can perform actions that do not require user veri
 **Estimate:** 1 week
 
 **Classification:** Must Have
+
 
 **US11 - User register/login**
 
@@ -205,6 +209,7 @@ When selecting to pay in a car, I will have the option to choose between multipl
 
 **Classification:** Must Have
 
+
 **US34 - Register payment info**
 
 As an agency I must enter data to which the funds of any purchase will arrive. So that the funds reach the desired account.
@@ -221,6 +226,7 @@ When the agency is accepted by the super-admin, they will be forced to add their
 **Estimate**: 1 week
 
 **Classification:** Must Have
+
 
 **US35 - Payment changes**
 
@@ -239,7 +245,9 @@ When the user selects a vehicle, they can go through the images provided by the 
 
 **Classification:** Must Have
 
+
 **US36 - Payment opportunities for clients**
+
 As a user/buyer, I want to see the payment options and terms that each agency offers me to be able to make choices and finance according to my economic possibilities.
 
 **Validation:**
@@ -254,6 +262,7 @@ The options are shown depending on the down payment
 **Estimate:** 1 week
 
 **Classification:** Must have
+
 
 **US37 - Payments for custom order**
 
@@ -270,6 +279,7 @@ The user can view the customizable vehicles and customize them.
 **Estimate:** 1 week
 
 **Classification:** Should Have
+
 
 **US39 - Download quotes or view**
 
@@ -289,6 +299,7 @@ The quote is downloaded in the client's browser
 
 **Classification:** Could have
 
+
 **US40 - Setting up financing plans**
 
 As an agency, I want to be able to set up my financing and insurance plans (including rates and plans) to manage agency costs and monitor necessary changes according to the market.
@@ -304,6 +315,42 @@ When a manager uploads a car, he will need to fill out a cost section where he c
 **Estimate:** 1 week
 
 **Classification: ** Must Have
+
+
+**US41 - Sales price display**
+
+As a user, I want to see the price of sale to the public without having to register
+
+**Validation:**
+When viewing vehicles in the catalog or in an overview on the main page (as featured or promoted models), the retail prices are displayed.
+
+1. Display of prices without prior registration
+2. Display of prices with registration
+
+**Priority:** Medium
+
+**Estimate:** 1 week
+
+**Classification: **  Must Have
+
+
+**US42 - Vehicles quotation**
+
+As a user, I want to quote a vehicle model and see what factors can increase the final cost of a model
+
+**Validation:**
+When selecting a specific vehicle, approximate expenses can be selected in the calculator (at the bottom of the page) to show an approximation of the final price, such as insurance, and down payment...
+
+1. Price calculator that changes depending on the option chosen
+2. Show approximations depending on the chosen vehicle
+
+**Priority:** Medium
+
+**Estimate:** 1 week
+
+**Classification: ** Could Have
+
+
 
 ## **Security**
 
