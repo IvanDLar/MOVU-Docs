@@ -127,7 +127,7 @@ Screen to register automotive groups:
 
 As a manager I want to be able to register sellers so they can make sales and contact customers within the application.
 
-**Validation: **
+**Validation:**
 
 Screen to register sellers:
 
@@ -370,7 +370,54 @@ Confirm a vehicle purchase and have confirmation sent to the email
 
 **Classification:** Must Have
 
+
+
 ## **Super Admin (NDS)**
+
+**US08 - Data Visualization SAD**
+
+**As** a super admin **I want** to visualize the statistics of every car dealership that are in the application  **to be able** to detect trends and patterns that would allow for future improvements, as well as detecting any suspicious activity.
+
+**Validation: **
+
+- In the Super Admin Dashboard, there will be a section which contains some data Summaries from all the car dealerships.
+
+**Priority**: Medium
+
+**Estimate**: 1 week
+
+**Classification:** Must Have
+
+
+**US14 - Users Re-engagement**
+
+**As a** <description of the user> **I want**<functionality>. **To be able** <benefit>
+
+**Validation: **
+
+<The requirements needed to accomplish the task>
+
+**Priority**: <High, Medium or Low>
+  
+**Estimate**: <Time estimate>
+  
+**Classification:** Must Have
+
+  
+**US18 - Commissions**
+  
+**As a** <description of the user> **I want**<functionality>. **To be able** <benefit>
+
+**Validation: **
+
+<The requirements needed to accomplish the task>
+
+**Priority**: <High, Medium or Low>
+  
+**Estimate**: <Time estimate>
+  
+**Classification:** Must Have
+
 
 ## **Admin (Automotive Group)**
 
