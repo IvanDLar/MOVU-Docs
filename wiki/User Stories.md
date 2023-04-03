@@ -1,7 +1,7 @@
 # User Stories
 
-Created: February 20, 2023 5:46 PM
-Last edited time: March 7, 2023 6:28 PM
+Created: March 30, 2023 5:46 PM
+Last edited time: April 3, 2023 6:28 PM
 Tags: document
 
 **LINK FORMATO**
@@ -186,6 +186,21 @@ Sign in option displayed when attempting some user-restricted actions
 **Classification:** Must Have
 
 ## **Payments**
+
+**US35 - Register payment info in agency**
+
+As a customer I must be able to register a payment method. To be able to make transactions in the application and buy the vehicles.
+
+**Validation: **
+
+When selecting to pay in a car, I will have the option to choose between multiple payment methods through a simple click. This together with stripe will allow users to select their payment methods and do everything within the platform.
+1. By selecting payment method I will be able to enter my personal information.
+2. A stripe component will be rendered to make the payment
+3. If successful, modify database. If an error occurs, show it to the user.
+
+**Priority**: Medium
+**Estimate**: 1 week
+**Classification:** Must Have
 
 ## **Security**
 
