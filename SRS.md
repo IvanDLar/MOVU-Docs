@@ -1,32 +1,18 @@
 # Software Requirements Specification
 
-## TC3004B.102 - Team 3 "Blueprint"
+## Team "MOVU"
 
 ## Tecnológico de Monterrey - Campus Campus Santa Fe
+
+<img src="SRS_media/logo.png" width="120" height="100">
 
 ---
 
 Version 0.1
 
-Prepared by **Salvador Salgado Normandia, Pablo Rocha, Miguel Arriaga, Jacobo Soffer, Stephan Guingor**
-
 ---
 
-## Participants
-
-- Pablo Rocha - A01028638
-
-- Miguel Arriaga - A01028570
-
-- Stephan Guingor - A01029421
-
-- Salvador Salgado - A01422874
-
-- Jacobo Soffer - A01028653
-
----
-
-_3/01/2023_
+_4/02/2023_
 
 ---
 
@@ -35,7 +21,6 @@ _3/01/2023_
 - [Software Requirements Specification](#software-requirements-specification)
   - [TC3004B.102 - Team 3 "Blueprint"](#tc3004b102---team-3-blueprint)
   - [Tecnológico de Monterrey - Campus Campus Santa Fe](#tecnológico-de-monterrey---campus-campus-santa-fe)
-  - [Participants](#participants)
 - [Table of Contents](#table-of-contents)
   - [Revision History](#revision-history)
   - [1. Introduction](#1-introduction)
@@ -46,11 +31,11 @@ _3/01/2023_
   - [2. Overall Description](#2-overall-description)
     - [2.1 Product Perspective](#21-product-perspective)
     - [2.2 User Classes and Characteristics](#22-user-classes-and-characteristics)
-      - [Regular Users (Car buyers)](#regular-users-car-buyers)
       - [Super Admins (Application manager)](#super-admins-application-manager)
       - [Admins (Car group owner)](#admins-car-group-owner)
       - [Managers (Car dealership manager)](#managers-car-dealership-manager)
       - [Salesman (Car dealership salesman)](#salesman-car-dealership-salesman)
+      - [Regular Users (Car buyers)](#regular-users-car-buyers)
     - [2.3 Operating Environment](#23-operating-environment)
     - [2.4 Design and Implementation Constrains](#24-design-and-implementation-constrains)
     - [2.5 Assumptions and Dependencies](#25-assumptions-and-dependencies)
@@ -169,21 +154,11 @@ The larger system that this product will be a component of is the car sales proc
 
 ### 2.2 User Classes and Characteristics
 
-There are going to be four types of users in the web application:
-
-#### Regular Users (Car buyers)
-
-- Regular users are able to sign up for a user level account.
-
-- User will be able able to create an account in the app.
-
-- The user will be able to use their credentials to log in to the app.
-
-- A regular user can see cars.
-
-- A regular user can do all the process of buying cars
+There are going to be five types of users in the web application:
 
 #### Super Admins (Application manager)
+
+User with all available permissions for web application administration. This will be assigned to NDS at the end of development.
 
 - The super admin can approve or deny a automobile group
 
@@ -199,22 +174,45 @@ There are going to be four types of users in the web application:
 
 #### Admins (Car group owner)
 
+User with master data editing permissions, user creation permissions, and inventory administration permissions. In this case it would correspond to the various automotive groups.
+
 - Only car group owner can preform the following actions: Add dealerships, Remove Dealerships, Modify dealerships.
 
 - Only car group owner can preform the following actions: Add a manager, Remove a manager, Modify a manager
 
 #### Managers (Car dealership manager)
 
-- Only dealership manager can preform the following actions: Add a salesman, Remove a salesman, Modify a salesman
+Manager of a registered agency in the application. Has permission to review the inventory of their particular registered agency on the site. Has permission to review data related to the sale of their inventory.
+
+- Managers can preform the following actions: Add a salesman, remove a salesman, modify a salesman
+- Manger can upload or edit the agency car catalog
 - Managers can add financing plans to cars.
 
 #### Salesman (Car dealership salesman)
+
+Employee of a registered agency in the application. Has permission to review the particular inventory of their registered agency.
 
 - Only a salesman or manager can perform: Add a car, Remove a car, Modify a car
 
 - A salesman can approve or deny user documents.
 
-Thanks to various meetings that we had with NDS, we were able to identify crucial components that were necessary for the final product.
+#### Regular Users (Car buyers)
+
+Customer with the opportunity to register and purchase a car within the page.
+
+- Regular users are able to sign up for a user level account.
+
+- User will be able able to create an account in the app.
+
+- The user will be able to use their credentials to log in to the app.
+
+- A regular user can see cars.
+
+- A regular user can do all the process of buying cars
+
+<br>
+
+**User Stories**
 
 <br>
 
