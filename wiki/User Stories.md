@@ -548,6 +548,53 @@ When selecting a specific car purchase, the vendor will get all the information 
 **Classification:** Must Have
 
 ## **User**
+  
+**US32 - Payment status**
+
+As a customer I want to be able to know the status of my order and payment, if the car is being prepared, on the way, etc. To keep track of my purchase and security.
+
+**Validation: **
+
+After paying for the car, as a customer I will be able to see the status of my order on a screen. An approximate of when you will arrive at your house will be given.
+1. Card with order information.
+2. Information on the status of the order will be included.
+
+**Priority**: Medium
+  
+**Estimate**: 1 week
+
+**Classification:** Must Have
+  
+**US38 - Modify personal information**
+  
+As a user want to modify my personal account information to be able to update any outdated information or create a new password.
+
+**Validation: **
+
+- The users will have a profile page section, where they are able to modify specific information of their profile (username, password, email, address)
+
+- Once the user has made this updates, it should be reflected both in its profile section.
+
+**Priority**: Medium
+  
+**Estimate**: 1 week
+
+**Classification:** Must Have
+  
+
+**US44 - Website access**
+  
+**As a** user **I want** to use the web page through my computer and my phone **to be able** to have different options to access.
+
+**Validation:**
+
+- Through a web browser the user must be able to access the website
+
+**Priority**: Medium
+  
+**Estimate**: 2 week
+
+**Classification:** Must Have
 
 ## **Search**
 
