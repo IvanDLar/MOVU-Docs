@@ -435,6 +435,70 @@ Confirm a vehicle purchase and have confirmation sent to the email
   
 **Classification:** Must Have
   
+
+## **Agency (Manager)**  
+
+**US01 - Authorization in Procedures**
+  
+**As** a manager **I want** to approve certain steps during the car purchase process **to be able** to have a better control on the various sales 
+
+**Validation:**
+
+- In some specific steps during the car purchase process, in order to continue with the next steps it will be required that the manager approves the completion of the current one.
+- If there is no approval from admin, the car purchase will not be able to continue
+
+**Priority**: High
+  
+**Estimate**: 1 week
+  
+**Classification:** Must Have
+  
+  
+**US02 - Vendors Administration**
+  
+**As** a manager I want to administrate my vendors from the agency (CRUD) to be able to have an easy experience managing their accounts.
+
+**Validation:**
+
+Manger will be able to perform all CRUD actions (Create, Read, Update and Delete) on the the vendors that are inside their assigned agencies.
+Once the manager performs this modifications, the DB of vendors should be updated.
+  
+**Priority:** High
+  
+**Estimate:** 1 week
+  
+**Classification:** Must Have
+  
+**US10 - Data Visualization MG**
+  
+**As** a manager I want to visualize the most important data from my agency To be able to better understand how my vendors are performing, as well as the most viewed and sold cars.
+
+**Validation:**
+
+In the dashboard page, the manager will be able to view data summary of the vendors sells and current car purchase processes.
+Additional, the data summary will include a summary of the most bought cars as well as the most viewed by users.
+  
+**Priority:** Medium
+  
+**Estimate:** 2 weeks
+  
+**Classification:** Must Have
+  
+
+**US13- Agency Catalog**
+  
+As a manager I want manage the agency car catalog (CRUD) To be able have a better control on the vehicles offered to the customers.
+
+**Validation:**
+
+The manager will be able to upload the agency car catalog by either a csv with standard data, as well as adding them one by one.
+Once the catalog has been added successfully, the manager can either edit current vehicles in the catalog or delete them.
+  
+**Priority:** High
+  
+**Estimate:** 3 weeks
+  
+**Classification:** Must Have
   
 ## **Vendor**
 
