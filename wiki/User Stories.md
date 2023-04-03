@@ -491,7 +491,7 @@ As a manager I want manage the agency car catalog (CRUD) To be able have a bette
 
 **Validation:**
 
-The manager will be able to upload the agency car catalog by either a csv with standard data, as well as adding them one by one.
+  The manager will be able to upload the agency car catalog by either a csv with standard data, as well as adding them one by one.
 Once the catalog has been added successfully, the manager can either edit current vehicles in the catalog or delete them.
   
 **Priority:** High
@@ -501,6 +501,51 @@ Once the catalog has been added successfully, the manager can either edit curren
 **Classification:** Must Have
   
 ## **Vendor**
+  
+  **US12 - Data Visualization Vendor**
+  
+  As a vendor I want to easily visualize my customers data summary To be able to easily observe patterns on my clients.
+
+**Validation:**
+In the vendor dashboard they will be able to observe a summary of different data from their clients, such as most bough car, customers current car purchase process, etc.
+  
+**Priority:** Low
+  
+**Estimate:** 1 week
+  
+**Classification:** Must Have
+  
+  **US33 - Sells status**
+  
+**As** a seller I want to know how many sales I have made and the status of each one (amount paid). To know the status of my clients.
+
+**Validation:**
+
+Sellers will be able to see all their sales on a dedicated screen and the status of those sales.
+1. Cards for all sales associated with the vendor
+2. All cards will have information about the sale and the current status of it.
+
+**Priority:** Medium
+  
+**Estimate:** 1 week
+  
+**Classification:** Must Have
+  
+
+**US39 - Current Status on active Car Purchase**
+
+**As** a vendor I want to be able to know the status of all my current active car purchases to be able to keep track on their current progresses, as well as knowing what approvals or requirements are missing on every one of them.
+
+**Validation:**
+
+In the Dasboard, the vendor will be able to view a section where all the current car purchased assigned to him is display.
+When selecting a specific car purchase, the vendor will get all the information of that process, as well as its current status.
+  
+**Priority:** High
+  
+**Estimate:** 2 weeks
+
+**Classification:** Must Have
 
 ## **User**
 
