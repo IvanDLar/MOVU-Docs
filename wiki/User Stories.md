@@ -421,6 +421,21 @@ Confirm a vehicle purchase and have confirmation sent to the email
 
 ## **Admin (Automotive Group)**
 
+**US09 - Data Visualization AD**
+  
+**As a** administrator (automotive agency) **I want** to obtain certain data summary from all my registered agencies **To be able** analyze their overall performance (cars sold, most purchased cars per agency).
+
+**Validation:**
+
+- In the Admin Dashboard, the user will be able to visualize a data summary of all the agencies owned (number of sales per agency, most sold cars, etc)
+
+**Priority**: Medium
+  
+**Estimate**: 2 weeks
+  
+**Classification:** Must Have
+  
+  
 ## **Vendor**
 
 ## **User**
