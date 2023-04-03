@@ -1,7 +1,7 @@
 # User Stories
 
-Created: March 30, 2023 5:46 PM
-Last edited time: April 3, 2023 6:28 PM
+Created: March 30, 2023 5:46 PM // 
+Last time edited: April 3, 2023 13:30 PM
 Tags: document
 
 **LINK FORMATO**
@@ -191,16 +191,119 @@ Sign in option displayed when attempting some user-restricted actions
 
 As a customer I must be able to register a payment method. To be able to make transactions in the application and buy the vehicles.
 
-**Validation: **
+**Validation:**
 
 When selecting to pay in a car, I will have the option to choose between multiple payment methods through a simple click. This together with stripe will allow users to select their payment methods and do everything within the platform.
+
 1. By selecting payment method I will be able to enter my personal information.
 2. A stripe component will be rendered to make the payment
 3. If successful, modify database. If an error occurs, show it to the user.
 
 **Priority**: Medium
+
 **Estimate**: 1 week
+
 **Classification:** Must Have
+
+**US34 - Register payment info**
+
+As an agency I must enter data to which the funds of any purchase will arrive. So that the funds reach the desired account.
+
+**Validation:**
+
+When the agency is accepted by the super-admin, they will be forced to add their bank account information. So that the payments are from the client to the agency, with the only intermediary the API that we use (example: Stripe)
+
+1. Agency enters bank account details
+2. Save encrypted data in the database
+
+**Priority**: Medium
+
+**Estimate**: 1 week
+
+**Classification:** Must Have
+
+**US35 - Payment changes**
+
+As a user, I want to be able to see the interior and exterior photographs in detail to have a better visualization of the vehicle
+
+**Validation:**
+
+When the user selects a vehicle, they can go through the images provided by the agencies, to explore its structure both inside and outside in detail.
+
+1. Agency provides images of the vehicle inside-out
+2. The images are shown to the client on the application
+
+**Priority**: Medium
+
+**Estimate**: 1 week
+
+**Classification:** Must Have
+
+**US36 - Payment opportunities for clients**
+As a user/buyer, I want to see the payment options and terms that each agency offers me to be able to make choices and finance according to my economic possibilities.
+
+**Validation:**
+
+When a quote is made, the available options given by the agency (static) are seen. When a formal purchase is made, the options may vary depending on the down payment.
+
+User can see the available options of the agency
+The options are shown depending on the down payment
+
+**Priority:** Medium
+
+**Estimate:** 1 week
+
+**Classification:** Must have
+
+**US37 - Payments for custom order**
+
+As a buyer, I want to have the option of customizing elements of my vehicle (as long as the model/agency allows it) and see how the price varies to make my choice according to my budget
+
+**Validation:**
+When selecting a vehicle, the option to customize or choose an agency that has the same customizable model is shown, it can be through a quote or at the time of a purchase request.
+
+A customized button is displayed on available vehicles
+The user can view the customizable vehicles and customize them.
+
+**Priority:** Medium
+
+**Estimate:** 1 week
+
+**Classification:** Should Have
+
+**US39 - Download quotes or view**
+
+As a user, I want to download my quotes in PDF or have a space within my profile to view and analyze them and make the right decisions when buying a vehicle.
+
+**Validation:**
+When the user makes a vehicle quote, a "save/download" button appears, depending on the type of button the operation process changes, a PDF will be downloaded or saved in the profile (give preference to the first option)
+
+The "save" button is displayed
+The quote is saved in the client's account
+The "download" button is displayed
+The quote is downloaded in the client's browser
+
+**Priority:** Medium
+
+**Estimate:** 1 week
+
+**Classification:** Could have
+
+**US40 - Setting up financing plans**
+
+As an agency, I want to be able to set up my financing and insurance plans (including rates and plans) to manage agency costs and monitor necessary changes according to the market.
+
+**Validation:**
+When a manager uploads a car, he will need to fill out a cost section where he can add fixed options that he drives so that platform users can view them in their quotes.
+
+1. A customized button is displayed on available vehicles
+2. The user can view the customizable vehicles and customize them.
+
+**Priority:** Medium
+
+**Estimate:** 1 week
+
+**Classification: ** Must Have
 
 ## **Security**
 
