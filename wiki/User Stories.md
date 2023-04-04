@@ -191,7 +191,7 @@ Sign in option displayed when attempting some user-restricted actions
 
 ## **Payments**
 
-**US35 - Register payment info in agency**
+**US12 - Register payment info in agency**
 
 As a customer I must be able to register a payment method. To be able to make transactions in the application and buy the vehicles.
 
@@ -210,7 +210,7 @@ When selecting to pay in a car, I will have the option to choose between multipl
 **Classification:** Must Have
 
 
-**US34 - Register payment info**
+**US13 - Register payment info**
 
 As an agency I must enter data to which the funds of any purchase will arrive. So that the funds reach the desired account.
 
@@ -228,7 +228,7 @@ When the agency is accepted by the super-admin, they will be forced to add their
 **Classification:** Must Have
 
 
-**US35 - Payment changes**
+**US14 - Payment changes**
 
 As a user, I want to be able to see the interior and exterior photographs in detail to have a better visualization of the vehicle
 
@@ -391,30 +391,30 @@ Confirm a vehicle purchase and have confirmation sent to the email
 
 **US14 - Users Re-engagement**
 
-**As a** <description of the user> **I want**<functionality>. **To be able** <benefit>
+**As a** super admin **I want** to send notification to users that have not viisted the site after a long time **To be able** to recover theri interest in buying a car from the platform.
 
 **Validation:**
 
-<The requirements needed to accomplish the task>
+After 2 weeks from inactivity, the system will send them a emial inviting them to check the new deals and cars at MOVU.
 
-**Priority**: <High, Medium or Low>
+**Priority**: Low
   
-**Estimate**: <Time estimate>
+**Estimate**: 1 week
   
-**Classification:** Must Have
+**Classification:** Could Have
 
   
 **US18 - Commissions**
   
-**As a** <description of the user> **I want**<functionality>. **To be able** <benefit>
+**As a** super admin **I want** charge a comision for every car registered by an agency **To be able** to make earnings that will allow me to profit from this app, as well as maintaining it.
 
 **Validation:**
 
-<The requirements needed to accomplish the task>
+For every cas uploaded to the system, be from catalog upload or indiviudal, a percentage of a the car price should be given to NDS as part of comission.
 
-**Priority**: <High, Medium or Low>
+**Priority**: Very High
   
-**Estimate**: <Time estimate>
+**Estimate**: 2 weeks
   
 **Classification:** Must Have
 
@@ -491,7 +491,7 @@ As a manager I want manage the agency car catalog (CRUD) To be able have a bette
 
 **Validation:**
 
-  The manager will be able to upload the agency car catalog by either a csv with standard data, as well as adding them one by one.
+The manager will be able to upload the agency car catalog by either a csv with standard data, as well as adding them one by one.
 Once the catalog has been added successfully, the manager can either edit current vehicles in the catalog or delete them.
   
 **Priority:** High
@@ -502,9 +502,9 @@ Once the catalog has been added successfully, the manager can either edit curren
   
 ## **Vendor**
   
-  **US12 - Data Visualization Vendor**
+**US12 - Data Visualization Vendor**
   
-  As a vendor I want to easily visualize my customers data summary To be able to easily observe patterns on my clients.
+As a vendor I want to easily visualize my customers data summary To be able to easily observe patterns on my clients.
 
 **Validation:**
 In the vendor dashboard they will be able to observe a summary of different data from their clients, such as most bough car, customers current car purchase process, etc.
@@ -515,7 +515,7 @@ In the vendor dashboard they will be able to observe a summary of different data
   
 **Classification:** Must Have
   
-  **US33 - Sells status**
+**US33 - Sells status**
   
 **As** a seller I want to know how many sales I have made and the status of each one (amount paid). To know the status of my clients.
 
@@ -598,10 +598,268 @@ As a user want to modify my personal account information to be able to update an
 
 ## **Search**
 
+**USXX - NL Search**
+
+**As a** user **I want** to search for cars without the need of filters or advanced details **to be able** to have a easy expierience in seraching my car.
+
+**Validation:**
+
+- The landing page will have a search bar where the users will be able to write a simple car description which will then reutrn a list of vehicles that match that critiera.
+
+**Priority**: Very High
+**Estimate**: 1 week
+**Classification:** Must Have
+
+**USXX - Forms Search**
+
+**As a** user **I want** guidance during my car search  **To be able** to avoid the filters that can result confusing for user that lack car knowledge.
+
+**Validation: **
+
+- In the Landing Page, the users need to able to search cars by some guiding questions (Forms type)
+
+**Priority**: High
+**Estimate**: 1 week
+**Classification:** Must Have
+
+**USXX - Filter Search**
+
+**As a** user **I want** to utilize traditional filters **To be able** to select a car with the specific requirements that I want (model, price range, color, number of seats, etc)
+
+**Validation: **
+
+- In the car display page, the users should be able to select specific filters which allow a more detailed result.
+
+**Priority**: Very High
+**Estimate**: 1 week
+**Classification:** Must Have
+
+**USXX - No login Search**
+
+**As a** user **I want** to use the search feature even if I am not registered. **To be able** to see the cars I’m interested immediately.
+
+**Validation: **
+
+- The user can do searches registered or not.
+
+**Priority**: Very High
+**Estimate**: 1 week
+**Classification:** Must Have
+
+**UXXX - NL Search Always Available**
+
+**As a** user **I want** the search bar always available. **To be able** to search whenever I want.
+
+**Validation: **
+
+- The search bar is visible even when the user scrolls down the page
+
+**Priority**: Low
+**Estimate**: 1 week
+**Clasification:** Could Have
+
 ## **Cars**
+
+**USXX - Car Visualization**
+**As a** customer **I want** to see general information about the vehicle through cards **to be able** to get a brief overview of the vehicle without having to see each one in detail.
+
+**Validation: **
+
+Individual cards for each vehicle, so the customer sees relevant but not overwhelming information. They will see:
+1. Images
+2. Initial price
+3. Basic characteristics (doors, capacity, color, etc).
+4. If selected, you will be redirected to the detailed view.
+
+**Priority**: Low
+**Estimate**: 1 week
+**Clasification**:Shoud Have
+
+**USXX - Car characteristics comparison**
+
+**As a** customer **I want**to compare the features of the cars I'm interested in **to be able to** buy the car that best suits my needs.
+
+**Validation: **
+
+Apple-style comparison screen to compare cell phones, but of cars and their most relevant characteristics.
+1. Button on the general screen to compare vehicles
+2. Select multiple vehicles on the screen and compare key features of each
+
+**Priority**: Low
+**Estimate**: 1 week
+**Clasification**: Could Have
+
+**USXX - Indoor and outoor display**
+
+**As a** user, **I want** to see the interior and exterior photographs in detail **to be able to** have a better visualization of the vehicle
+
+**Validation:**
+When the user selects a vehicle, they can go through the images provided by the agencies, to explore its structure both inside and outside in detail.
+
+1. 360º vehicle image displayed
+2. The user can view specific parts of the vehicle
+
+**Priority:** Medium
+**Estimate:** 1 week
+**Classification:** Should Have
+
+**USXX - Car shopping display**
+
+**As a** user **I want** an online shopping cart  **to be able** to have  custom list of cars I might buy and save them for later.
+
+Validation:
+
+- When looking for a car there is going to be a "add to cart" button next to each car where the user can add cars to a shopping cart page.
+
+**Priority**: High
+**Estimate**: 2 week
+**Classification:** Must Have
 
 ## **Comunication**
 
+**USXX - Chat with Vendor**
+
+**As** a user **I want** to have an easy communication between the agency vendors  **to be able** to ask all my questions and follow ups on my current car purchase status.
+
+**Validation: **
+
+- No matter where the user is located in the webpage, they should be able to begin a conversation either with a chatbot for general questions and status of their car purchase status.
+- If the chatbot is not enough, they can request the assistant of a vendor por more information.
+
+**Priority**: High
+**Estimate**: 3 weeks
+**Classification:** Must Have
+
+**USXX - Chat with Chatbot**
+
+**As a** user **I want** to be able to begin a conversation with a chat bot **to be able** to obtain quick information and status of my current car purchase progress, as well as support to sign up for a test drive.
+
+**Validation: **
+
+- At all times, the user can quickly begin a conversation with our chatbot, which will give the user the various questions that it can respond to.
+
+**Priority**: Medium
+**Estimate**: 3 weeks
+**Classification:** Should Have
+
+**USXX - Email Notifications**
+
+**As a** user **I want**to receive email notification when any progress in my car purchase has been done **To be able** to quickly access the webpage for more details.
+
+**Validation: **
+
+- Whenever a update on the users car purchase progress is done, they should be able to receive an email detailing the current status.
+
+**Priority**: Medium
+**Estimate**: 1 week
+**Classification:** Must Have
+
+**USXX - Chats Managements**
+
+**As a** vendor **I want** to have an easy interface for administrating all my chat with clients **To be able** to better keep track on every conversation.
+
+**Validation: **
+- In the Vendor Dashboard, the vendor will be able to visualize all it conversations with clients.
+- Once a conversation has ended, the vendor will be able to delete it from the dashboard and store it in archives.
+
+**Priority**: Medium
+**Estimate**: 2 weeks
+**Classification:** Should Have
+
+
+**USXX - Chats Recordings**
+
+**As a** super **I want** to store every conversation generated in app **To be able** to rate customer experience and the vendors treatment towards clients.
+
+**Validation: **
+- Once either a chat conversation or vendor chat has been conluded, it will be stored for both customer support review as well as any misuse of the tool.
+
+**Priority**: High
+**Estimate**: 1 week
+**Classification:** Must Have
+
 ## **Test Drive**
 
+**USXX - Easy Test Drive Application**
+
+**As a** user **I want** an easy and smooth process while scheduling a test drive **to be able to** quickly test the car before deciding to purchase it.
+
+**Validation:**
+
+- In the user Dashboard, the user will be able to select an option to request a Test Drive
+- Once the user answers a form with specific information as well add sending its valid drive license, he will have to wait form the agency approval
+- Once its done, its dashboard will update with the test drive details.
+
+**Priority:** High
+**Estimate:** 2 weeks
+**Classification:** Must Have
+
+**USXX - Test Drive Requirements**
+
+**As a** vendor **I want** to manage all the various test drive applications the users request **to be able to** have a better control of all the test drives required, as well as verifying the users information before accepting the test.
+
+**Validation:**
+
+- In the vendor Dashboard, it will be a section specified to manage the test drives. Here the vendor can view the applications as well as approving or denying the test.
+
+**Priority:** High
+**Estimate:** 2 weeks
+**Classification:** Must Have
+
+**USXX - Skip Drive**
+
+As a customer I can decide not to take a test drive. To jump directly to the purchase and streamline the process.
+
+**Validation:**
+
+- A test drive is not required to purchase the vehicle.
+- The user should be able to continue with the car purchase process without schedulling any test drive.
+
+**Priority**: Medium
+**Estimate**: 1 week
+**Classification:** Must Have
+
+**USXX - Test Drive Docuemnts**
+
+**As a** vendor **I want** users to upload all the required documents to take the driving test (INE, driver's license, etc.) **to be able to** ensuere that the person is allowed to drive.
+
+**Validation:**
+
+When requesting a vehicle test drive, the user will have to enter data required by the agency to achieve registration
+1. Input to upload multiple files.
+2. Include all files specified by that agency in the input.
+
+**Priority**: Medium
+**Estimate**: 1 week
+**Classification:** Must Have
+
+**USXX - Filter of Cars applicable for Test Drive**
+
+**As a** user, **I want** to see a filter or section within the profile of an agency where the vehicles that are available for a test drive are available **to be able** to easily choose one.
+
+**Validation:**
+When a vehicle is uploaded to the platform, there is a box, "available for a test drive", when selected it is added to your inventory for test drive requests, customers can see which vehicle they can request at the selected agency (management view)
+
+1.  When selecting an agency (by search or from a vehicle), a section is displayed where all the vehicles available for a test drive are listed.
+
+**Priority:** Medium
+**Estimate:** 1 week
+**Classification:** Should have
+
+
 ## **Documentation**
+
+**USXX - User Documentation Definitions**
+
+**USXX - Vendor Documentation Approvals**
+
+**USXX - Automotive Groups Documentation Application Approvals**
+
+**As a** super admin **I want** to have the ability to view the various automotive group applications and either approve or reject them from the application it the documentation is not valid.
+
+**Validation:**
+- In the super admin Dashboard, the super admin will have a section in which they can validate or reject new Automotive Groups Applications.
+
+**Priority:** High
+**Estimate:** 2 weeks
+**Classification:** Must have
