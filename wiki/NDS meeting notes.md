@@ -1,6 +1,5 @@
 # NDS meeting notes
 
-Attachments: reqs.txt
 Created: February 16, 2023 5:43 PM
 Last edited time: March 9, 2023 5:11 PM
 Tags: note
