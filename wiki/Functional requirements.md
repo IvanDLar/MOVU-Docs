@@ -13,6 +13,38 @@ Tags: document
 | REQ_FUN_[001] | Natural Language Search | User will be able to search car recommendations based on a description without need of technicalities. |
 | REQ_FUN_[002] | Non login search | User will be able to make a search without having any account |
 | REQ_FUN_[003] | Search Priority | The car appearance will be influenced based on prioritization (extra payment)  |
+| REQ_FUN_[004] | Filter Search | Once the user is in the cars visualization section, there will be able to select various filters in order to reduce the results  |
+| REQ_FUN_[005] | Forms Search | In the landing page, the user will have the option to do a car search by answering some kind of form, with questions that will allow for a reduced searched based only on what the user is interested. | 
+| REQ_FUN_[006] | Search Priority | The NL Search bar has to be available all the time while the user is navigatiing the webpage.  |
+
+
+## ****************************Cars Selection****************************
+
+| REQ_FUN_[006] | Car Visualization | Once the users get the cars based on their search, the user will get a general information about the vehicles (price, basic characteristics) as well a their respective image  |
+| REQ_FUN_[007] | Indoor/Outdoor Display| When the users select a specific car for more details, they must be able to see both the interior and exterior photographs of the car |
+| REQ_FUN_[008] | Car Shopping Cart | The User will be able to keep track of the cars interested in a shopping cart section|
+
+## ****************************Communication****************************
+
+| REQ_FUN_[009] | Chat with Vendor | The User is able to start a conversation with a vendor at any time for guidance|
+| REQ_FUN_[010] | Chat with Chatbot | The User is able to start a conersation with a chatbot at any time for specific information (car information, current car purchase status, etc)|
+| REQ_FUN_[011] | Email Notification | User will recieve email messages once any of their car purchase status has been updated.|
+| REQ_FUN_[012] | Chats Managemnts | The System will store every conversation, both with the chatbot and vendors in order to review the performance and quality, as well avoind any misuse of the service|
+
+
+## ****************************Test Drive****************************
+
+| REQ_FUN_[013] | Test Drive Interface | Either in the Landing Page or in the user dashboard, they wil be able to select to apply for a test Drive, which will send them to another interface where they will have to fill all the necessary information as well as uploading their drivers license.|
+| REQ_FUN_[014] | Test Drive Validation | The vendors will be able to visualize the different test drive approvals and either reject or acept the application and send feedback to the user for the next steps.|
+| REQ_FUN_[015] | Test Drive Car Selection | Once applying for the test drive, the users should be able to view all the available cars for the test drive|
+
+
+## ****************************Documents******************************
+
+| REQ_FUN_[017] | Automotive Group Appliacation | The super admin is capable to approve or deny the automotive groups applications, as well as specifying the corresponding documentation.|
+| REQ_FUN_[018] | User Documentation Definitions | In is respective dashoard, the admin will select the docuemnts that are requeried for the car purchase|
+| REQ_FUN_[019] | Vendor Documentation Approvals | For evey car purchase assigned to them, the vendors will be able to approve or deny the documents uploaded from the user, as well as giving feedback on the documentation|
+
 
 ## ****************************Metrics System****************************
 
@@ -101,6 +133,11 @@ Tags: document
 | REQ_FUN_[054] | MFA Authentication setup | Users can set up MFA methods in their profile |
 | REQ_FUN_[055] | MFA Authentication login | Users can login with MFA  |
 | REQ_FUN_[056] | Validate buyers identity | Dealerships can validate buyers documents |
+
+## **Security**
+
+## **Payments**
+
 
 ## **Devops**
 
