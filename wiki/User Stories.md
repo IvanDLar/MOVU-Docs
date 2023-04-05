@@ -921,7 +921,17 @@ When a vehicle is uploaded to the platform, there is a box, "available for a tes
 
 **US60 - User Documentation Definitions**
 
+**As a** admin **I want** to define which documentation is required in order for a user to buy a car from my agencies **to be able** to standarize all the procedures in all of my agencies and ensure that the users are applicable for the purchase.
+
+**Validation:**
+- In admin dasboard there will be an option to define which documents are required for every step during the car purchas process.
+- 
+**Priority:** High
+**Estimate:** 2 weeks
+**Classification:** Must have
+
 **US61 - Vendor Documentation Approvals**
+**As a** VENDOR **I want** to approve or deny the various docuemnts that the user will be uploading during the car purchase procceudre **to be able** valdiate the corresponding docuemnts before advancing to any future steps.
 
 **US62 - Automotive Groups Documentation Application Approvals**
 
