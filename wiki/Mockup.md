@@ -6,12 +6,15 @@ Tags: document
 
 [MOVU Figma](https://www.figma.com/file/bAuvCP9QBQALQvJXm1GOJm/Pagina?node-id=0%3A1&t=YeBFeGFtEgdkEIQC-1)
 
-![signup.png](/wiki/Mockup/signup.png)
 
-![login.png](/wiki/Mockup/login.png)
+![image](https://user-images.githubusercontent.com/90577455/229986908-39955637-628b-4693-bbd6-25aa0734be22.png)
 
-![main.png](/wiki/Mockup/main.png)
+![image](https://user-images.githubusercontent.com/90577455/229986923-1820ac8b-92f3-4dea-8b48-a2e21f5a6ece.png)
 
-![search1.png](/wiki/Mockup/search1.png)
+![image](https://user-images.githubusercontent.com/90577455/229986933-573a4a68-9078-4d4f-be0a-e0d887ab46ad.png)
 
-![search2.png](/wiki/Mockup/search2.png)
+![image](https://user-images.githubusercontent.com/90577455/229986938-682a5132-37f5-42ee-8cd3-b7acc9ff0cc8.png)
+
+![image](https://user-images.githubusercontent.com/90577455/229986951-1bb71d1e-c1bf-47eb-9b42-a7156cd84c8a.png)
+
+![image](https://user-images.githubusercontent.com/90577455/229986963-07f5d8c4-3146-4aa7-a866-735417cb200b.png)
