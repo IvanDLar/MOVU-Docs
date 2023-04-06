@@ -25,6 +25,7 @@ Tags: document
 | REQ_FUN_[006] | Car Visualization | Once the users get the cars based on their search, the user will get a general information about the vehicles (price, basic characteristics) as well a their respective image  |
 | REQ_FUN_[007] | Indoor/Outdoor Display| When the users select a specific car for more details, they must be able to see both the interior and exterior photographs of the car |
 | REQ_FUN_[008] | Car Shopping Cart | The User will be able to keep track of the cars interested in a shopping cart section|
+| REQ_FUN_[008] | Personalization | While searching for a car, the user will be able to select either the model of the car as well as selecting extra features previously defined by de agency|
 
 ## **Communication**
 
@@ -48,7 +49,7 @@ Tags: document
 | ID. Functional REQ | Concept | Description/ Criteria of acceptance |
 | --- | --- | --- |
 | REQ_FUN_[017] | Automotive Group Appliacation | The super admin is capable to approve or deny the automotive groups applications, as well as specifying the corresponding documentation.|
-| REQ_FUN_[018] | User Documentation Definitions | In is respective dashoard, the admin will select the docuemnts that are requeried for the car purchase|
+| REQ_FUN_[018] | User Documentation Definitions | In its respective dashoard, the admin will select the docuemnts that are requeried for the car purchase|
 | REQ_FUN_[019] | Vendor Documentation Approvals | For evey car purchase assigned to them, the vendors will be able to approve or deny the documents uploaded from the user, as well as giving feedback on the documentation|
 
 
@@ -71,7 +72,20 @@ Tags: document
 | REQ_FUN_[011] | Payment types | The client is able to select from a variety of payment types: Down payment, Financing, Upfront payment |
 | REQ_FUN_[012] | Payment methods | The user is able to select the following payment methods Credit, Debit, Wire Transfer, Oxxo |
 
-## Data visualization
+## **Security**
+| ID. Functional REQ | Concept | Description/ Criteria of acceptance |
+| --- | --- | --- |
+| REQ_FUN_[013] | Multi Factor Firebase Auth | The super admin, admin, manager and vendor wil validate their identity throught Firebase Auth, which will be mapped to Postgress Data Base|
+| REQ_FUN_[015] | Roles and Permissions | For every user there must assigned specific roles that will allow them to peroform specific actions in the Web (Minimum Privelage Principle)|
+| REQ_FUN_[017] | Encryption at rest | In order to encypt the application data, AWS KMS will be utilized to ensure both data in AWS RDS and AWS Elastic Search|
+| REQ_FUN_[018] | HTTPS Protocol | While the data is being transfered from the data base to the end user with TLS (Transport Layer Security)|
+| REQ_FUN_[019] | Payments Security| During Payment, the system will utlize Stripe Security protocols to ensure the transactions are done as securely as possible|
+| REQ_FUN_[020] | Services Privacy | In oder to keep services from the system unreachable from non wanted visitor, it is important to use AWS VPC to constrain some services in a private network|
+| REQ_FUN_[021] | Services Privacy | In oder to keep services from the system unreachable from non wanted visitor, it is important to use AWS VPC to constrain some services in a private network|
+| REQ_FUN_[022] | Web Security | As parto of DDos Protection, we will implament Vercel security features for the various layers of the application|
+
+
+## **Data visualization**
 
 | ID. Functional REQ | Concept | Description/ Criteria of acceptance |
 | --- | --- | --- |
