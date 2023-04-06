@@ -17,6 +17,12 @@ Tags: document
 | REQ_FUN_[005] | Forms Search | In the landing page, the user will have the option to do a car search by answering some kind of form, with questions that will allow for a reduced searched based only on what the user is interested. | 
 | REQ_FUN_[006] | Search Priority | The NL Search bar has to be available all the time while the user is navigatiing the webpage.  |
 
+## **Login**
+| ID. Functional REQ | Concept | Description/ Criteria of acceptance |
+| --- | --- | --- |
+| REQ_FUN_[001] | Account Sign | User will be able to search car recommendations based on a description without need of technicalities. |
+| REQ_FUN_[002] | Account Login | User will be able to make a search without having any account |
+
 
 ## **Cars Selection**
 
@@ -25,6 +31,7 @@ Tags: document
 | REQ_FUN_[006] | Car Visualization | Once the users get the cars based on their search, the user will get a general information about the vehicles (price, basic characteristics) as well a their respective image  |
 | REQ_FUN_[007] | Indoor/Outdoor Display| When the users select a specific car for more details, they must be able to see both the interior and exterior photographs of the car |
 | REQ_FUN_[008] | Car Shopping Cart | The User will be able to keep track of the cars interested in a shopping cart section|
+| REQ_FUN_[008] | Car Price | While searching for a car, the base car price has to be shown, as well as any aditional cost while personalizing it|
 | REQ_FUN_[008] | Personalization | While searching for a car, the user will be able to select either the model of the car as well as selecting extra features previously defined by de agency|
 
 ## **Communication**
@@ -70,7 +77,9 @@ Tags: document
 | REQ_FUN_[009] | Online Payments | The clients are able to make their payments online to the agency, using existing payment services: Stripe |
 | REQ_FUN_[010] | Commission Management | The Super Admin will determine commission fees for salesman |
 | REQ_FUN_[011] | Payment types | The client is able to select from a variety of payment types: Down payment, Financing, Upfront payment |
-| REQ_FUN_[012] | Payment methods | The user is able to select the following payment methods Credit, Debit, Wire Transfer, Oxxo |
+| REQ_FUN_[011] | Vehicles Quotation | For every car there must be a financial plan (quotation) that allows the usser to select various payment options |
+| REQ_FUN_[011] | Quotes administration | The car agencies should be able to determine their specicific financial car for every car in their inventory |
+
 
 ## **Security**
 | ID. Functional REQ | Concept | Description/ Criteria of acceptance |
@@ -153,10 +162,6 @@ Tags: document
 | REQ_FUN_[054] | MFA Authentication setup | Users can set up MFA methods in their profile |
 | REQ_FUN_[055] | MFA Authentication login | Users can login with MFA  |
 | REQ_FUN_[056] | Validate buyers identity | Dealerships can validate buyers documents |
-
-## **Payments**
-| ID. Functional REQ | Concept | Description/ Criteria of acceptance |
-| --- | --- | --- |
 
 ## **Devops**
 
