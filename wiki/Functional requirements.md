@@ -154,9 +154,6 @@ Tags: document
 | REQ_FUN_[055] | MFA Authentication login | Users can login with MFA  |
 | REQ_FUN_[056] | Validate buyers identity | Dealerships can validate buyers documents |
 
-## **Security**
-| ID. Functional REQ | Concept | Description/ Criteria of acceptance |
-| --- | --- | --- |
 ## **Payments**
 | ID. Functional REQ | Concept | Description/ Criteria of acceptance |
 | --- | --- | --- |
