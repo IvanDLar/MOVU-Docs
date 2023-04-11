@@ -27,7 +27,7 @@ The MOVU Team
 - [WBS](wiki/WBS.md)
 - [Margin Analysis](wiki/Margin%20analysis.md)
 - [Mockup](wiki/Mockup.md)
-- [Database Design](wiki/Database%20design.md)
+- [Database Design](wiki/Database%20Design.md)
 - [NDS Meeting Notes](wiki/NDS%20meeting%20notes.md)
 - [Test Plan](wiki/Test%20Plan.md)
 - [Risk analysis](wiki/Risk%20analysis.md)
