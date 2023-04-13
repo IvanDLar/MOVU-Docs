@@ -919,8 +919,7 @@ VA000 - When accesing the shopping cart, all the cars previosly select need to a
 
 **Validation:**
 
-- No matter where the user is located in the webpage, they should be able to begin a conversation either with a chatbot for general questions and status of their car purchase status.
-- If the chatbot is not enough, they can request the assistant of a vendor por more information.
+- No matter where the user is located in the webpage, they should be able to begin a conversation with their vendor
 
 - **Priority**: High
   
