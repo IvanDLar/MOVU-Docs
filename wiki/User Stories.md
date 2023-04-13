@@ -486,9 +486,6 @@ Confirm a vehicle purchase and have confirmation sent to the email
   **Estimate:** 1 week
 
   **Classification:** Must Have
-
----
----
   
 ---
 ---
@@ -749,9 +746,6 @@ As a user want to modify my personal account information to be able to update an
   **Classification:** Must Have
 
 ---
-
-
----
 ---
 ## **US40 - NL Search**
 
@@ -764,12 +758,11 @@ As a user want to modify my personal account information to be able to update an
 - VA000 - The DB must be able to filter with the given information and return the list of cars that match the critiera. (NLP E-Search)
 - VA000 - The resulting "tokens" determined by the NL model will need to have at least 80% of accuracy on what the user intended so the result are coherent as posible but also provide a bit more of variety.(NLP E-Search)
 
-**Priority**: Very High
-**Estimate**: 2 week
-**Classification:** Must Have
+- **Priority**: Very High
 
----
+  **Estimate**: 2 week
 
+  **Classification:** Must Have
 
 ---
 ---
@@ -784,12 +777,11 @@ As a user want to modify my personal account information to be able to update an
 - VA000 - Once the DB obtains the cars that match the criteria, it should return the list back to the Webpage
 - VA000 - The cars with that filter should be displayed to the user.
 
-**Priority**: Low
-**Estimate**: 1 week
-**Classification:** Must Have
+- **Priority**: Low
 
----
-
+  **Estimate**: 1 week
+  
+  **Classification:** Must Have
 
 ---
 ---
@@ -804,12 +796,11 @@ As a user want to modify my personal account information to be able to update an
 - VA000 - The DB will obtain the cars that allign with the filters and then return them to the Webpage
 - VA000 - The cars that with that filter should be displayed to the user.
 
-**Priority**: Very High
-**Estimate**: 1 week
-**Classification:** Must Have
-
----
-
+- **Priority**: Very High
+  
+  **Estimate**: 1 week
+  
+  **Classification:** Must Have
 
 ---
 ---
@@ -821,12 +812,11 @@ As a user want to modify my personal account information to be able to update an
 
 - VA000 - The user can do all types car searches even though they dont have an account (?)
 
-**Priority**: Very High
-**Estimate**: 1 week
-**Classification:** Must Have
+- **Priority**: Very High
+  
+  **Estimate**: 1 week
 
----
-
+  **Classification:** Must Have
 
 ---
 ---
@@ -839,12 +829,11 @@ As a user want to modify my personal account information to be able to update an
 - The search bar is visible even when the user scrolls down the page (?)
 - Whenever the user interacts to the search bar, they must allways obtain the car results.
 
-**Priority**: Low
-**Estimate**: 1 week
-**Clasification:** Could Have
+- **Priority**: Low
 
----
-
+  **Estimate**: 1 week
+  
+  **Clasification:** Could Have
 
 ---
 ---
@@ -861,12 +850,11 @@ As a user want to modify my personal account information to be able to update an
 
 - VA000 - If the user selects a specific car, they will be redirected to another section with all the description of the car.
 
-**Priority**: Low
-**Estimate**: 1 week
-**Clasification**:Shoud Have
-
----
-
+- **Priority**: Low
+  
+  **Estimate**: 1 week
+  
+  **Clasification**:Shoud Have
 
 ---
 ---
@@ -880,12 +868,11 @@ As a user want to modify my personal account information to be able to update an
 - VA000 - The webage will give the user the list of all available cars, in which they can select two cars to compare.
 - VA000 - Once the cars are selected, the key car characteristicas will be placed side by side for better analysis.
 
-**Priority**: Low
-**Estimate**: 1 week
-**Clasification**: Could Have
-
----
-
+- **Priority**: Low
+  
+  **Estimate**: 1 week
+  
+  **Clasification**: Could Have
 
 ---
 ---
@@ -898,12 +885,11 @@ As a user want to modify my personal account information to be able to update an
 - VA000 - When the user selects a vehicle, they can go through the images provided by the agencies, to explore its structure both inside and outside in detail.
 - VA000 - Inside the car details, the users will be able to view the vehicle 360º
 
-**Priority:** Medium
-**Estimate:** 1 week
-**Classification:** Should Have
-
----
-
+- **Priority:** Medium
+  
+  **Estimate:** 1 week
+  
+  **Classification:** Should Have
 
 ---
 ---
@@ -916,12 +902,11 @@ As a user want to modify my personal account information to be able to update an
 VA000 - When looking for a car there is going to be a "add to cart" button next to each car (both in card and description mode) where the user can add cars to a shopping cart page.
 VA000 - When accesing the shopping cart, all the cars previosly select need to appear in this section.
 
-**Priority**: High
-**Estimate**: 2 week
-**Classification:** Must Have
-
----
-
+- **Priority**: High
+  
+  **Estimate**: 2 week
+  
+  **Classification:** Must Have
 
 ---
 ---
@@ -934,12 +919,11 @@ VA000 - When accesing the shopping cart, all the cars previosly select need to a
 - No matter where the user is located in the webpage, they should be able to begin a conversation either with a chatbot for general questions and status of their car purchase status.
 - If the chatbot is not enough, they can request the assistant of a vendor por more information.
 
-**Priority**: High
-**Estimate**: 3 weeks
-**Classification:** Must Have
-
----
-
+- **Priority**: High
+  
+  **Estimate**: 3 weeks
+  
+  **Classification:** Must Have
 
 ---
 ---
@@ -951,12 +935,11 @@ VA000 - When accesing the shopping cart, all the cars previosly select need to a
 
 - At all times, the user can quickly begin a conversation with our chatbot, which will give the user the various questions that it can respond to.
 
-**Priority**: Medium
-**Estimate**: 3 weeks
-**Classification:** Should Have
-
----
-
+- **Priority**: Medium
+  
+  **Estimate**: 3 weeks
+  
+  **Classification:** Should Have
 
 ---
 ---
@@ -968,12 +951,11 @@ VA000 - When accesing the shopping cart, all the cars previosly select need to a
 
 - Whenever a update on the users car purchase progress is done, they should be able to receive an email detailing the current status.
 
-**Priority**: Medium
-**Estimate**: 1 week
-**Classification:** Must Have
-
----
-
+- **Priority**: Medium
+  
+  **Estimate**: 1 week
+  
+  **Classification:** Must Have
 
 ---
 ---
@@ -986,12 +968,11 @@ VA000 - When accesing the shopping cart, all the cars previosly select need to a
 - In the Vendor Dashboard, the vendor will be able to visualize all it conversations with clients.
 - Once a conversation has ended, the vendor will be able to delete it from the dashboard and store it in archives.
 
-**Priority**: Medium
-**Estimate**: 2 weeks
-**Classification:** Should Have
-
----
-
+- **Priority**: Medium
+  
+  **Estimate**: 2 weeks
+  
+  **Classification:** Should Have
 
 ---
 ---
@@ -1003,12 +984,11 @@ VA000 - When accesing the shopping cart, all the cars previosly select need to a
 
 - Once either a chat conversation or vendor chat has been conluded, it will be stored for both customer support review as well as any misuse of the tool.
 
-**Priority**: High
-**Estimate**: 1 week
-**Classification:** Must Have
-
----
-
+- **Priority**: High
+  
+  **Estimate**: 1 week
+  
+  **Classification:** Must Have
 
 ---
 ---
@@ -1022,12 +1002,11 @@ VA000 - When accesing the shopping cart, all the cars previosly select need to a
 - Once the user answers a form with specific information as well add sending its valid drive license, he will have to wait form the agency approval
 - Once its done, its dashboard will update with the test drive details.
 
-**Priority:** High
-**Estimate:** 2 weeks
-**Classification:** Must Have
-
----
-
+- **Priority:** High
+  
+  **Estimate:** 2 weeks
+  
+  **Classification:** Must Have
 
 ---
 ---
@@ -1039,12 +1018,11 @@ VA000 - When accesing the shopping cart, all the cars previosly select need to a
 
 - In the vendor Dashboard, it will be a section specified to manage the test drives. Here the vendor can view the applications as well as approving or denying the test.
 
-**Priority:** High
-**Estimate:** 2 weeks
-**Classification:** Must Have
-
----
-
+- **Priority:** High
+  
+  **Estimate:** 2 weeks
+  
+  **Classification:** Must Have
 
 ---
 ---
@@ -1057,12 +1035,11 @@ As a customer I can decide not to take a test drive. To jump directly to the pur
 - A test drive is not required to purchase the vehicle.
 - The user should be able to continue with the car purchase process without schedulling any test drive.
 
-**Priority**: Medium
-**Estimate**: 1 week
-**Classification:** Must Have
-
----
-
+- **Priority**: Medium
+  
+  **Estimate**: 1 week
+  
+  **Classification:** Must Have
 
 ---
 ---
@@ -1077,12 +1054,11 @@ When requesting a vehicle test drive, the user will have to enter data required 
 1. Input to upload multiple files.
 2. Include all files specified by that agency in the input.
 
-**Priority**: Medium
-**Estimate**: 1 week
-**Classification:** Must Have
-
----
-
+- **Priority**: Medium
+  
+  **Estimate**: 1 week
+  
+  **Classification:** Must Have
 
 ---
 ---
@@ -1095,12 +1071,11 @@ When a vehicle is uploaded to the platform, there is a box, "available for a tes
 
 1.  When selecting an agency (by search or from a vehicle), a section is displayed where all the vehicles available for a test drive are listed.
 
-**Priority:** Medium
-**Estimate:** 1 week
-**Classification:** Should have
-
----
-
+- **Priority:** Medium
+  
+  **Estimate:** 1 week
+  
+  **Classification:** Should have
 
 ---
 ---
@@ -1112,19 +1087,15 @@ When a vehicle is uploaded to the platform, there is a box, "available for a tes
 
 - In admin dasboard there will be an option to define which documents are required for every step during the car purchas process.
 - **Priority:** High
+  
   **Estimate:** 2 weeks
+  
   **Classification:** Must have
-
----
-
 
 ---
 ---
 ## **US61 - Vendor Documentation Approvals**
 **As a** VENDOR **I want** to approve or deny the various docuemnts that the user will be uploading during the car purchase procceudre **to be able** valdiate the corresponding docuemnts before advancing to any future steps.
-
----
-
 
 ---
 ---
@@ -1136,6 +1107,8 @@ When a vehicle is uploaded to the platform, there is a box, "available for a tes
 
 - In the super admin Dashboard, the super admin will have a section in which they can validate or reject new Automotive Groups Applications.
 
-**Priority:** High
-**Estimate:** 2 weeks
-**Classification:** Must have
+- **Priority:** High
+  
+  **Estimate:** 2 weeks
+
+  **Classification:** Must have
