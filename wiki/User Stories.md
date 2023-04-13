@@ -43,11 +43,14 @@ As a user I want to register on the platform with data that is not very sensitiv
 
 **Validation:**
 
-- V000 - The user can register into the platform by email or a google account. (Auth Clients)
-- V000 - The user must have a secure password with at least 8 characters. (Auth Clients)
-- V000 - The email and password must be stored in the DataBase. (Auth Clients)
-- V000 - If at least one field is not valid, the user can not continue registering. (Auth Clients)
-
+- V011 - The user can register into the platform by email or a google account. 
+  - Auth Clients
+- V012 - The user must have a secure password with at least 8 characters. 
+  - Auth Clients
+- V013 - The email and password must be stored in the DataBase.
+  - Auth Clients
+- V014 - If at least one field is not valid, the user can not continue registering.
+  - Auth Clients
 <!-- 1. Enter email
 2. Enter password
 3. Input personal data (address, zip code, etc.)
@@ -359,6 +362,7 @@ When selecting a specific vehicle, approximate expenses can be selected in the c
 **Estimate:** 1 week
 
 **Classification:** Could Have
+
 
 ---
 ---
@@ -810,7 +814,9 @@ As a user want to modify my personal account information to be able to update an
 
 **Validation:**
 
-- VA000 - The user can do all types car searches even though they dont have an account (?)
+- VA000 - The user can search the car via the search bar 
+  - NLP
+  - Front Page Results
 
 - **Priority**: Very High
   
