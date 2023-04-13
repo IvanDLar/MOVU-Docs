@@ -23,7 +23,7 @@ Tags: document
 ## Test Drive
 
 ## Data Base
-
+ 
 ## Super Admin
 
 ## Project Reports
@@ -1034,7 +1034,6 @@ As a customer I can decide not to take a test drive. To jump directly to the pur
 
 **Validation:**
 
-- A test drive is not required to purchase the vehicle.
 - The user should be able to continue with the car purchase process without schedulling any test drive.
 
 - **Priority**: Medium
