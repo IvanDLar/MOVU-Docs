@@ -42,23 +42,19 @@ As a user I want to register on the platform with data that is not very sensitiv
 
 **Validation:**
 
-- Create account screen that allows
+- V000 - The user can register into the platform by email or a google account. (Auth Clients)
+- V000 - The user must have a secure password with at least 8 characters. (Auth Clients)
+- V000 - The email and password must be stored in the DataBase. (Auth Clients)
+- V000 - If at least one field is not valid, the user can not continue registering. (Auth Clients)
 
-1. Enter email
+<!-- 1. Enter email
 2. Enter password
 3. Input personal data (address, zip code, etc.)
-4. If everything is correct, the user is created, otherwise an error popup is shown on the screen
+4. If everything is correct, the user is created, otherwise an error popup is shown on the screen -->
 
 **Priority**: Very High
 
 **Estimate**: 1 week
-<br>
-**Related modules** :
-
-<ul>
-<li>Auth Clients</li>
-
-</ul>
 
 **US02 - Account Login**
 
