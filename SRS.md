@@ -102,6 +102,10 @@ _4/02/2023_
 | Miguel Arriaga & Pablo Rocha                  | 3/06/23 | Introduction and Overall Description          | v0.02   |
 | Salvador Salgado, Miguel Arriaga, Pablo Rocha | 2/07/23 | Requirements                                  | v0.03   |
 | Miguel Arriaga, Pablo Rocha, Jacobo Soffer    | 2/08/23 | First Version, revised by Gilberto Echeverría | v0.1    |
+| Ivan Diaz                                     | 4/08/23 | Improve Readability                           | v0.11   |
+
+
+
 
 ---
 ---

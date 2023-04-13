@@ -35,8 +35,9 @@ Tags: document
 ## Payments
 
 ## Car Retailers
-
-**US01 - Account Sign Up**
+---
+---
+## **US01 - Account Sign Up**
 
 As a user I want to register on the platform with data that is not very sensitive. If I am not sure about buying or directly with Google to protect my integrity and use the services offered by the platform when registering
 
@@ -56,7 +57,9 @@ As a user I want to register on the platform with data that is not very sensitiv
 
 **Estimate**: 1 week
 
-**US02 - Account Login**
+---
+---
+## **US02 - Account Login**
 
 As a customer I can log in with email and password or directly with google. To be able to do it in a much easier way, without the need to fill out an entire form.
 
@@ -72,7 +75,9 @@ Button that connects with firebase auth and allows you to login directly with go
 
 **Estimate**: 1 week
 
-**US03 - Account Logout**
+---
+---
+## **US03 - Account Logout**
 
 As a customer, salesperson, manager, super-admin, automotive group administrator I must be able to log out. So that nobody can use my username in case of losing my device.
 
@@ -86,7 +91,9 @@ Button in the navigation bar, which when clicked deletes all user information sa
 
 **Estimate**: 1 week
 
-**US04 - Reset Password**
+---
+---
+## **US04 - Reset Password**
 
 As a user I want to have the option to change my account information or reset my password without losing my data to continue using my account and not have to create it and also maintain control of its security.
 
@@ -98,7 +105,9 @@ There must be a section in the menu that leads to the stored user information, w
 
 **Estimate**: 1 week
 
-**US05 - Super admin register**
+---
+---
+## **US05 - Super admin register**
 
 As Super-Admin I must be able to register other super users so that several people can control the platform and register groups.
 
@@ -113,7 +122,9 @@ Screen to register other super administrators:
 
 **Estimate**: 1 week
 
-**US06 - Automotive Group register**
+---
+---
+## **US06 - Automotive Group register**
 
 As Super Admin I must be able to register the automotive groups so that they can begin operations within the application
 
@@ -128,7 +139,9 @@ Screen to register automotive groups:
 
 **Estimate**: 1 week
 
-**US07 - Agency register**
+---
+---
+## **US07 - Agency register**
 
 As Super Admin I must be able to register the automotive groups so that they can begin operations within the application
 
@@ -143,7 +156,9 @@ Screen to register automotive groups:
 
 **Estimate**: 1 week
 
-**US08 - Sellers register**
+---
+---
+## **US08 - Sellers register**
 
 As a manager I want to be able to register sellers so they can make sales and contact customers within the application.
 
@@ -159,7 +174,9 @@ Screen to register sellers:
 
 **Estimate**: 1 week
 
-**US09 - Cancel account**
+---
+---
+## **US09 - Cancel account**
 
 As a user, I want to be able to cancel the creation of my account so that I do not have an account on a platform that I will not use and that contains my data.
 
@@ -175,7 +192,9 @@ When the user creates an account, he receives a confirmation email where he has 
 
 **Classification:** Could Have
 
-**US10 - Access without registration**
+---
+---
+## **US10 - Access without registration**
 
 As a user, I want to access the page without registering to see the catalog and decide whether to use the platform to buy a car.
 
@@ -191,7 +210,9 @@ The user accesses the page and can perform actions that do not require user veri
 
 **Classification:** Must Have
 
-**US11 - Register payment info in agency**
+---
+---
+## **US11 - Register payment info in agency**
 
 As a customer I must be able to register a payment method. To be able to make transactions in the application and buy the vehicles.
 
@@ -209,7 +230,9 @@ When selecting to pay in a car, I will have the option to choose between multipl
 
 **Classification:** Must Have
 
-**US12 - Register payment info**
+---
+---
+## **US12 - Register payment info**
 
 As an agency I must enter data to which the funds of any purchase will arrive. So that the funds reach the desired account.
 
@@ -226,7 +249,9 @@ When the agency is accepted by the super-admin, they will be forced to add their
 
 **Classification:** Must Have
 
-**US13 - Payment opportunities for clients**
+---
+---
+## **US13 - Payment opportunities for clients**
 
 As a user/buyer, I want to see the payment options and terms that each agency offers me to be able to make choices and finance according to my economic possibilities.
 
@@ -243,7 +268,9 @@ The options are shown depending on the down payment
 
 **Classification:** Must have
 
-**US14 - Payments for custom order**
+---
+---
+## **US14 - Payments for custom order**
 
 As a buyer, I want to have the option of customizing elements of my vehicle (as long as the model/agency allows it) and see how the price varies to make my choice according to my budget
 
@@ -259,7 +286,9 @@ The user can view the customizable vehicles and customize them.
 
 **Classification:** Should Have
 
-**US15 - Download quotes or view**
+---
+---
+## **US15 - Download quotes or view**
 
 As a user, I want to download my quotes in PDF or have a space within my profile to view and analyze them and make the right decisions when buying a vehicle.
 
@@ -277,7 +306,9 @@ The quote is downloaded in the client's browser
 
 **Classification:** Could have
 
-**US16 - Setting up financing plans**
+---
+---
+## **US16 - Setting up financing plans**
 
 As an agency, I want to be able to set up my financing and insurance plans (including rates and plans) to manage agency costs and monitor necessary changes according to the market.
 
@@ -293,7 +324,9 @@ When a manager uploads a car, he will need to fill out a cost section where he c
 
 **Classification:** Must Have
 
-**US17 - Sales price display**
+---
+---
+## **US17 - Sales price display**
 
 As a user, I want to see the price of sale to the public without having to register
 
@@ -309,7 +342,9 @@ When viewing vehicles in the catalog or in an overview on the main page (as feat
 
 **Classification:** Must Have
 
-**US18 - Vehicles quotation**
+---
+---
+## **US18 - Vehicles quotation**
 
 As a user, I want to quote a vehicle model and see what factors can increase the final cost of a model
 
@@ -325,7 +360,9 @@ When selecting a specific vehicle, approximate expenses can be selected in the c
 
 **Classification:** Could Have
 
-**US19 - Account movement notifications**
+---
+---
+## **US19 - Account movement notifications**
 
 As a user/consumer, I want to receive notifications of operations carried out on my account to be sure of my actions and that my account is not used by third parties.
 
@@ -341,7 +378,9 @@ Confirm a vehicle purchase and have confirmation sent to the email
 
 **Classification:** Must Have
 
-**US20 - Multi factor Authentication**
+---
+---
+## **US20 - Multi factor Authentication**
 
 **As a** person with an account in the webpage **I want** to have double authentication **to be able** to have more security at preventing anyone else to access all my information.
 
@@ -356,7 +395,9 @@ Confirm a vehicle purchase and have confirmation sent to the email
 
 **Classification:** Must Have
 
-**US21 - Roles/Permissions Configurations**
+---
+---
+## **US21 - Roles/Permissions Configurations**
 
 **As a** super adim **I want** to limit the various actions the other accounts are able to do or modify (admin, manager, vendor, user) **to be able** to avoid any unwanted alteration both in the database, website visuals, users car purchase progress, etc.
 
@@ -370,7 +411,9 @@ Confirm a vehicle purchase and have confirmation sent to the email
 
 **Classification:** Must Have
 
-**US22 - Encryption REST**
+---
+---
+## **US22 - Encryption REST**
 
 **As a** super adim **I want** ensure that all the data stored inside our databases are correctly Encrypted as well as only able to be viewed by sepecific roles/user **to be able** to protect the privacy and all sensitive information that are required from clients during their car purchase process.
 
@@ -384,7 +427,9 @@ Confirm a vehicle purchase and have confirmation sent to the email
 
 **Classification:** Must Have
 
-**US23 - Encryption in motion**
+---
+---
+## **US23 - Encryption in motion**
 
 **As a** super admin **I want** to ensure that while the users is sending all the documents and sensitive infarmation will be correctly encrypted (https) **to be able** to gurarantee that no intruder who could intercept the messages could understand its meanings.
 
@@ -398,7 +443,9 @@ Confirm a vehicle purchase and have confirmation sent to the email
 
 **Classification:** Must Have
 
-**US24 - Secure Payments**
+---
+---
+## **US24 - Secure Payments**
 
 **As a** super admin **I want** to ensure that all transactions made from the users are correctly secured and encrypted **to be able** to ensure that all payments will always succed.
 
@@ -412,7 +459,9 @@ Confirm a vehicle purchase and have confirmation sent to the email
 
 **Classification:** Must Have
 
-**US25 - Data Privacy**
+---
+---
+## **US25 - Data Privacy**
 
 **As a** **I want** **to be able**
 
@@ -424,7 +473,9 @@ Confirm a vehicle purchase and have confirmation sent to the email
 
 **Classification:** Must Have
 
-**US25 - Web Security**
+---
+---
+## **US25 - Web Security**
 
 **As a\*\***I want\*\* **to be able**
 
@@ -436,7 +487,12 @@ Confirm a vehicle purchase and have confirmation sent to the email
 
   **Classification:** Must Have
 
-  **US26 - Data Visualization SAD**
+---
+---
+  
+---
+---
+## **US26 - Data Visualization SAD**
 
   **As** a super admin **I want** to visualize the statistics of every car dealership that are in the application **to be able** to detect trends and patterns that would allow for future improvements, as well as detecting any suspicious activity.
 
@@ -450,7 +506,9 @@ Confirm a vehicle purchase and have confirmation sent to the email
 
 **Classification:** Must Have
 
-**US27 - Users Re-engagement**
+---
+---
+## **US27 - Users Re-engagement**
 
 **As a** super admin **I want** to send notification to users that have not viisted the site after a long time **To be able** to recover theri interest in buying a car from the platform.
 
@@ -464,7 +522,9 @@ After 2 weeks from inactivity, the system will send them a emial inviting them t
 
 **Classification:** Could Have
 
-**US28 - Commissions**
+---
+---
+## **US28 - Commissions**
 
 **As a** super admin **I want** charge a comision for every car registered by an agency **To be able** to make earnings that will allow me to profit from this app, as well as maintaining it.
 
@@ -478,7 +538,9 @@ For every cas uploaded to the system, be from catalog upload or indiviudal, a pe
 
 **Classification:** Must Have
 
-**US29 - Data Visualization AD**
+---
+---
+## **US29 - Data Visualization AD**
 
 **As a** administrator (automotive agency) **I want** to obtain certain data summary from all my registered agencies **To be able** analyze their overall performance (cars sold, most purchased cars per agency).
 
@@ -492,7 +554,9 @@ For every cas uploaded to the system, be from catalog upload or indiviudal, a pe
 
 **Classification:** Must Have
 
-**US30 - Authorization in Procedures**
+---
+---
+## **US30 - Authorization in Procedures**
 
 **As** a manager **I want** to approve certain steps during the car purchase process **to be able** to have a better control on the various sales
 
@@ -507,7 +571,9 @@ For every cas uploaded to the system, be from catalog upload or indiviudal, a pe
 
 **Classification:** Must Have
 
-**US31 - Vendors Administration**
+---
+---
+## **US31 - Vendors Administration**
 
 **As** a manager I want to administrate my vendors from the agency (CRUD) to be able to have an easy experience managing their accounts.
 
@@ -522,7 +588,9 @@ Once the manager performs this modifications, the DB of vendors should be update
 
 **Classification:** Must Have
 
-**US32 - Data Visualization MG**
+---
+---
+## **US32 - Data Visualization MG**
 
 **As** a manager I want to visualize the most important data from my agency To be able to better understand how my vendors are performing, as well as the most viewed and sold cars.
 
@@ -537,7 +605,9 @@ Additional, the data summary will include a summary of the most bought cars as w
 
 **Classification:** Must Have
 
-**US33- Agency Catalog**
+---
+---
+## **US33- Agency Catalog**
 
 As a manager I want manage the agency car catalog (CRUD) To be able have a better control on the vehicles offered to the customers.
 
@@ -552,20 +622,27 @@ Once the catalog has been added successfully, the manager can either edit curren
 
 **Classification:** Must Have
 
-**US34 - Data Visualization Vendor**
+---
+---
+## **US34 - Data Visualization Vendor**
 
 As a vendor I want to easily visualize my customers data summary To be able to easily observe patterns on my clients.
 
 **Validation:**
 In the vendor dashboard they will be able to observe a summary of different data from their clients, such as most bough car, customers current car purchase process, etc.
 
+---
+---
 **Priority:** Low
 
 **Estimate:** 1 week
 
 **Classification:** Must Have
 
-**US35 - Sells status**
+
+---
+---
+## **US35 - Sells status**
 
 **As** a seller I want to know how many sales I have made and the status of each one (amount paid). To know the status of my clients.
 
@@ -582,7 +659,10 @@ Sellers will be able to see all their sales on a dedicated screen and the status
 
 **Classification:** Must Have
 
-**US36 - Current Status on active Car Purchase**
+
+---
+---
+## **US36 - Current Status on active Car Purchase**
 
 **As** a vendor I want to be able to know the status of all my current active car purchases to be able to keep track on their current progresses, as well as knowing what approvals or requirements are missing on every one of them.
 
@@ -597,7 +677,10 @@ When selecting a specific car purchase, the vendor will get all the information 
 
 **Classification:** Must Have
 
-**US37 - Payment status**
+
+---
+---
+## **US37 - Payment status**
 
 As a customer I want to be able to know the status of my order and payment, if the car is being prepared, on the way, etc. To keep track of my purchase and security.
 
@@ -614,7 +697,10 @@ After paying for the car, as a customer I will be able to see the status of my o
 
 **Classification:** Must Have
 
-**US38 - Modify personal information**
+
+---
+---
+## **US38 - Modify personal information**
 
 As a user want to modify my personal account information to be able to update any outdated information or create a new password.
 
@@ -630,7 +716,10 @@ As a user want to modify my personal account information to be able to update an
 
 **Classification:** Must Have
 
-**US39 - Website access**
+
+---
+---
+## **US39 - Website access**
 
 **As a** user **I want** to use the web page through my computer and my phone **to be able** to have different options to access.
 
@@ -644,7 +733,10 @@ As a user want to modify my personal account information to be able to update an
 
 **Classification:** Must Have
 
-**US40 - Website access**
+
+---
+---
+## **US40 - Website access**
 
 **As a** **I want** **to be able**.
 
@@ -658,7 +750,10 @@ As a user want to modify my personal account information to be able to update an
 
 ---
 
-**US40 - NL Search**
+
+---
+---
+## **US40 - NL Search**
 
 **As a** user **I want** to search for cars without the need of filters or advanced details **to be able** to have a easy expierience in seraching my car.
 
@@ -675,7 +770,10 @@ As a user want to modify my personal account information to be able to update an
 
 ---
 
-**US41 - Forms Search**
+
+---
+---
+## **US41 - Forms Search**
 
 **As a** user **I want** guidance during my car search **To be able** to avoid the filters that can result confusing for user that lack car knowledge.
 
@@ -692,7 +790,10 @@ As a user want to modify my personal account information to be able to update an
 
 ---
 
-**US42 - Filter Search**
+
+---
+---
+## **US42 - Filter Search**
 
 **As a** user **I want** to utilize traditional filters **To be able** to select a car with the specific requirements that I want (model, price range, color, number of seats, etc)
 
@@ -709,7 +810,10 @@ As a user want to modify my personal account information to be able to update an
 
 ---
 
-**US43 - No login Search**
+
+---
+---
+## **US43 - No login Search**
 
 **As a** user **I want** to use the search feature even if I am not registered. **To be able** to see the cars I’m interested immediately.
 
@@ -723,7 +827,10 @@ As a user want to modify my personal account information to be able to update an
 
 ---
 
-**US44 - NL Search Always Available**
+
+---
+---
+## **US44 - NL Search Always Available**
 
 **As a** user **I want** the search bar always available. **To be able** to search whenever I want.
 
@@ -738,7 +845,10 @@ As a user want to modify my personal account information to be able to update an
 
 ---
 
-**US45 - Car Visualization**
+
+---
+---
+## **US45 - Car Visualization**
 **As a** customer **I want** to see general information about the vehicle through cards **to be able** to get a brief overview of the vehicle without having to see each one in detail.
 
 **Validation:**
@@ -757,7 +867,10 @@ As a user want to modify my personal account information to be able to update an
 
 ---
 
-**US46 - Car characteristics comparison**
+
+---
+---
+## **US46 - Car characteristics comparison**
 
 **As a** customer **I want**to compare the features of the cars I'm interested in **to be able to** buy the car that best suits my needs.
 
@@ -773,7 +886,10 @@ As a user want to modify my personal account information to be able to update an
 
 ---
 
-**US47 - Indoor and outoor display**
+
+---
+---
+## **US47 - Indoor and outoor display**
 
 **As a** user, **I want** to see the interior and exterior photographs in detail **to be able to** have a better visualization of the vehicle
 
@@ -788,7 +904,10 @@ As a user want to modify my personal account information to be able to update an
 
 ---
 
-**US49 - Car shopping display**
+
+---
+---
+## **US49 - Car shopping display**
 
 **As a** user **I want** an online shopping cart **to be able** to have custom list of cars I might buy and save them for later.
 
@@ -803,7 +922,10 @@ VA000 - When accesing the shopping cart, all the cars previosly select need to a
 
 ---
 
-**US50 - Chat with Vendor**
+
+---
+---
+## **US50 - Chat with Vendor**
 
 **As** a user **I want** to have an easy communication between the agency vendors **to be able** to ask all my questions and follow ups on my current car purchase status.
 
@@ -818,7 +940,10 @@ VA000 - When accesing the shopping cart, all the cars previosly select need to a
 
 ---
 
-**US51 - Chat with Chatbot**
+
+---
+---
+## **US51 - Chat with Chatbot**
 
 **As a** user **I want** to be able to begin a conversation with a chat bot **to be able** to obtain quick information and status of my current car purchase progress, as well as support to sign up for a test drive.
 
@@ -832,7 +957,10 @@ VA000 - When accesing the shopping cart, all the cars previosly select need to a
 
 ---
 
-**US52 - Email Notifications**
+
+---
+---
+## **US52 - Email Notifications**
 
 **As a** user **I want**to receive email notification when any progress in my car purchase has been done **To be able** to quickly access the webpage for more details.
 
@@ -846,7 +974,10 @@ VA000 - When accesing the shopping cart, all the cars previosly select need to a
 
 ---
 
-**US53 - Chats Managements**
+
+---
+---
+## **US53 - Chats Managements**
 
 **As a** vendor **I want** to have an easy interface for administrating all my chat with clients **To be able** to better keep track on every conversation.
 
@@ -861,7 +992,10 @@ VA000 - When accesing the shopping cart, all the cars previosly select need to a
 
 ---
 
-**US54 - Chats Recordings**
+
+---
+---
+## **US54 - Chats Recordings**
 
 **As a** super **I want** to store every conversation generated in app **To be able** to rate customer experience and the vendors treatment towards clients.
 
@@ -875,7 +1009,10 @@ VA000 - When accesing the shopping cart, all the cars previosly select need to a
 
 ---
 
-**US55 - Easy Test Drive Application**
+
+---
+---
+## **US55 - Easy Test Drive Application**
 
 **As a** user **I want** an easy and smooth process while scheduling a test drive **to be able to** quickly test the car before deciding to purchase it.
 
@@ -891,7 +1028,10 @@ VA000 - When accesing the shopping cart, all the cars previosly select need to a
 
 ---
 
-**US56 - Test Drive Requirements**
+
+---
+---
+## **US56 - Test Drive Requirements**
 
 **As a** vendor **I want** to manage all the various test drive applications the users request **to be able to** have a better control of all the test drives required, as well as verifying the users information before accepting the test.
 
@@ -905,7 +1045,10 @@ VA000 - When accesing the shopping cart, all the cars previosly select need to a
 
 ---
 
-**US57 - Skip Drive**
+
+---
+---
+## **US57 - Skip Drive**
 
 As a customer I can decide not to take a test drive. To jump directly to the purchase and streamline the process.
 
@@ -920,7 +1063,10 @@ As a customer I can decide not to take a test drive. To jump directly to the pur
 
 ---
 
-**US58 - Test Drive Docuemnts**
+
+---
+---
+## **US58 - Test Drive Docuemnts**
 
 **As a** vendor **I want** users to upload all the required documents to take the driving test (INE, driver's license, etc.) **to be able to** ensuere that the person is allowed to drive.
 
@@ -937,7 +1083,10 @@ When requesting a vehicle test drive, the user will have to enter data required 
 
 ---
 
-**US59 - Filter of Cars applicable for Test Drive**
+
+---
+---
+## **US59 - Filter of Cars applicable for Test Drive**
 
 **As a** user, **I want** to see a filter or section within the profile of an agency where the vehicles that are available for a test drive are available **to be able** to easily choose one.
 
@@ -952,7 +1101,10 @@ When a vehicle is uploaded to the platform, there is a box, "available for a tes
 
 ---
 
-**US60 - User Documentation Definitions**
+
+---
+---
+## **US60 - User Documentation Definitions**
 
 **As a** admin **I want** to define which documentation is required in order for a user to buy a car from my agencies **to be able** to standarize all the procedures in all of my agencies and ensure that the users are applicable for the purchase.
 
@@ -965,12 +1117,18 @@ When a vehicle is uploaded to the platform, there is a box, "available for a tes
 
 ---
 
-**US61 - Vendor Documentation Approvals**
+
+---
+---
+## **US61 - Vendor Documentation Approvals**
 **As a** VENDOR **I want** to approve or deny the various docuemnts that the user will be uploading during the car purchase procceudre **to be able** valdiate the corresponding docuemnts before advancing to any future steps.
 
 ---
 
-**US62 - Automotive Groups Documentation Application Approvals**
+
+---
+---
+## **US62 - Automotive Groups Documentation Application Approvals**
 
 **As a** super admin **I want** to have the ability to view the various automotive group applications and either approve or reject them from the application it the documentation is not valid.
 
