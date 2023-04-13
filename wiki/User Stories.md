@@ -52,6 +52,13 @@ As a user I want to register on the platform with data that is not very sensitiv
 **Priority**: Very High
 
 **Estimate**: 1 week
+<br>
+**Related modules** :
+
+<ul>
+<li>Auth Clients</li>
+
+</ul>
 
 **US02 - Account Login**
 
@@ -653,17 +660,24 @@ As a user want to modify my personal account information to be able to update an
 
   **Classification:** Must Have
 
-  **US40 - NL Search**
+---
 
-  **As a** user **I want** to search for cars without the need of filters or advanced details **to be able** to have a easy expierience in seraching my car.
+**US40 - NL Search**
 
-  **Validation:**
+**As a** user **I want** to search for cars without the need of filters or advanced details **to be able** to have a easy expierience in seraching my car.
 
-- The landing page will have a search bar where the users will be able to write a simple car description which will then reutrn a list of vehicles that match that critiera.
+**Validation:**
+
+- VA000 - The landing page will have a search bar where the users will be able to write a simple car description which will then reutrn a list of vehicles that match that critiera. (Front Page Results)
+- VA000 - The application must have a NL model that allows to interpret the input of user and send the correct request to the DB. (NLP E-Search)
+- VA000 - The DB must be able to filter with the given information and return the list of cars that match the critiera. (NLP E-Search)
+- VA000 - The resulting "tokens" determined by the NL model will need to have at least 80% of accuracy on what the user intended so the result are coherent as posible but also provide a bit more of variety.(NLP E-Search)
 
 **Priority**: Very High
-**Estimate**: 1 week
+**Estimate**: 2 week
 **Classification:** Must Have
+
+---
 
 **US41 - Forms Search**
 
@@ -671,110 +685,133 @@ As a user want to modify my personal account information to be able to update an
 
 **Validation:**
 
-- In the Landing Page, the users need to able to search cars by some guiding questions (Forms type)
+- VA000 - In the Landing Page, the app will have a section "Search Guide" that once clicked it will ask the user various questions regarding the car being looked. (Front Page Results)
+- VA000 - The answers of the user will be sent to the DB through an API
+- VA000 - Once the DB obtains the cars that match the criteria, it should return the list back to the Webpage
+- VA000 - The cars with that filter should be displayed to the user.
 
-**Priority**: High
+**Priority**: Low
 **Estimate**: 1 week
 **Classification:** Must Have
+
+---
 
 **US42 - Filter Search**
 
 **As a** user **I want** to utilize traditional filters **To be able** to select a car with the specific requirements that I want (model, price range, color, number of seats, etc)
 
-**Validation: **
+**Validation:**
 
-- In the car display page, the users should be able to select specific filters which allow a more detailed result.
+- VA000 - In the car display page, the users should be able to select specific filters which allow a more detailed result. (Front Page Results?)
+- VA000 - Once the specific fitlers are selected, the Webpage will send those parameters to the DB
+- VA000 - The DB will obtain the cars that allign with the filters and then return them to the Webpage
+- VA000 - The cars that with that filter should be displayed to the user.
 
 **Priority**: Very High
 **Estimate**: 1 week
 **Classification:** Must Have
+
+---
 
 **US43 - No login Search**
 
 **As a** user **I want** to use the search feature even if I am not registered. **To be able** to see the cars I’m interested immediately.
 
-**Validation: **
+**Validation:**
 
-- The user can do searches registered or not.
+- VA000 - The user can do all types car searches even though they dont have an account (?)
 
 **Priority**: Very High
 **Estimate**: 1 week
 **Classification:** Must Have
 
+---
+
 **US44 - NL Search Always Available**
 
 **As a** user **I want** the search bar always available. **To be able** to search whenever I want.
 
-**Validation: **
+**Validation:**
 
-- The search bar is visible even when the user scrolls down the page
+- The search bar is visible even when the user scrolls down the page (?)
+- Whenever the user interacts to the search bar, they must allways obtain the car results.
 
 **Priority**: Low
 **Estimate**: 1 week
 **Clasification:** Could Have
+
+---
 
 **US45 - Car Visualization**
 **As a** customer **I want** to see general information about the vehicle through cards **to be able** to get a brief overview of the vehicle without having to see each one in detail.
 
 **Validation:**
 
-Individual cards for each vehicle, so the customer sees relevant but not overwhelming information. They will see:
+- VA000 - For every car that is displayed, it must have general information before clicking the car for more details:
 
 1. Images
 2. Initial price
 3. Basic characteristics (doors, capacity, color, etc).
-4. If selected, you will be redirected to the detailed view.
+
+- VA000 - If the user selects a specific car, they will be redirected to another section with all the description of the car.
 
 **Priority**: Low
 **Estimate**: 1 week
 **Clasification**:Shoud Have
 
+---
+
 **US46 - Car characteristics comparison**
 
 **As a** customer **I want**to compare the features of the cars I'm interested in **to be able to** buy the car that best suits my needs.
 
-**Validation: **
+**Validation:**
 
-Apple-style comparison screen to compare cell phones, but of cars and their most relevant characteristics.
-
-1. Button on the general screen to compare vehicles
-2. Select multiple vehicles on the screen and compare key features of each
+- VA000 - While inspecting the vehicles, the user will be able to click a button that redirects them to a comparative section.
+- VA000 - The webage will give the user the list of all available cars, in which they can select two cars to compare.
+- VA000 - Once the cars are selected, the key car characteristicas will be placed side by side for better analysis.
 
 **Priority**: Low
 **Estimate**: 1 week
 **Clasification**: Could Have
+
+---
 
 **US47 - Indoor and outoor display**
 
 **As a** user, **I want** to see the interior and exterior photographs in detail **to be able to** have a better visualization of the vehicle
 
 **Validation:**
-When the user selects a vehicle, they can go through the images provided by the agencies, to explore its structure both inside and outside in detail.
 
-1. 360º vehicle image displayed
-2. The user can view specific parts of the vehicle
+- VA000 - When the user selects a vehicle, they can go through the images provided by the agencies, to explore its structure both inside and outside in detail.
+- VA000 - Inside the car details, the users will be able to view the vehicle 360º
 
 **Priority:** Medium
 **Estimate:** 1 week
 **Classification:** Should Have
 
+---
+
 **US49 - Car shopping display**
 
 **As a** user **I want** an online shopping cart **to be able** to have custom list of cars I might buy and save them for later.
 
-Validation:
+**Validation**:
 
-- When looking for a car there is going to be a "add to cart" button next to each car where the user can add cars to a shopping cart page.
+VA000 - When looking for a car there is going to be a "add to cart" button next to each car (both in card and description mode) where the user can add cars to a shopping cart page.
+VA000 - When accesing the shopping cart, all the cars previosly select need to appear in this section.
 
 **Priority**: High
 **Estimate**: 2 week
 **Classification:** Must Have
 
+---
+
 **US50 - Chat with Vendor**
 
 **As** a user **I want** to have an easy communication between the agency vendors **to be able** to ask all my questions and follow ups on my current car purchase status.
 
-**Validation: **
+**Validation:**
 
 - No matter where the user is located in the webpage, they should be able to begin a conversation either with a chatbot for general questions and status of their car purchase status.
 - If the chatbot is not enough, they can request the assistant of a vendor por more information.
@@ -783,11 +820,13 @@ Validation:
 **Estimate**: 3 weeks
 **Classification:** Must Have
 
+---
+
 **US51 - Chat with Chatbot**
 
 **As a** user **I want** to be able to begin a conversation with a chat bot **to be able** to obtain quick information and status of my current car purchase progress, as well as support to sign up for a test drive.
 
-**Validation: **
+**Validation:**
 
 - At all times, the user can quickly begin a conversation with our chatbot, which will give the user the various questions that it can respond to.
 
@@ -795,11 +834,13 @@ Validation:
 **Estimate**: 3 weeks
 **Classification:** Should Have
 
+---
+
 **US52 - Email Notifications**
 
 **As a** user **I want**to receive email notification when any progress in my car purchase has been done **To be able** to quickly access the webpage for more details.
 
-**Validation: **
+**Validation:**
 
 - Whenever a update on the users car purchase progress is done, they should be able to receive an email detailing the current status.
 
@@ -807,11 +848,13 @@ Validation:
 **Estimate**: 1 week
 **Classification:** Must Have
 
+---
+
 **US53 - Chats Managements**
 
 **As a** vendor **I want** to have an easy interface for administrating all my chat with clients **To be able** to better keep track on every conversation.
 
-**Validation: **
+**Validation:**
 
 - In the Vendor Dashboard, the vendor will be able to visualize all it conversations with clients.
 - Once a conversation has ended, the vendor will be able to delete it from the dashboard and store it in archives.
@@ -819,6 +862,8 @@ Validation:
 **Priority**: Medium
 **Estimate**: 2 weeks
 **Classification:** Should Have
+
+---
 
 **US54 - Chats Recordings**
 
@@ -831,6 +876,8 @@ Validation:
 **Priority**: High
 **Estimate**: 1 week
 **Classification:** Must Have
+
+---
 
 **US55 - Easy Test Drive Application**
 
@@ -846,6 +893,8 @@ Validation:
 **Estimate:** 2 weeks
 **Classification:** Must Have
 
+---
+
 **US56 - Test Drive Requirements**
 
 **As a** vendor **I want** to manage all the various test drive applications the users request **to be able to** have a better control of all the test drives required, as well as verifying the users information before accepting the test.
@@ -857,6 +906,8 @@ Validation:
 **Priority:** High
 **Estimate:** 2 weeks
 **Classification:** Must Have
+
+---
 
 **US57 - Skip Drive**
 
@@ -870,6 +921,8 @@ As a customer I can decide not to take a test drive. To jump directly to the pur
 **Priority**: Medium
 **Estimate**: 1 week
 **Classification:** Must Have
+
+---
 
 **US58 - Test Drive Docuemnts**
 
@@ -886,6 +939,8 @@ When requesting a vehicle test drive, the user will have to enter data required 
 **Estimate**: 1 week
 **Classification:** Must Have
 
+---
+
 **US59 - Filter of Cars applicable for Test Drive**
 
 **As a** user, **I want** to see a filter or section within the profile of an agency where the vehicles that are available for a test drive are available **to be able** to easily choose one.
@@ -899,6 +954,8 @@ When a vehicle is uploaded to the platform, there is a box, "available for a tes
 **Estimate:** 1 week
 **Classification:** Should have
 
+---
+
 **US60 - User Documentation Definitions**
 
 **As a** admin **I want** to define which documentation is required in order for a user to buy a car from my agencies **to be able** to standarize all the procedures in all of my agencies and ensure that the users are applicable for the purchase.
@@ -910,8 +967,12 @@ When a vehicle is uploaded to the platform, there is a box, "available for a tes
   **Estimate:** 2 weeks
   **Classification:** Must have
 
+---
+
 **US61 - Vendor Documentation Approvals**
 **As a** VENDOR **I want** to approve or deny the various docuemnts that the user will be uploading during the car purchase procceudre **to be able** valdiate the corresponding docuemnts before advancing to any future steps.
+
+---
 
 **US62 - Automotive Groups Documentation Application Approvals**
 
