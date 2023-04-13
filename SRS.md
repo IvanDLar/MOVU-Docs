@@ -1,6 +1,6 @@
-# Software Requirements Specification
+# **Software Requirements Specification**
 
-## Team "MOVU"
+## **Team "MOVU"**
 
 ## Tecnológico de Monterrey - Campus Campus Santa Fe
 
@@ -16,7 +16,7 @@ _4/02/2023_
 
 ---
 
-# Table of Contents
+# **Table of Contents**
 
 - [Software Requirements Specification](#software-requirements-specification)
   - [TC3004B.102 - Team 3 "Blueprint"](#tc3004b102---team-3-blueprint)
@@ -94,7 +94,7 @@ _4/02/2023_
   - [8. Other Requirements](#8-other-requirements)
   - [9. Appendix A: Glossary](#9-appendix-a-glossary)
 
-## Revision History
+## **Revision History**
 
 | Name                                          | Date    | Reason For Changes                            | Version |
 | --------------------------------------------- | ------- | --------------------------------------------- | ------- |
@@ -103,9 +103,11 @@ _4/02/2023_
 | Salvador Salgado, Miguel Arriaga, Pablo Rocha | 2/07/23 | Requirements                                  | v0.03   |
 | Miguel Arriaga, Pablo Rocha, Jacobo Soffer    | 2/08/23 | First Version, revised by Gilberto Echeverría | v0.1    |
 
-## 1. Introduction
+---
+---
+## **1. Introduction**
 
-### 1.1 Purpose
+### **1.1 Purpose**
 
 This is a comprehensive document that outlines the requirements and specifications for the software project. It serves as a roadmap for the development team, providing a clear understanding of what is expected of the software and how it will be designed, developed, tested, and deployed.
 
@@ -113,13 +115,15 @@ It will define the scope of the software project, including its goals, objective
 
 In addition to serving as a guide for the development team, it will serve as a communication tool for stakeholders, such as project managers, clients, and end-users. It helps ensure that all parties have a clear understanding of the software's requirements and expectations, reducing the risk of miscommunication and misunderstandings.
 
-### 1.2 Document Conventions
+---
+### **1.2 Document Conventions**
 
 For this document, we are utilizing the Software Requirements Standard (SRS), which consists of guidelines and structure that allow the requirements for better documentation, organization, and consistency.
 
 Using this standard also enhances the communication during implementation. A standard structure and format for requirements documents make it easier for stakeholders to understand and discuss the requirements, reducing confusion and misunderstandings. Using SRS also facilitates collaboration and work towards the final project envision, reducing time loss and unnecessary work that might occur by unclear requirements.
 
-### 1.3 Project Scope
+---
+### **1.3 Project Scope**
 
 The product scope for this project entails the development of a web page that enables efficient and seamless communication between car agencies and their clients. Our collaboration with NDS Cognitive Labs has prompted the identification of key objectives and requirements for the software, including the need for a user-friendly interface that simplifies the online process for both salespersons and clients.
 
@@ -131,19 +135,22 @@ Furthermore, the software should be designed with scalability in mind to accommo
 
 In summary, the product scope for this project is to develop a web page that facilitates smooth and intuitive communication between car agencies and their clients, with a focus on providing an easy-to-use service that simplifies the online purchasing process for all parties involved.
 
-### 1.4 References
+---
+### **1.4 References**
 
 - https://www.iso.org/isoiec-27001-information-security.html#:~:text=ISO%2FIEC%2027001%20is%20the,the%20ISO%2FIEC%2027000%20family.
 - https://www.w3.org/TR/WCAG20/#:~:text=Web%20Content%20Accessibility%20Guidelines%20(WCAG)%202.0%20defines%20how%20to%20make,%2C%20learning%2C%20and%20neurological%20disabilities.
-
-## 2. Overall Description
+---
+---
+## **2. Overall Description**
 
 This document is divided into 5 sections. The first section is the introduction, which will explain the purpose of the document, the scope of the project, and the definitions, acronyms and abbreviations that will be used throughout the document. The second section will be the product overview, which will explain the context and origin of the product being specified in this SRS. The third section will be the requirements, which will explain the functional, non-functional, and design requirements of the product. The fourth section will be the verification, which will explain the verification and validation of the product.
 
 The rest of the document will explain the various elements that define how the application is expected to work based on the user characteristics ( vendors and customers), the specific needs of the product owner, as well as the architecture proposal.
 
-### 2.1 Product Perspective
-
+---
+### **2.1 Product Perspective**
+---
 The product being specified in this SRS is a new, self-contained web page that enables simple and intuitive communication between car agencies and their clients. This project is a collaboration between the development team and NDS Cognitive Labs, with the aim of creating an online platform that facilitates a smooth purchasing process for both the car agencies and their clients.
 
 The main objective of the project is to provide an easy-to-use service that allows salespersons and clients to have a clear understanding of the current stage of the purchasing process. The web page will also feature an intuitive search option without any technical filters.
@@ -152,11 +159,12 @@ The product is a standalone software component that will serve as the interface 
 
 The larger system that this product will be a component of is the car sales process. The product's functionality will directly impact the smoothness and efficiency of this process. The external interfaces of the product will include the car agency's website and the clients' devices, such as smartphones and laptops.
 
-### 2.2 User Classes and Characteristics
-
+---
+### **2.2 User Classes and Characteristics**
+---
 There are going to be five types of users in the web application:
 
-#### Super Admins (Application manager)
+#### **Super Admins (Application manager)**
 
 User with all available permissions for web application administration. This will be assigned to NDS at the end of development.
 
@@ -172,7 +180,7 @@ User with all available permissions for web application administration. This wil
 
 - Super admins can adjust commissions for automobile groups.
 
-#### Admins (Car group owner)
+#### **Admins (Car group owner)**
 
 User with master data editing permissions, user creation permissions, and inventory administration permissions. In this case it would correspond to the various automotive groups.
 
@@ -180,7 +188,7 @@ User with master data editing permissions, user creation permissions, and invent
 
 - Only car group owner can preform the following actions: Add a manager, Remove a manager, Modify a manager
 
-#### Managers (Car dealership manager)
+#### **Managers (Car dealership manager)**
 
 Manager of a registered agency in the application. Has permission to review the inventory of their particular registered agency on the site. Has permission to review data related to the sale of their inventory.
 
@@ -188,7 +196,7 @@ Manager of a registered agency in the application. Has permission to review the 
 - Manger can upload or edit the agency car catalog
 - Managers can add financing plans to cars.
 
-#### Salesman (Car dealership salesman)
+#### **Salesman (Car dealership salesman)**
 
 Employee of a registered agency in the application. Has permission to review the particular inventory of their registered agency.
 
@@ -196,7 +204,7 @@ Employee of a registered agency in the application. Has permission to review the
 
 - A salesman can approve or deny user documents.
 
-#### Regular Users (Car buyers)
+#### **Regular Users (Car buyers)**
 
 Customer with the opportunity to register and purchase a car within the page.
 
@@ -262,13 +270,15 @@ Some potential product constraints for this project could include:
 
 - Design and implementation: The application should be designed to be accessible to users with disabilities, and should be optimized for mobile devices as well as desktop computers. The developers may also need to choose a suitable technology stack for the project, taking into account factors such as cost, ease of use, and compatibility with existing systems. Finally, the application should be easy to maintain and update over time.
 
-### 2.3 Operating Environment
-
+---
+### **2.3 Operating Environment**
+---
 The system uses a micro service architecture where every service will run on a Linux based Docker container on any host operating system. Because of this, no software or hardware limitations are considered for this system, as long as it supports running Docker, which any fairly modern platform should support. However, a minimum of 2 CPU cores and 4 GB of RAM
 is suggested to run the system.
 
-### 2.4 Design and Implementation Constrains
-
+---
+### **2.4 Design and Implementation Constrains**
+---
 Cloud: The application will be hosted on a cloud platform, such as Amazon Web Services. This will allow the application to scale easily as the number of users and dealerships increases.
 
 Safety: The application will be designed to be secure and reliable. It will use HTTPS to encrypt all data in transit, and will use a database that is protected from unauthorized access. The application will also be designed to be resilient to common types of attacks, such as SQL injection and cross-site scripting.
@@ -277,8 +287,9 @@ Standards compliance: The application will comply with any relevant industry sta
 
 Car search: The application will allow users to search for cars using a variety of filters, such as make, model, price, and location. It will also allow users to search for cars using natural language, such as “red car for 6 people”.
 
-### 2.5 Assumptions and Dependencies
-
+---
+### **2.5 Assumptions and Dependencies**
+---
 **Assumptions:**
 
 The car agencies have the necessary information and resources to provide accurate and up-to-date information on the vehicles available for sale.
@@ -294,11 +305,13 @@ The availability of car agency representatives for consultation and feedback dur
 The integration of the payment gateway provider's system with the web page.
 The compatibility of the web page with various devices and web browsers.
 
-## 3. System Features
-
-### 3.1 Search
-
-### Description
+---
+---
+## **3. System Features**
+---
+### **3.1 Search**
+---
+### **Description**
 
 The feature is a new addition to the car dealership's website that helps users find their perfect car in a guided way. This feature comes with two options: filters and natural language.
 
@@ -310,7 +323,7 @@ Once users have selected a car or described their requirements, the system will 
 
 This feature is perfect for people who are looking for a new car but are not sure where to start. It saves time and effort by providing a guided search experience that is easy to use and highly personalized.
 
-### Stimulus/Response Sequences
+### **Stimulus/Response Sequences**
 
 Use Case 1: User finds a new car using a guided process
 
@@ -332,7 +345,8 @@ Use Case 2: User describes their requirements using natural language
 
 In both use cases, the system responds by displaying relevant information to the user and guiding them through the process of finding a new car.
 
-### FunctionalRequirements
+
+### **FunctionalRequirements**
 
 | ID. Functional REQ | Concept                 | Description/ Criteria of acceptance                                                                    |
 | ------------------ | ----------------------- | ------------------------------------------------------------------------------------------------------ |
@@ -340,9 +354,10 @@ In both use cases, the system responds by displaying relevant information to the
 | REQ*FUN*[002]      | Non login search        | User will be able to make a search without having any account                                          |
 | REQ*FUN*[003]      | Search Priority         | The car appearance will be influenced based on prioritization (extra payment)                          |
 
-### 3.2 Metrics System
-
-### Description
+---
+### **3.2 Metrics System**
+---
+### **Description**
 
 The Metrics System is a data collection and analysis tool designed to help the car dealership gain insights into user behavior and system performance. The system collects data from various sources, including user interactions with the website, system events, and sales data. The data is then stored in a centralized database and analyzed using business intelligence tools.
 
@@ -356,7 +371,7 @@ Managers can use the system to monitor the performance of their sales team, incl
 
 Finally, the Metrics System also includes a log collection feature to store important events for audit purposes. This ensures that the dealership remains compliant with regulatory requirements and can provide a detailed audit trail if necessary.
 
-### Stimulus/Response Sequences
+### **Stimulus/Response Sequences**
 
 Stimulus: A user completes a purchase of a car on the website
 Response: The Metrics System records the sale and updates the sales data for the dealership. The system generates a report showing the number of sales made in the past week, month, and year.
@@ -376,7 +391,7 @@ Response: The Metrics System generates a report showing the age, gender, and loc
 Stimulus: A super admin runs a report on sales growth
 Response: The Metrics System generates a report showing the sales growth for the dealership over the past year. The report includes data on sales by region, brand, and model, and allows the super admin to compare performance across different time periods.
 
-### FunctionalRequirements
+### **Functional Requirements**
 
 | ID. Functional REQ | Concept                             | Description/ Criteria of acceptance                                                                        |
 | ------------------ | ----------------------------------- | ---------------------------------------------------------------------------------------------------------- |
@@ -386,9 +401,10 @@ Response: The Metrics System generates a report showing the sales growth for the
 | REQ*FUN*[007]      | Data recollection for manager       | The data generated by salesman will let the manager know their performance. Revenue for the dealership     |
 | REQ*FUN*[008]      | Log recollection for audit purposes | All important events will be stores for the case of an audit                                               |
 
-### 3.3 Payments
-
-### Description
+---
+### **3.3 Payments**
+---
+### **Description**
 
 The Payments System is a key feature of our website that enables our clients to make secure online payments for their car purchases. We offer a variety of payment types to cater to our clients' preferences, including Down Payment, Financing, and Upfront Payment.
 
@@ -400,7 +416,7 @@ Throughout the payment process, our system provides clear and detailed instructi
 
 Our Payments System is continuously monitored and updated to ensure the highest levels of security and reliability. We are committed to providing a smooth and hassle-free payment experience for our clients, ensuring their satisfaction with every transaction.
 
-### Stimulus/Response Sequences
+### **Stimulus/Response Sequences**
 
 Stimulus: Client selects payment type
 Response: System displays available payment types (Down Payment, Financing, Upfront Payment)
@@ -420,7 +436,7 @@ Response: System displays error message and prompts client to try again with dif
 Stimulus: System detects suspicious activity or fraud
 Response: System triggers security protocols and flags payment for review by authorized personnel
 
-### Functional Requirements
+### **Functional Requirements**
 
 | ID. Functional REQ | Concept               | Description/ Criteria of acceptance                                                                       |
 | ------------------ | --------------------- | --------------------------------------------------------------------------------------------------------- |
@@ -429,9 +445,10 @@ Response: System triggers security protocols and flags payment for review by aut
 | REQ*FUN*[010]      | Payment types         | The client is able to select from a variety of payment types: Down payment, Financing, Upfront payment    |
 | REQ*FUN*[011]      | Payment methods       | The user is able to select the following payment methods Credit, Debit, Wire Transfer, Oxxo               |
 
-### 3.4 Data visualization
-
-### Description
+---
+### **3.4 Data visualization**
+---
+### **Description**
 
 The Data Visualization feature is designed to provide users with an intuitive way to analyze and view data generated by the car agency. The feature allows users with different roles, including admins, super admins, salesmen, and managers, to access and visualize data relevant to their role.
 
@@ -441,7 +458,7 @@ Users will also have the option to download CSV files containing the data used t
 
 Access to data is role-based, with admins only able to access data specific to their dealership, while super admins have access to data across all dealerships. The interface is designed to be user-friendly and easy to navigate, ensuring users can quickly find the data they need to make informed decisions.
 
-### Stimulus/Response Sequences
+### **Stimulus/Response Sequences**
 
 Stimulus: User logs in to the system and selects the Data Visualization feature.
 Response: System prompts user to select the role they are assigned to.
@@ -452,7 +469,7 @@ Response: System generates the dashboard and displays it to the user.
 Stimulus: User downloads the CSV file containing the data used to generate the plot for further analysis.
 Response: System generates the CSV file and allows user to download it.
 
-### Functional Requirements
+### **Functional Requirements**
 
 | ID. Functional REQ | Concept                            | Description/ Criteria of acceptance                                   |
 | ------------------ | ---------------------------------- | --------------------------------------------------------------------- |
@@ -461,13 +478,14 @@ Response: System generates the CSV file and allows user to download it.
 | REQ*FUN*[014]      | Data visualization for salesman    | The data generated will be visualized in plots and downloadable csvs. |
 | REQ*FUN*[015]      | Data visualization for manager     | The data generated will be visualized in plots and downloadable csvs. |
 
-### 3.5 Admin Dashboard
-
-### Description
+---
+### **3.5 Admin Dashboard**
+---
+### **Description**
 
 The admins dashboard section is a feature of the website that allows car dealership administrators to perform various tasks related to the management of their dealership. The section includes various functions such as post and manage cars, define required documents for purchasing a car, update user identity validation status, manage the car catalogue, manage car dealerships, manage driving tests, define payment plans, define account numbers, view the dealership's and individual performance, and manage ongoing deals and their status. These features help streamline the operations of the dealership by providing a centralized location for managing key aspects of the business. The dashboard can be accessed by authorized personnel and provides an overview of the dealership's performance as well as individual performance metrics for salesmen. Overall, this section is essential for efficient and effective management of a car dealership.
 
-### Stimulus/Response Sequences
+### **Stimulus/Response Sequences**
 
 Stimulus: Admin clicks on "Add Car" button
 Response: Admin is redirected to a page where they can input car details, upload pictures, and set the car's availability status.
@@ -487,7 +505,7 @@ Response: Dealership Manager is shown a list of salesmen and their individual pe
 Stimulus: Salesman clicks on "View Ongoing Deals"
 Response: Salesman is presented with a list of their ongoing deals and their current status, including whether the deal is pending, approved, or rejected.
 
-### Functional Requirements
+### **Functional Requirements**
 
 | ID. Functional REQ | Concept                                      | Description/ Criteria of acceptance                                                                             |
 | ------------------ | -------------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
@@ -503,9 +521,10 @@ Response: Salesman is presented with a list of their ongoing deals and their cur
 | REQ*FUN*[025]      | Dealership admin view                        | The dashboard of the dealership manager will show an overview of the salesmen as well as individual performance |
 | REQ*FUN*[026]      | Salesman view                                | A salesman can view his performance as well as ongoing deals and status                                         |
 
-### 3.6 User Dashboard
-
-### Description
+---
+### **3.6 User Dashboard**
+---
+### **Description**
 
 The User Dashboard system is designed to provide a user-friendly interface for customers to interact with the car dealership. The system includes several features to enhance the user experience and assist customers in their search for a vehicle.
 
@@ -519,7 +538,7 @@ Car comparison is another feature of the User Dashboard, which allows users to c
 
 Finally, the User Dashboard includes car driving test scheduling, which enables users to schedule a driving test that gets delivered to their location by the agency. This feature allows customers to test drive the car before making a purchase and provides them with a convenient and hassle-free way to do so.
 
-### Stimulus/Response Sequences
+### **Stimulus/Response Sequences**
 
 Stimulus: User selects a car to view
 Response: Car details and images are displayed, along with options to customize the car.
@@ -536,7 +555,7 @@ Response: A comparison chart is displayed with the selected cars' features and s
 Stimulus: User schedules a driving test
 Response: A confirmation message is displayed, along with the scheduled date, time, and location of the driving test.
 
-### Functional Requirements
+### **Functional Requirements**
 
 | ID. Functional REQ | Concept            | Description/ Criteria of acceptance                                                               |
 | ------------------ | ------------------ | ------------------------------------------------------------------------------------------------- |
@@ -546,13 +565,14 @@ Response: A confirmation message is displayed, along with the scheduled date, ti
 | REQ*FUN*[031]      | Car comparison     | The user is able to compare stats of different cars                                               |
 | REQ*FUN*[032]      | Car driving test   | The user is able to schedule a driving test, that gets delivered to their location by the agency. |
 
-### 3.7 Account management
-
-### Description
+---
+### **3.7 Account management**
+---
+### **Description**
 
 The account management system is responsible for managing user accounts and access levels within the app. It includes the ability for users to sign up and log in to their accounts, as well as for the super admin to approve or deny automobile groups. The car group owner can manage dealerships and dealership management, while the dealership manager can modify salesmen. Salesmen or managers can add, remove, or modify cars, as well as approve or deny user documents and driving tests. Regular users can see cars and complete the car buying process, while the super admin can validate automobile group documents and users can set up MFA methods in their profile. Finally, dealerships can validate buyers' identity.
 
-### Stimulus/Response Sequences
+### **Stimulus/Response Sequences**
 
 User Sign up:
 Stimulus: User clicks on the "Sign up" button on the app's home screen.
@@ -618,7 +638,7 @@ MFA Authentication setup:
 Stimulus: User logs in to the app and navigates to their profile.
 Response: The app displays the profile page where the user can set up MFA methods such as text message or authenticator app.
 
-### Functional Requirements
+### **Functional Requirements**
 
 | ID. Functional REQ | Concept                                          | Description/ Criteria of acceptance                                                                             |
 | ------------------ | ------------------------------------------------ | --------------------------------------------------------------------------------------------------------------- |
@@ -641,13 +661,14 @@ Response: The app displays the profile page where the user can set up MFA method
 | REQ*FUN*[048]      | MFA Authentication login                         | Users can login with MFA                                                                                        |
 | REQ*FUN*[049]      | Validate buyers identity                         | Dealerships can validate buyers documents                                                                       |
 
-### 3.7 Devops
-
-### Description
+---
+### **3.7 Devops**
+---
+### **Description**
 
 The DevOps section is focused on the development and deployment of the application. The main goal is to establish a continuous integration (CI) pipeline that will automatically test and deploy the latest code to production. This will ensure that any updates to the application are properly tested before being released to users. Additionally, user flow within the app will be tracked and retained for a minimum period of 5 years. This will provide valuable insights into how users interact with the app and allow for continuous improvements to be made.
 
-### Stimulus/Response Sequences
+### **Stimulus/Response Sequences**
 
 Git Push Event:
 
@@ -678,20 +699,24 @@ Response: The CI pipeline is triggered again to build, test, and deploy the upda
 
 Response: The CI pipeline sends a notification to the development team indicating the status of the new deployment process.
 
-### Functional Requirements
+### **Functional Requirements**
 
 | ID. Functional REQ | Concept       | Description/ Criteria of acceptance                                                              |
 | ------------------ | ------------- | ------------------------------------------------------------------------------------------------ |
 | REQ*FUN*[050]      | CI Pipeline   | A CI pipeline must be implemented to automatically test and deploy the latest code to production |
 | REQ*FUN*[051]      | User tracking | User flow within the app must be tracked and retained for a minimum period of 5 years            |
 
-## 4. Data Requirements
-
-### 4.1 Logical Data Model
-
+---
+---
+## **4. Data Requirements**
+---
+### **4.1 Logical Data Model**
+---
 ![Data model](SRS_media/Data-Model.jpeg)
 
-### 4.2 Data Dictionary
+---
+### **4.2 Data Dictionary**
+---
 
 | users                 |
 | --------------------- |
@@ -835,8 +860,9 @@ Response: The CI pipeline sends a notification to the development team indicatin
 | active: boolean        |
 | last_active: timestamp |
 
-### 4.3 Reports
-
+---
+### **4.3 Reports**
+---
 Payment Transaction Report: This report will provide information about all payment transactions made on the website. It should include details such as the date and time of the transaction, the amount paid, payment method, and any other relevant details. It should maintain confidentiality by not including any sensitive payment information such as credit card numbers or bank account details.
 
 Network Events Report: This report will capture all network events that occur on the website. It should include details such as the time and date of the event, the IP address of the user, the action taken, and any other relevant details.
@@ -845,7 +871,9 @@ User/Admin Action Report: This report will track all actions taken by users and 
 
 All these reports should be generated in a format that can be easily read and analyzed. They should include appropriate filters, sorting, and totaling levels to enable easy data analysis. Furthermore, the report data should be stored in a secure manner to maintain the confidentiality of the information collected.
 
-### 4.4 Data Acquisition, Integrity, Retention, and Disposal
+---
+### **4.4 Data Acquisition, Integrity, Retention, and Disposal**
+---
 
 It's important to ensure that the data acquired by the application is maintained in a way that protects its integrity and security. In the case of the car selling application, some requirements for data acquisition and maintenance could include:
 
@@ -863,11 +891,14 @@ Data Accuracy Verification: Regular checks should be performed to verify the acc
 
 By implementing these techniques and policies, the car selling web application can protect the integrity of its data, and ensure that it is safe and secure at all times.
 
-## 5. External Interface Requirements
+---
+---
+## **5. External Interface Requirements**
+---
 
-### 5.1 User Interfaces
-
-#### Logical Characteristics of the User Interface
+### **5.1 User Interfaces**
+---
+#### **Logical Characteristics of the User Interface**
 
 The user interface of the web page developed for this project should be intuitive and easy to use for both salespersons and clients. The interface should provide clear and concise information regarding the current stage of the purchasing process, and it should facilitate real-time communication between car agencies and their clients.
 
@@ -891,7 +922,7 @@ Some mockups for the web application are provided in [Mockup](wiki/Mockup.md), a
 ![search1](SRS_media/search1.png)
 ![search2](SRS_media/search2.png)
 
-#### Software Components Requiring User Interface
+#### **Software Components Requiring User Interface**
 
 The following are the software components for which a user interface is required:
 
@@ -903,8 +934,9 @@ The following are the software components for which a user interface is required
 
 Overall, the user interface specification document will provide a more detailed analysis of the logical characteristics of each interface between the software product and the users, including sample screen images, GUI standards or product family style guides, screen layout constraints, standard buttons and functions, keyboard shortcuts, error message display standards, and more.
 
-### 5.2 Software Interfaces
-
+---
+### **5.2 Software Interfaces**
+---
 **While we are in the development environment we will use an EC2 server in AWS, here we deploy our application.**
 
 We’ll have the following containers.
@@ -917,7 +949,7 @@ We’ll have the following containers.
 
 ---
 
-### Future
+### **Future**
 
 Eventually, when we have more traffic and we want to scale our application, we propose to use the following architecture:
 
@@ -983,7 +1015,9 @@ Option:
 
 TBD: Configure requirements for purchase and use them on payout
 
-### 5.3 Hardware Interfaces
+---
+### **5.3 Hardware Interfaces**
+---
 
 Web Browser Interface: This interface allows the user to interact with the software through a web browser. The interface supports standard web technologies such as HTML, CSS, and JavaScript. The input includes mouse clicks, keyboard input, and touchscreen input. The output includes graphical user interface (GUI) elements such as buttons, text boxes, and drop-down menus. The data interaction includes exchanging data between the user and the software, such as client information, vehicle specifications, and transaction details. The communication protocol used is HTTP or HTTPS.
 
@@ -993,7 +1027,9 @@ Email Interface: This interface allows the software to send and receive email me
 
 Payment Gateway Interface: This interface allows the software to process payments from clients. The interface supports standard payment gateway Stripe. The input includes payment details such as credit card information, billing address, and transaction amounts. The output includes transaction status and receipt information. The data interaction includes exchanging data between the software and the payment gateway, such as transaction details, invoices, and receipts. The communication protocol used is typically HTTPS.
 
-### 5.4 Communications Interfaces
+---
+### **5.4 Communications Interfaces**
+---
 
 Email: The product will use email for login/sign up, password reset, and other notifications. The product should support the latest email protocols such as SMTP and IMAP. The product should also support the latest email standards such as MIME and HTML.
 
@@ -1007,22 +1043,27 @@ Data Transfer Rates: The product should ensure efficient data transfer between c
 
 Handshaking and Synchronization Mechanisms: The product should include handshaking and synchronization mechanisms to ensure reliable communication between car agencies and their clients. The product should use standard synchronization mechanisms such as REST APIs and Webhooks.
 
-## 6. Quality Attributes
-
-### 6.1 Usability
+---
+---
+## 6. **Quality Attributes**
+---
+### **6.1 Usability**
+---
 
 Users will interact through the system through a web application. User experience will be made a priority during development, to ensure ease
 of use and to make the platform accessible to inexperienced users and those with disabilites. This will be achieved through the use of features
 like natural language search and live chat, by using international web development standards such as [WCAG 2](https://www.w3.org/WAI/standards-guidelines/wcag/), and by using Material Design, a design system developed by Google which will ensure consistency throughout
 the interface, ease of use, and adherence to best practices.
 
-### 6.2 Performance
-
+---
+### **6.2 Performance**
+---
 The system should respond quickly to requests from users, with a <= 5 ms target response time. No other performance requirements were
 specified, however scalabilty will be taken into account while designing the system and its components.
 
-### 6.3 Security
-
+---
+### **6.3 Security**
+---
 The security and integrity of the system will be a very important factor during the design and development process. The security of the
 system will be ensured by following security best practices, such as:
 
@@ -1032,12 +1073,14 @@ system will be ensured by following security best practices, such as:
 - Securing infrastructure through the use of a firewall and other components.
 - Preventing known attacks.
 - Adhering to international security standards like ISO/IEC 27001.
-
-### 6.4 Safety
-
+---
+### **6.4 Safety**
+---
 Given that this system will handle large monetary transactions, there are risks for the users and owners of the system. These include fraudulent payments and liability for the results of the transactions as well as tax related risks. Using Stripe and the tools it provides can help minimize these risks. Data leaks and cyber attacks are also a risk, which can be minimized by adhering to security best practices and international standards as well as by following the steps outlined in section 6.3.
 
-## 7. Internationalization and Localization Requirements
+---
+---
+## 7. **Internationalization and Localization Requirements**
 
 Localization requirements ensure that the product will be suitable for use in Mexico, taking into account its unique cultural, linguistic, and geographic characteristics.
 
@@ -1045,7 +1088,9 @@ Such requirements might address differences in: currency; formatting of dates, n
 
 The user interface should be designed with Mexican users in mind, including cultural references, colors, and imagery that resonate with Mexican culture, and the use of Spanish as the primary language for the interface. Additionally, the system should comply with applicable Mexican regulations and standards, such as those related to data privacy and security, and be able to adapt to any changes in these regulations over time.
 
-## 8. Other Requirements
+---
+---
+## 8. **Other Requirements**
 
 In addition to the functional requirements mentioned in this document, it is also important to keep in mind the non functional requirements.
 
@@ -1068,7 +1113,9 @@ In addition to the functional requirements mentioned in this document, it is als
 | 015                   | Documents to buy a car            | To buy a car a user needs to provide: 3 account statements or 6 payrolls (depending on tax regimen), Housing receipt, INE or passport, Agency form                 |
 | 016                   | Documents for a automobile group  | In order to send a request to join the platform, an automobile group must provide: Acta constitutiuva, Cédula fiscal, Documentos legales, Comprobante de domicilio |
 
-## 9. Appendix A: Glossary
+---
+---
+## 9. **Appendix A: Glossary**
 
 - VPC: Virtual Private Cloud.
 - GUI: Graphical User Interface
