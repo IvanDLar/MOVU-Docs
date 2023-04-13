@@ -44,17 +44,14 @@ As a user I want to register on the platform with data that is not very sensitiv
 **Validation:**
 
 - V011 - The user can register into the platform by email or a google account. 
-  - Auth Clients
+  - AC - Auth Clients
 - V012 - The user must have a secure password with at least 8 characters. 
-  - Auth Clients
+  - AC - Auth Clients
 - V013 - The email and password must be stored in the DataBase.
-  - Auth Clients
+  - AC - Auth Clients
+  - DB - Data Base
 - V014 - If at least one field is not valid, the user can not continue registering.
-  - Auth Clients
-<!-- 1. Enter email
-2. Enter password
-3. Input personal data (address, zip code, etc.)
-4. If everything is correct, the user is created, otherwise an error popup is shown on the screen -->
+  - AC - Auth Clients
 
 **Priority**: Very High
 
