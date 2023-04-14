@@ -4,6 +4,11 @@ Link to test report: https://drive.google.com/drive/folders/1SAmzdMGOE4jMKBKnFlb
 
 ## Delivery
 
+### Test Document
+
+- Test that the order table is updated when the payment has been done succesfully.
+- Payments is a critical functionality, in casa of failure, a white box test (simple path) should be performed.
+
 ### Api docs  
 
 - API documentantion for all uses cases from this module.
