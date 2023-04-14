@@ -896,18 +896,22 @@ As a user want to modify my personal account information to be able to update an
 
 ## **US40 - NL Search**
 
-**As a** user **I want** to search for cars without the need of filters or advanced details **to be able** to have a easy expierience in seraching my car.
+**As a** user **I want** to search for cars without the need of filters or advanced details **to be able** to have a easy experience in searching my car.
 
 **Validation:**
 
-- VA401 - The landing page will have a search bar where the users will be able to write a simple car description which will then reutrn a list of vehicles that match that critiera. (Front Page Results)
-- VA402 - The application must have a NL model that allows to interpret the input of user and send the correct request to the DB. (NLP E-Search)
-- VA403 - The DB must be able to filter with the given information and return the list of cars that match the critiera. (Front Page Results)
-- VA404 - The resulting "tokens" determined by the NL model will need to have at least 80% of accuracy on what the user intended so the result are coherent as posible but also provide a bit more of variety.(NLP E-Search)
+- VA401 - The landing page will have a search bar where the users will be able to write a simple car description which will then return a list of vehicles that match that criteria.
+  - FP - Front Page Results
+- VA402 - The application must have a NL model that allows to interpret the input of user and send the correct request to the DB.
+  - NS - Natural Language Processing.
+- VA403 - The DB must be able to filter with the given information and return the list of cars that match the criteria.
+  - FP - Front Page Results
+- VA404 - The resulting "tokens" determined by the NL model will need to have at least 80% of accuracy on what the user intended so the result are coherent as possible but also provide a bit more of variety.
+  - NS - Natural Language Processing.
 
 - **Priority**: Very High
 
-  **Estimate**: 2 week
+  **Estimate**: 3 week
 
   **Classification:** Must Have
 
@@ -915,20 +919,23 @@ As a user want to modify my personal account information to be able to update an
 
 ---
 
-## **US41 - Forms Search**
+## **US41 - Displaying the available financing plans submitted by the car retailer**
 
-**As a** user **I want** guidance during my car search **To be able** to avoid the filters that can result confusing for user that lack car knowledge.
+As a user/buyer I want to be able to see which financing and insurance plans are available to me.
 
 **Validation:**
 
-- VA411 - In the Landing Page, the app will have a section "Search Guide" that once clicked it will ask the user various questions regarding the car being looked. (Front Page Results)
-- VA412 - The answers of the user will be sent to the DB through an API (Front Page Results)
-- VA000 - The DB should return the list of cars that allign to the filter back to the Webpage (Front Page Results)
-- VA413 - The cars with that filter should be displayed to the user. (Front Page Results)
+- VA411 - A list of different insurance options with the price of each of the options will be displayed in the car details page.
 
-**Priority**: Low
+- CD - Car Details
 
-**Estimate**: 1 week
+-VA412 - A list of different financing options with the price of each of the options will be displayed in the car details page.
+
+- CD - Car Details
+
+**Priority:** Medium
+
+**Estimate:** 1 week
 
 **Classification:** Must Have
 
@@ -942,10 +949,15 @@ As a user want to modify my personal account information to be able to update an
 
 **Validation:**
 
-- VA421 - In the car display page, the users should be able to select specific filters which allow a more detailed result. (Front Page Results)
-- VA422 - Once the specific fitlers are selected, the Webpage will send those parameters to the DB (Front Page Results)
-- VA423 - The DB will obtain the cars that allign with the filters and then return them to the Webpage (Front Page Results)
-- VA424 - The cars that with that filter should be displayed to the user. (Front Page Results)
+- VA421 - In the car display page, the users should be able to select specific filters which allow a more detailed result.
+  - FP - Front Page Results
+- VA422 - Once the specific filters are selected, the Webpage will send those parameters to the DB.
+  - FP - Front Page Results
+- VA423 - The DB will obtain the cars that align with the filters and then return them to the Webpage.
+  - FP - Front Page Results
+  - NS - Natural Language Processing.
+- VA424 - The cars that with that filter should be displayed to the user.
+  - FP - Front Page Results
 
 **Priority**: Very High
 
@@ -963,9 +975,12 @@ As a user want to modify my personal account information to be able to update an
 
 **Validation:**
 
-- VA431 - The user can use the NL search function without having an account ()
-- VA432 - The user can use the formulaire search function without having an account ()
-- VA433 - The user can use the basic filter search function of the app ()
+- VA431 - The user can use the NL search function without having an account.
+  - FP - Front Page Results
+- VA432 - The user can use the form search function without having an account.
+  - FP - Front Page Results
+- VA433 - The user can use the basic filter search function of the app.
+  - FP - Front Page Results
 
 - **Priority**: Very High
 
@@ -983,14 +998,16 @@ As a user want to modify my personal account information to be able to update an
 
 **Validation:**
 
-- VA441 - The search bar is visible even when the user scrolls down the page (Home Page)
-- VA442 - Whenever the user interacts to the search bar, they must allways obtain the car results. (Front Page Results)
+- VA441 - The search bar is visible even when the user scrolls down the page.
+  - HP - Home Page
+- VA442 - Whenever the user interacts to the search bar, they must always obtain the car results.
+  - FP - Front Page Results
 
-- **Priority**: Low
+- **Priority**: Medium
 
   **Estimate**: 1 week
 
-  **Classification:** Could Have
+  **Classification:** Should Have
 
 ---
 
@@ -1002,19 +1019,17 @@ As a user want to modify my personal account information to be able to update an
 
 **Validation:**
 
-- VA451 - For every car that is displayed, it must have general information before clicking the car for more details: (Front Page Results)
+- VA451 - For every car that is displayed, it must have general information before clicking the car for more details.
+  - FP - Front Page Results
 
-1. Images
-2. Initial price
-3. Basic characteristics (doors, capacity, color, etc).
+- VA45 - If the user selects a specific car, they will be redirected to another section with all the description of the car.
+  - CD - Car Details.
 
-- VA45 - If the user selects a specific car, they will be redirected to another section with all the description of the car (Car Details)
-
-- **Priority**: Low
+- **Priority**: Medium
 
   **Estimate**: 1 week
 
-  **Classification**:Should Have
+  **Classification**: Should Have
 
 ---
 
@@ -1026,9 +1041,12 @@ As a user want to modify my personal account information to be able to update an
 
 **Validation:**
 
-- VA461 - While inspecting the vehicles, the user will be able to click a button that redirects them to a comparative section. (Car Details)
-- VA462 - The webage will give the user the list of all available cars, in which they can select two cars to compare. (Front Page Results)
-- VA464 - Once the cars are selected, the key car characteristicas will be placed side by side for better analysis. (Car Details)
+- VA461 - While inspecting the vehicles, the user will be able to click a button that redirects them to a comparative section.
+  - CD - Car Details.
+- VA462 - The webpage will give the user the list of all available cars, in which they can select two cars to compare.
+  - FP - Front Page Results
+- VA464 - Once the cars are selected, the key car characteristics will be placed side by side for better analysis.
+  - CD - Car Details.
 
 - **Priority**: Low
 
@@ -1040,14 +1058,16 @@ As a user want to modify my personal account information to be able to update an
 
 ---
 
-## **US47 - Indoor and outoor display**
+## **US47 - Indoor and outdoor display**
 
 **As a** user, **I want** to see the interior and exterior photographs in detail **to be able to** have a better visualization of the vehicle
 
 **Validation:**
 
-- VA471 - When the user selects a vehicle, they can go through the images provided by the agencies, to explore its structure both inside and outside in detail. (Car Details)
-- VA472 - Inside the car details, the users will be able to view the vehicle 360º (Cars Details)
+- VA471 - When the user selects a vehicle, they can go through the images provided by the car dealerships, to explore its structure both inside and outside in detail.
+  - CD - Car Details.
+- VA472 - Inside the car details, the users will be able to view the vehicle 360º.
+  - CD - Car Details.
 
 - **Priority:** Medium
 
@@ -1063,8 +1083,10 @@ As a user want to modify my personal account information to be able to update an
 
 **Validation**:
 
-VA491 - When looking for a car there is going to be a "add to cart" button next to each car (both in card and description mode) where the user can add cars to a shopping cart page.(Home page)
-VA492 - When accesing the shopping cart, all the cars previosly select need to appear in this section. (Home page)
+VA491 - When looking for a car there is going to be a "wish list" button next to each car (both in card and description mode) where the user can add cars to a wish list page.
+  - CD - Car Details.
+VA492 - When accessing the wishlist, all the cars previously select need to appear in this section.
+- HP - Home Page
 
 - **Priority**: High
 
@@ -1082,11 +1104,12 @@ VA492 - When accesing the shopping cart, all the cars previosly select need to a
 
 **Validation:**
 
-- VA501 - Once the user select a specific car for details, they will be able to click a chat button that will contact a vendor that matches the car car dealership that belongs the car.
+- VA501 - Once the user select a specific car for details, they will be able to click a chat button that will contact a salesman that matches the car car dealership that belongs the car.
+   - IM - In app Messaging
 
 - **Priority**: High
 
-  **Estimate**: 3 weeks
+  **Estimate**: 2 weeks
 
   **Classification:** Must Have
 
@@ -1301,27 +1324,3 @@ When a vehicle is uploaded to the platform, there is a box, "available for a tes
   **Estimate:** 2 weeks
 
   **Classification:** Must have
-
-## **US63 - Displaying the available financing plans inputed by the car retailer**
-
-As a user/buyer I want to be able to see which financing and insurance plans are available to me.
-
-**Validation:**
-
-1. VA631 A list of different insurance options with the price of each of the options will be displayed in the car details page.
-
-- CD - Car Details
-
-2. VA632 A list of different financing options with the price of each of the options will be displayed in the car details page.
-
-- CD - Car Details
-
-**Priority:** Medium
-
-**Estimate:** 1 week
-
-**Classification:** Must Have
-
----
-
----
