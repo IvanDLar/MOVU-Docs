@@ -20,7 +20,8 @@ DB52 - Database diagram 100%
 ### Things we can improve
 
 - Aggregate unseen tables to the schemas after feedback.
+- Define the last database shema with the backend team.
 
 ### Things we did good
 
-- Fast development of dabase scripts awaiting feedback. 
+- Fast development of dabase scripts awaiting feedback.
