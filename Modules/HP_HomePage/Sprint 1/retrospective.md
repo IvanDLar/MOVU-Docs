@@ -1,7 +1,5 @@
 ### Thursday 13, 2023
 
-# User stories completed
-
 ## Issues progress
 
 - HP - Navbar: 100%
@@ -13,7 +11,10 @@
 
 ## User stories percentage
 
-- todo
+VA441 - The search bar is visible even when the user scrolls down the page: 100%
+V631 - Easy access search bar: 100%
+V633 - Let the user know the test drive functionality exists: 50%
+V632 - Easy access purchase button: 75%
 
 # Risks + mitigation
 
