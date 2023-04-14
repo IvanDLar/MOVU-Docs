@@ -130,9 +130,6 @@ As a user I want to have the option to change my account information or reset my
 
   - AC - Auth Clients
 
-- VA046 - When a registered user clicks the edit button, changes a field and saves the data, it is stored in Firebase and the old information is erased.
-  - HP - Home Page
-
 **Priority**: High
 
 **Estimate**: 1 week
@@ -870,9 +867,8 @@ As a user want to modify my personal account information to be able to update an
 
 **Validation: **
 
-- The users will have a profile page section, where they are able to modify specific information of their profile (username, password, email, address)
-
-- Once the user has made this updates, it should be reflected both in its profile section.
+- VA381 - When a registered user clicks the edit button, changes a field and saves the data, it is stored in Firebase and the old information is erased.
+  - HP - Home Page
 
 **Priority**: Medium
 
