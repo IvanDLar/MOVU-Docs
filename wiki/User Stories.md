@@ -314,9 +314,15 @@ As a customer I must be able to register a payment method. To be able to make tr
 
 When selecting to pay in a car, I will have the option to choose between multiple payment methods through a simple click. This together with stripe will allow users to select their payment methods and do everything within the platform.
 
-1. By selecting payment method I will be able to enter my personal information.
-2. A stripe component will be rendered to make the payment
-3. If successful, modify database. If an error occurs, show it to the user.
+1. V111 Be able to select from a variety of payment methods.
+  - Py - Payments
+2. V112 Submit personal information in order to make the payment.
+  - PY - Payments
+3. V113 A stripe component will be rendered to make the payment
+  - PY - Payments
+4. V114 If successful, modify database. If an error occurs, show it to the user.
+  - PY - Payments
+  - DB - DataBase
 
 **Priority**: Medium
 
@@ -334,10 +340,13 @@ As an agency I must enter data to which the funds of any purchase will arrive. S
 
 **Validation:**
 
-When the agency is accepted by the super-admin, they will be forced to add their bank account information. So that the payments are from the client to the agency, with the only intermediary the API that we use (example: Stripe)
+When the agency is accepted by the super-admin, they will have to add their bank account information. So that the payments are from the client to the agency, with the only intermediary the API that might be used (example: Stripe)
 
-1. Agency enters bank account details
-2. Save encrypted data in the database
+1. V121 Agency submits bank account details.
+    - CR - Car Retailers
+2. V122 Save encrypted data in the database.
+    - CR - Car Retailers
+    - DB - Data Base
 
 **Priority**: Medium
 
