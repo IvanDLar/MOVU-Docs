@@ -4,8 +4,8 @@
 
 ### Issues Progress
 
-DB51 - Database creation script 90%
-DB52 - Database diagram 90%
+DB51 - Database creation script 100%
+DB52 - Database diagram 100%
 
 ### User stories percentage
 
