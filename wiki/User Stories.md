@@ -314,13 +314,13 @@ As a customer I must be able to register a payment method. To be able to make tr
 
 When selecting to pay in a car, I will have the option to choose between multiple payment methods through a simple click. This together with stripe will allow users to select their payment methods and do everything within the platform.
 
-1. V111 Be able to select from a variety of payment methods.
+- V111 Be able to select from a variety of payment methods.
   - Py - Payments
-2. V112 Submit personal information in order to make the payment.
+- V112 Submit personal information in order to make the payment.
   - PY - Payments
-3. V113 A stripe component will be rendered to make the payment
+- V113 A stripe component will be rendered to make the payment
   - PY - Payments
-4. V114 If successful, modify database. If an error occurs, show it to the user.
+- V114 If successful, modify database. If an error occurs, show it to the user.
   - PY - Payments
   - DB - DataBase
 
@@ -336,15 +336,13 @@ When selecting to pay in a car, I will have the option to choose between multipl
 
 ## **US12 - Register payment info**
 
-As an agency I must enter data to which the funds of any purchase will arrive. So that the funds reach the desired account.
+As a car retailer I must enter data to which the funds of any purchase will arrive. So that the funds reach the desired account.
 
 **Validation:**
 
-When the agency is accepted by the super-admin, they will have to add their bank account information. So that the payments are from the client to the agency, with the only intermediary the API that might be used (example: Stripe)
-
-1. V121 Agency submits bank account details.
+- V121 Agency submits bank account details.
     - CR - Car Retailers
-2. V122 Save encrypted data in the database.
+- V122 Save encrypted data in the database.
     - CR - Car Retailers
     - DB - Data Base
 
@@ -360,14 +358,16 @@ When the agency is accepted by the super-admin, they will have to add their bank
 
 ## **US13 - Payment opportunities for clients**
 
-As a user/buyer, I want to see the payment options and terms that each agency offers me to be able to make choices and finance according to my economic possibilities.
+As a user/buyer, I want to see the payment options and terms and conditions that each agency offers me to be able to make choices and finance according to my economic possibilities.
 
 **Validation:**
 
-When a quote is made, the available options given by the agency (static) are seen. When a formal purchase is made, the options may vary depending on the down payment.
-
-User can see the available options of the agency
-The options are shown depending on the down payment
+- VA131 User can see the available finanicng options offered by the agency.
+  - CD - Car Details
+  - PY - Payments
+- VA132 The options are dynamic (depending) on the down payment.
+  - CD - Car Details
+  - PY - Payments
 
 **Priority:** Medium
 
@@ -381,13 +381,13 @@ The options are shown depending on the down payment
 
 ## **US14 - Payments for custom order**
 
-As a buyer, I want to have the option of customizing elements of my vehicle (as long as the model/agency allows it) and see how the price varies to make my choice according to my budget
+As a buyer, I want to have the option of customizing elements of my vehicle (as long as the model/agency allows it).
 
 **Validation:**
-When selecting a vehicle, the option to customize or choose an agency that has the same customizable model is shown, it can be through a quote or at the time of a purchase request.
-
-A customized button is displayed on available vehicles
-The user can view the customizable vehicles and customize them.
+- VA141 Display list of all available customizations.
+- VA142 If a customization is not currently available gray out the button holding the option.
+- VA143 A customized button is displayed on available vehicles.
+- VA144 The user can view the customizable vehicles and customize them.
 
 **Priority:** Medium
 
@@ -401,15 +401,12 @@ The user can view the customizable vehicles and customize them.
 
 ## **US15 - Download quotes or view**
 
-As a user, I want to download my quotes in PDF or have a space within my profile to view and analyze them and make the right decisions when buying a vehicle.
+As a user, I want to download vehicle quotes in PDF or have a space within my profile to view and analyze them and make the right decisions when buying a vehicle.
 
 **Validation:**
-When the user makes a vehicle quote, a "save/download" button appears, depending on the type of button the operation process changes, a PDF will be downloaded or saved in the profile (give preference to the first option)
 
-The "save" button is displayed
-The quote is saved in the client's account
-The "download" button is displayed
-The quote is downloaded in the client's browser
+- VA151 Display the "download" button near the displayed price of the car.
+- VA152 The quote is downloaded in the client's browser
 
 **Priority:** Medium
 
@@ -426,10 +423,12 @@ The quote is downloaded in the client's browser
 As an agency, I want to be able to set up my financing and insurance plans (including rates and plans) to manage agency costs and monitor necessary changes according to the market.
 
 **Validation:**
-When a manager uploads a car, he will need to fill out a cost section where he can add fixed options that he drives so that platform users can view them in their quotes.
+When a manager uploads a car, he will need to fill out a cost section where he can add fixed options that his agency has available, such as the different insurance plans, and financing options so that platform users can view them in their quotes.
 
-1. A customized button is displayed on available vehicles
-2. The user can view the customizable vehicles and customize them.
+1. VA161 A customizable forms that the manager can modify and add different financing options, insurance plans etc...
+  - CR - Car Retailers
+2. VA162 A submit button that will upload to the cars page the financing  and insurance options.
+  - CR - Car Retailers
 
 **Priority:** Medium
 
@@ -443,13 +442,14 @@ When a manager uploads a car, he will need to fill out a cost section where he c
 
 ## **US17 - Sales price display**
 
-As a user, I want to see the price of sale to the public without having to register
+As a user, I want to see the price of sale to the public without having to register.
 
 **Validation:**
 When viewing vehicles in the catalog or in an overview on the main page (as featured or promoted models), the retail prices are displayed.
 
-1. Display of prices without prior registration
-2. Display of prices with registration
+- VA171 Display of prices without prior registration or registration.
+  - FR - Front Page Results
+  - PY - Payments
 
 **Priority:** Medium
 
@@ -463,13 +463,13 @@ When viewing vehicles in the catalog or in an overview on the main page (as feat
 
 ## **US18 - Vehicles quotation**
 
-As a user, I want to quote a vehicle model and see what factors can increase the final cost of a model
+As a user, I want to quote a vehicle model and see what factors can increase the final cost of a model ().
 
 **Validation:**
-When selecting a specific vehicle, approximate expenses can be selected in the calculator (at the bottom of the page) to show an approximation of the final price, such as insurance, and down payment...
+When selecting a specific vehicle, approximate expenses can be selected in the calculator (at the bottom of the page) to show an approximation of the final price, such as insurance, down payment and customization... 
 
-1. Price calculator that changes depending on the option chosen
-2. Show approximations depending on the chosen vehicle
+- VA182 Show approximations depending on the chosen vehicle
+  - CD - Car Details
 
 **Priority:** Medium
 
@@ -483,13 +483,16 @@ When selecting a specific vehicle, approximate expenses can be selected in the c
 
 ## **US19 - Account movement notifications**
 
-As a user/consumer, I want to receive notifications of operations carried out on my account to be sure of my actions and that my account is not used by third parties.
+As a user/consumer, I want to receive notifications of operations (via email and/or sms) carried out on my account to be sure of my actions and that my account is not used by third parties.
 
 **Verification**
-When a change operation is made in an account, a verification email is sent to proceed with the change, when you operate such as quotes, requests for driving tests, or purchases, you are notified by email
 
-Request a test drive and have a notice sent by email
-Confirm a vehicle purchase and have confirmation sent to the email
+- VA191 When a change operation is made within the account send notification
+- VA192 When requesting a driving test send notification
+- VA193 When requesting a quote send notification
+- VA194 When trying to purchase a vehicle send a notification.
+- VA195 Request a test drive and have a notice sent by email
+- VA196 Confirm a vehicle purchase and have confirmation sent to the email
 
 **Priority:** Medium
 
@@ -1322,3 +1325,40 @@ When a vehicle is uploaded to the platform, there is a box, "available for a tes
   **Estimate:** 2 weeks
 
   **Classification:** Must have
+
+## **US63 - Displaying the available financing plans inputed by the car retailer**
+
+As a user/buyer I want to be able to see which financing and insurance plans are available to me. 
+
+**Validation:**
+
+1. VA631 A list of different insurance options with the price of each of the options will be displayed in the car details page. 
+  - CD - Car Details
+2. VA632 A list of different financing options with the price of each of the options will be displayed in the car details page. 
+  - CD - Car Details
+
+**Priority:** Medium
+
+**Estimate:** 1 week
+
+**Classification:** Must Have
+
+---
+---
+
+## **US64 - Dynamic Pricing**
+
+As a user/buyer, I want to be able to see the effects on the price when adding car customizations and/or choosing differents financing and/or insuarance options.
+
+**Validation:**
+- VA641 Reflect changes on the final price when selecting extras, such as car customizations and financing/insurance options. 
+  - CD - Car Details
+
+**Priority:** Medium
+
+**Estimate:** 1 week
+
+**Classification:** Should Have
+
+---
+---
