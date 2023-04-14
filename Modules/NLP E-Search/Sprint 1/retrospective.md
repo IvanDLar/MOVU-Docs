@@ -1,6 +1,6 @@
 ### Thursday 13, 2023
 
-# User stories completed
+# User stories
 
 ## User stories / milestones
 
