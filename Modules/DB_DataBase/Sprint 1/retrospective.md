@@ -9,8 +9,8 @@ DB52 - Database diagram 90%
 
 ### User stories percentage
 
-- US01 - Account Sign Up 0%
-- US06 -  Manage automotive group sign up requests 0%
+- US01 - Account Sign Up 5%
+- US06 -  Manage automotive group sign up requests 5%
 
 ### Risks
 
