@@ -2,6 +2,18 @@
 
 # User stories completed
 
+## User stories / milestones
+
+- [US40 - NL Search](https://github.com/IvanDLar/MOVU-Docs/milestone/50)
+- [US42 - Filter search](https://github.com/IvanDLar/MOVU-Docs/milestone/54)
+
+## Validations
+
+- [VA403](https://github.com/IvanDLar/MOVU-Docs/issues/126)
+- [VA423](https://github.com/IvanDLar/MOVU-Docs/issues/175)
+- [VA402](https://github.com/IvanDLar/MOVU-Docs/issues/125)
+- [VA404](https://github.com/IvanDLar/MOVU-Docs/issues/175)
+
 ## Issues progress
 
 - NS - Integrate Luis to AWS SSO: not longer required
@@ -11,10 +23,6 @@
 - NS - Upload Dummy Data: 40%
 - NS - Upload ML Model to ElasticSearch: 100%
 - NS - Define Model for ElasticSearch: 50%
-
-## User stories percentage
-
-- todo
 
 # Risks + mitigation
 
