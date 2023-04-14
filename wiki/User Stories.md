@@ -406,7 +406,9 @@ As a user, I want to download vehicle quotes in PDF or have a space within my pr
 **Validation:**
 
 - VA151 Display the "download" button near the displayed price of the car.
+  -
 - VA152 The quote is downloaded in the client's browser
+  -
 
 **Priority:** Medium
 
@@ -488,11 +490,22 @@ As a user/consumer, I want to receive notifications of operations (via email and
 **Verification**
 
 - VA191 When a change operation is made within the account send notification
+  - IM - In App Messaging
+  
 - VA192 When requesting a driving test send notification
+  - IM - In App Messaging
+
 - VA193 When requesting a quote send notification
+  - IM - In App Messaging
+
 - VA194 When trying to purchase a vehicle send a notification.
+  - IM - In App Messaging
+
 - VA195 Request a test drive and have a notice sent by email
+  - IM - In App Messaging
+
 - VA196 Confirm a vehicle purchase and have confirmation sent to the email
+  - IM - In App Messaging
 
 **Priority:** Medium
 
