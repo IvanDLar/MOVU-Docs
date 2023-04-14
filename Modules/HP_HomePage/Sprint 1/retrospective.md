@@ -1,6 +1,9 @@
 ### Thursday 13, 2023
 
 ## User Stories
+- [US44 - NL Search Always Available](https://github.com/IvanDLar/MOVU-Docs/milestone/56)
+- [US61 - As a user I would like to quickly understand what is the purpose of the page just by looking at the home page](https://github.com/IvanDLar/MOVU-Docs/milestone/62)
+
 
 ## Validations
 - [VA441 - The search bar is visible even when the user scrolls down the page: 100%](https://github.com/IvanDLar/MOVU-Docs/issues/180)
