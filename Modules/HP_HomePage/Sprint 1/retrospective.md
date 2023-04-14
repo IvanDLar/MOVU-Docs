@@ -1,5 +1,13 @@
 ### Thursday 13, 2023
 
+## User Stories
+
+## Validations
+- [VA441 - The search bar is visible even when the user scrolls down the page: 100%](https://github.com/IvanDLar/MOVU-Docs/issues/180)
+- [V631 - Easy access search bar: 100%](https://github.com/IvanDLar/MOVU-Docs/issues/203)
+- [V633 - Let the user know the test drive functionality exists: 50%](https://github.com/IvanDLar/MOVU-Docs/issues/205)
+- [V632 - Easy access purchase button: 75%](https://github.com/IvanDLar/MOVU-Docs/issues/204)
+
 ## Issues progress
 
 - HP - Navbar: 100%
@@ -8,13 +16,6 @@
 - HP - Test Drive Section: 100%
 - HP - Banner: 100%
 - HP - Find Car Section: 100%
-
-## User stories percentage
-
-- VA441 - The search bar is visible even when the user scrolls down the page: 100%
-- V631 - Easy access search bar: 100%
-- V633 - Let the user know the test drive functionality exists: 50%
-- V632 - Easy access purchase button: 75%
 
 # Risks + mitigation
 
