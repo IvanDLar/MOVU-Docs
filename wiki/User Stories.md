@@ -605,26 +605,6 @@ As a user/consumer, I want to receive notifications of operations (via email and
 
 ---
 
-## **US26 - Web Security**
-
-**As a** super admin **I want** avoid DDoS **to be able** to avoid any attacks that might affect the webpage performance.
-
-**Verification**
-
-- V261 - The system will have DDoS implementation while deploying with Bercel.
-
-  - AR - Architecture
-
-- **Priority:** Very High
-
-  **Estimate:** 1 week
-
-  **Classification:** Must Have
-
----
-
----
-
 ## **US26 - Data Visualization Super Admin**
 
 **As** a super admin **I want** to visualize the statistics of every car dealership that are in the application **to be able** to detect trends and patterns that would allow for future improvements, as well as detecting any suspicious activity.
@@ -1085,6 +1065,28 @@ As a user/buyer I want to be able to see which financing and insurance plans are
   **Estimate:** 1 week
 
   **Classification:** Should Have
+
+---
+
+---
+
+## **US48 - Web Security**
+
+**As a** super admin **I want** avoid DDoS **to be able** to avoid any attacks that might affect the webpage performance.
+
+**Verification**
+
+- V261 - The system will have DDoS implementation while deploying with Bercel.
+
+  - AR - Architecture
+
+- **Priority:** Very High
+
+  **Estimate:** 1 week
+
+  **Classification:** Must Have
+
+---
 
 ---
 
