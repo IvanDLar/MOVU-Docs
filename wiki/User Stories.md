@@ -36,6 +36,8 @@ Tags: document
 
 ## Car Retailers
 
+## AR - Arquitecture
+
 ---
 
 ---
@@ -94,6 +96,7 @@ As a customer, salesperson, manager, super-admin, automotive group administrator
 **Validation:**
 
 - VA031 - When clicking the "Cerrar Sesión" button deletes all user information saved as status in the web application and the user information will no longer be on the front. Which means you will lose access to payment and chat features.
+
   - HP - Home Page
 
 - VA032 - After a specified amount of time, the users account will automatially close and will log out the user.
@@ -116,6 +119,7 @@ As a user I want to have the option to change my account information or reset my
 - VA041 - When selecting "Olvidé mi contraseña" in the log in page it redirects you to the Change password screen.
   - AC - Auth Clients
 - VA042 - If the email inserted in the "Restablecer Contraseña" screen is stored in the Firebase, an email is send with a link to restore the password.
+
   - AC - Auth Clients
 
 - VA043 - Entering the link that came in an email lets the user insert a new password.
@@ -123,11 +127,11 @@ As a user I want to have the option to change my account information or reset my
 - VA044 - The user must insert secure password with at least 8 characters.
   - AC - Auth Clients
 - VA045 - The new password is stored in Firebase an the old password is erased.
+
   - AC - Auth Clients
 
 - VA046 - When a registered user clicks the edit button, changes a field and saves the data, it is stored in Firebase and the old information is erased.
   - HP - Home Page
-
 
 **Priority**: High
 
@@ -152,7 +156,6 @@ As Super-Admin I must be able to register other super users so that several peop
 - VA054 - If at least one field is not valid, the user can not continue registering.
   - SA - Super Admin
 
-
 **Priority**: High
 
 **Estimate**: 2 week
@@ -174,7 +177,6 @@ As Super Admin I must be able to accept an application of an automotive groups s
   - SA - Super Admin
 - VA063 - Super Admin can check the information (submission documents) the automotive group send to validate.
   - SA - Super Admin
-
 
 **Priority**: High
 
@@ -213,15 +215,15 @@ As an automotive group I must be able to apply so I can begin operations within 
 
 **Estimate**: 3 week
 
-## **US08 - Sellers register**
+## **US08 - salesmans register**
 
-As a manager I want to be able to register sellers so they can make sales.
+As a manager I want to be able to register salesmans so they can make sales.
 
 **Validation:**
 
-- VA081 - Form where managers can register seller from their car dealership.
+- VA081 - Form where managers can register salesman from their car dealership.
   - CR - Car Retails
-- VA082 - Seller can log in with the password and email given by the car dealership.
+- VA082 - salesman can log in with the password and email given by the car dealership.
   - CR - Car Retails
 
 **Priority**: High
@@ -272,6 +274,7 @@ As a user, I want to access the page without registering to see the catalog and 
 **Classification:** Must Have
 
 ---
+
 ---
 
 ## **US11 - User payment information registration**
@@ -307,9 +310,9 @@ As a car dealership I must submit the data of the car dealership bank account to
 **Validation:**
 
 - VA121 - Car dealership submits bank account details to Stripe.
-    - CR - Car Retailers
+  - CR - Car Retailers
 - VA122 - Save encrypted data in Stripe.
-    - PY - Payments
+  - PY - Payments
 
 **Priority**: Medium
 
@@ -349,10 +352,13 @@ As a user/buyer, I want to see the payment options and terms and conditions that
 As a buyer, I want to have the option of customizing elements of my vehicle (as long as the model/car dealership allows it).
 
 **Validation:**
+
 - VA141 Display list of all available customizations.
+
   - CD - Car Details
 
 - VA142 If a customization is not currently available gray out the button holding the option.
+
   - CD - Car Details
 
 - VA143 A customized button is displayed on available vehicles.
@@ -397,7 +403,7 @@ As a car dealership, I want to be able to set up my financing and insurance plan
 
 - VA161 - When a manager uploads a car, he will need to fill out a cost section where he can add fixed options that his car dealership has available, such as the different insurance plans, and financing options so that platform users can view them in their quotes.
   - CR - Car Retailers
-- VA162 A submit button that will upload to the cars page the financing  and insurance options.
+- VA162 A submit button that will upload to the cars page the financing and insurance options.
   - CR - Car Retailers
 
 **Priority:** Medium
@@ -419,6 +425,7 @@ As a car dealership, I want to be able to set up my financing and insurance plan
 **Estimate**: 3 week
 
 ---
+
 ---
 
 ## **US18 - Dynamic Pricing**
@@ -426,7 +433,8 @@ As a car dealership, I want to be able to set up my financing and insurance plan
 As a user/buyer, I want to be able to see the effects on the price when adding car customizations and/or choosing differents financing and/or insuarance options.
 
 **Validation:**
-- VA641 Reflect changes on the final price when selecting extras, such as car customizations and financing/insurance options. 
+
+- VA641 Reflect changes on the final price when selecting extras, such as car customizations and financing/insurance options.
   - CD - Car Details
 
 **Priority:** Medium
@@ -436,7 +444,9 @@ As a user/buyer, I want to be able to see the effects on the price when adding c
 **Classification:** Should Have
 
 ---
+
 ---
+
 ## **US19 - Account actions notifications**
 
 As a user/consumer, I want to receive notifications of operations (via email and/or sms) carried out on my account to be sure of my actions and that my account is not used by third parties.
@@ -445,14 +455,16 @@ As a user/consumer, I want to receive notifications of operations (via email and
 
 - VA191 When a change operation is made within the account send notification (email and/or sms).
   - IM - In App Messaging
-  
 - VA192 When requesting a driving test send notification (email and/or sms).
+
   - IM - In App Messaging
 
 - VA193 When requesting a quote send notification (email and/or sms).
+
   - IM - In App Messaging
 
 - VA194 When trying to purchase a vehicle send a notification (email and/or sms).
+
   - IM - In App Messaging
 
 - VA195 Confirm a vehicle purchase and have confirmation sent to the email.
@@ -493,7 +505,7 @@ As a user/consumer, I want to receive notifications of operations (via email and
 
 ## **US21 - Roles/Permissions Configurations**
 
-**As a** super adim **I want** to limit the various actions the other accounts are able to do or modify (admin, manager, vendor, user) **to be able** to avoid any unwanted alteration both in the database, website visuals, users car purchase progress, etc.
+**As a** super admin **I want** to limit the various actions the other accounts are able to do or modify (automotive group manager, dealership manager, salesman, user) **to be able** to avoid any unwanted alteration both in the database, website visuals, users car purchase progress, etc.
 
 **Verification**
 
@@ -514,11 +526,12 @@ As a user/consumer, I want to receive notifications of operations (via email and
 
 ## **US22 - Encryption REST**
 
-**As a** super adim **I want** ensure that all the data stored inside our databases are correctly Encrypted as well as only able to be viewed by sepecific roles/user **to be able** to protect the privacy and all sensitive information that are required from clients during their car purchase process.
+**As a** super admin **I want** ensure that all the data stored inside our databases are correctly Encrypted as well as only able to be viewed by sepecific roles/user **to be able** to protect the privacy and all sensitive information that are required from clients during their car purchase process.
 
 **Verification**
 
 - V221 Whenever the systems recieves any information that is required to be stored in our Database, it has to be encrpyted so if by any chance an intruder manages to access the DB they will not be able to comprehend the information.
+  - AR - Arquitecture
 
 **Priority:** Very High
 
@@ -537,6 +550,7 @@ As a user/consumer, I want to receive notifications of operations (via email and
 **Verification**
 
 - V231 During the data transfer from the users to Movu Webpage, all information has to be sented by security protocols (HTTPS)
+  - AR - Arquitecture
 
 **Priority:** Very High
 
@@ -555,6 +569,7 @@ As a user/consumer, I want to receive notifications of operations (via email and
 **Verification**
 
 - V241 The user will be able to perform a transaction with the certantty that the money will be correctly sent to the destintation without any probability of lost.
+  - PY - Payments
 
 **Priority:** Very High
 
@@ -568,13 +583,16 @@ As a user/consumer, I want to receive notifications of operations (via email and
 
 ## **US25 - Data Privacy**
 
-**As a** **I want** **to be able**
+**As a** super admin **I want** all the users to have their respective roles correctly assigned **to be able** to allign with minimum priviledge rule.
 
 **Verification**
 
+- V251 - Each user will have their corresponding roles assigned that will grant them specific actions.
+  - AC - Auth Clients
+
 **Priority:** Very High
 
-**Estimate:** 1 week
+**Estimate:** 4 week
 
 **Classification:** Must Have
 
@@ -582,11 +600,15 @@ As a user/consumer, I want to receive notifications of operations (via email and
 
 ---
 
-## **US25 - Web Security**
+## **US26 - Web Security**
 
-**As a\*\***I want\*\* **to be able**
+**As a** super admin **I want** avoid DDoS **to be able** to avoid any attacks that might affect the webpage performance.
 
 **Verification**
+
+- V261 - The sistem will have DDoS implementation while deploying with Bercel.
+
+  - AR - Architecture
 
 - **Priority:** Very High
 
@@ -598,13 +620,14 @@ As a user/consumer, I want to receive notifications of operations (via email and
 
 ---
 
-## **US26 - Data Visualization SAD**
+## **US26 - Data Visualization Super Admin**
 
 **As** a super admin **I want** to visualize the statistics of every car dealership that are in the application **to be able** to detect trends and patterns that would allow for future improvements, as well as detecting any suspicious activity.
 
 **Validation:**
 
 - V261 In the Super Admin Dashboard, there will be a section which contains some data Summaries from all the car dealerships.
+- PR - Performance Reports
 
 **Priority**: Medium
 
@@ -623,6 +646,7 @@ As a user/consumer, I want to receive notifications of operations (via email and
 **Validation:**
 
 - V271 After 2 weeks from inactivity, the system will send them a emial inviting them to check the new deals and cars at MOVU.
+  - IM - In App Messaging
 
 **Priority**: Low
 
@@ -641,6 +665,7 @@ As a user/consumer, I want to receive notifications of operations (via email and
 **Validation:**
 
 - V281 For every cas uploaded to the system, be from catalog upload or indiviudal, a percentage of a the car price should be given to NDS as part of comission.
+  - PY - Payments
 
 **Priority**: Very High
 
@@ -659,10 +684,11 @@ As a user/consumer, I want to receive notifications of operations (via email and
 **Validation:**
 
 - V291 In the Admin Dashboard, the user will be able to visualize a data summary of all the agencies owned (number of sales per car dealership, most sold cars, etc)
+  - PR - Performance Reports
 
 **Priority**: Medium
 
-**Estimate**: 2 weeks
+**Estimate**: 1 weeks
 
 **Classification:** Must Have
 
@@ -676,8 +702,10 @@ As a user/consumer, I want to receive notifications of operations (via email and
 
 **Validation:**
 
-- In some specific steps during the car purchase process, in order to continue with the next steps it will be required that the manager approves the completion of the current one.
-- If there is no approval from admin, the car purchase will not be able to continue
+- V301 In some specific steps during the car purchase process, in order to continue with the next steps it will be required that the manager approves the completion of the current one.
+  - SA - Super Admins
+- V302 If there is no approval from admin, the car purchase will not be able to continue
+  - SA - Super Admins
 
 **Priority**: High
 
@@ -769,11 +797,11 @@ In the vendor dashboard they will be able to observe a summary of different data
 
 ## **US35 - Sells status**
 
-**As** a seller I want to know how many sales I have made and the status of each one (amount paid). To know the status of my clients.
+**As** a salesman I want to know how many sales I have made and the status of each one (amount paid). To know the status of my clients.
 
 **Validation:**
 
-Sellers will be able to see all their sales on a dedicated screen and the status of those sales.
+salesmans will be able to see all their sales on a dedicated screen and the status of those sales.
 
 1. Cards for all sales associated with the vendor
 2. All cards will have information about the sale and the current status of it.
@@ -1292,14 +1320,17 @@ When a vehicle is uploaded to the platform, there is a box, "available for a tes
 
 ## **US63 - Displaying the available financing plans inputed by the car retailer**
 
-As a user/buyer I want to be able to see which financing and insurance plans are available to me. 
+As a user/buyer I want to be able to see which financing and insurance plans are available to me.
 
 **Validation:**
 
-1. VA631 A list of different insurance options with the price of each of the options will be displayed in the car details page. 
-  - CD - Car Details
-2. VA632 A list of different financing options with the price of each of the options will be displayed in the car details page. 
-  - CD - Car Details
+1. VA631 A list of different insurance options with the price of each of the options will be displayed in the car details page.
+
+- CD - Car Details
+
+2. VA632 A list of different financing options with the price of each of the options will be displayed in the car details page.
+
+- CD - Car Details
 
 **Priority:** Medium
 
@@ -1308,4 +1339,5 @@ As a user/buyer I want to be able to see which financing and insurance plans are
 **Classification:** Must Have
 
 ---
+
 ---
