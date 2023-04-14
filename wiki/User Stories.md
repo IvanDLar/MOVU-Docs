@@ -894,22 +894,6 @@ As a user want to modify my personal account information to be able to update an
 
 ---
 
-## **US40 - Website access**
-
-**As a** **I want** **to be able**.
-
-**Validation:**
-
-- **Priority**: Medium
-
-  **Estimate**: 2 week
-
-  **Classification:** Must Have
-
----
-
----
-
 ## **US40 - NL Search**
 
 **As a** user **I want** to search for cars without the need of filters or advanced details **to be able** to have a easy expierience in seraching my car.
