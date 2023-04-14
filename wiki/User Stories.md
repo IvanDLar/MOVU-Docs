@@ -46,14 +46,14 @@ As a user I want to register on the platform with data that is not very sensitiv
 
 **Validation:**
 
-- V011 - The user can register into the platform by email or a google account.
+- VA011 - The user can register into the platform by email or a google account.
   - AC - Auth Clients
-- V012 - The user must have a secure password with at least 8 characters.
+- VA012 - The user must have a secure password with at least 8 characters.
   - AC - Auth Clients
-- V013 - The email and password must be stored in the DataBase.
+- VA013 - The email and password must be in Firebase.
   - AC - Auth Clients
   - DB - Data Base
-- V014 - If at least one field is not valid, the user can not continue registering.
+- VA014 - If at least one field is not valid, the user can not continue registering.
   - AC - Auth Clients
 
 **Priority**: Very High
@@ -70,11 +70,20 @@ As a customer I can log in with email and password or directly with google. To b
 
 **Validation:**
 
-Button that connects with firebase auth and allows you to login directly with google:
+- VA021 - Google sign up button leads you to Google Sign up
+  - AC - Auth Clients
+- VA022 - When entering an email or password that's not in Firebase, shows error and doesn't let the user log in.
+  - AC - Auth Clients
+  - DB - Data Base
+- VA023 - When entering an email or password that's  in Firebase,lets the user log in.
+  - AC - Auth Clients
+  - DB - Data Base
+
+<!-- Button that connects with firebase auth and allows you to login directly with google:
 
 1. Button with the Google logo, to let the user understand about this functionality.
 2. A google pop-up will appear that will allow you to easily log in.
-3. It will also be possible to login with username and password.
+3. It will also be possible to login with username and password. -->
 
 **Priority**: Very High
 
@@ -90,9 +99,13 @@ As a customer, salesperson, manager, super-admin, automotive group administrator
 
 **Validation:**
 
-Button in the navigation bar, which when clicked deletes all user information saved as status in the web application.
+- VA031 - When clicking the "Cerrar Sesión" button deletes all user information saved as status in the web application and the user information will no longer be on the front. Which means you will lose access to payment and chat features.
+  - DB - Data Base
+  - HP - Home Page
 
-1. When you click the button, your information will no longer be on the front. Which means you will lose access to payment and chat features.
+<!-- Button in the navigation bar, which when clicked deletes all user information saved as status in the web application.
+
+1. When you click the button, your information will no longer be on the front. Which means you will lose access to payment and chat features. -->
 
 **Priority**: Very High
 
@@ -108,7 +121,23 @@ As a user I want to have the option to change my account information or reset my
 
 **Validation:**
 
-There must be a section in the menu that leads to the stored user information, where you can request changes to your information, the user edits, and emails or messages are sent that need confirmation (by the requesting user) to save the changes in the DB
+- VA041 - When selecting "Olvidé mi contraseña" in the log in page it redirects you to the Change password screen.
+  - AC - Auth Clients
+- VA042 - If the email inserted in the "Restablecer Contraseña" screen is stored in the Firebase, an email is send with a link to restore the password.
+  - AC - Auth Clients
+  - DB - Data Base
+- VA043 -  Entering the link that came in an email lets the user insert a new password.
+  - AC - Auth Clients
+- VA044 - The user must insert secure password with at least 8 characters.
+  - AC - Auth Clients
+- VA045 - The new password is stored in Firebase an the old password is erased.
+  - AC - Auth Clients
+  - DB - Data Base
+- VA046 - When a registered user clicks the edit button, changes a field and saves the data, it is stored in Firebase and the old information is erased.
+  - DB - Data Base
+  - HP - Home Page
+
+<!-- There must be a section in the menu that leads to the stored user information, where you can request changes to your information, the user edits, and emails or messages are sent that need confirmation (by the requesting user) to save the changes in the DB -->
 
 **Priority**: High
 
@@ -124,10 +153,19 @@ As Super-Admin I must be able to register other super users so that several peop
 
 **Validation:**
 
-Screen to register other super administrators:
+- VA051 - The super admin can register into the platform by email or a google account.
+  - SA - Super Admin
+- VA052 - The super admin must have a secure password with at least 8 characters.
+  - SA - Super Admin
+- VA053 - The email and password must be stored in firebase.
+  - SA - Super Admin
+- VA054 - If at least one field is not valid, the user can not continue registering.
+  - SA - Super Admin
+
+<!-- Screen to register other super administrators:
 
 1. Section or form where they can create new super admins.
-2. They will be created with random passwords.
+2. They will be created with random passwords. -->
 
 **Priority**: High
 
@@ -139,14 +177,21 @@ Screen to register other super administrators:
 
 ## **US06 - Automotive Group register**
 
-As Super Admin I must be able to register the automotive groups so that they can begin operations within the application
+As Super Admin I must be able to accept an application of an automotive groups so that they can begin operations within the application.
 
 **Validation:**
 
-Screen to register automotive groups:
+- VA061 - Table with all the applications of the automotive groups.
+  - SA - Super Admin
+- VA062 - Super Admin can change the status of application from "En revisión" to "Activa" or "Inactiva".
+  - SA - Super Admin
+- VA063 - Super Admin can check the information (submission documents) the automotive group send to validate.
+  - SA - Super Admin
+
+<!-- Screen to register automotive groups:
 
 1. Section or form where they can create new automotive groups.
-2. They will be created with random passwords.
+2. They will be created with random passwords. -->
 
 **Priority**: High
 
@@ -158,14 +203,32 @@ Screen to register automotive groups:
 
 ## **US07 - Agency register**
 
-As Super Admin I must be able to register the automotive groups so that they can begin operations within the application
+As an automotive group I must be able to apply so I can begin operations within the application.
 
 **Validation:**
 
-Screen to register automotive groups:
+- VA071 - Sign in page for Agency.
+  - CR - Car Retails
+- VA072 - The user can register into the platform by email or a google account.
+  - CR - Car Retails
+- VA073 - The user must have a secure password with at least 8 characters.
+  - CR - Car Retails
+- VA074 - The email and password must be stored in firebase.
+  - CR - Car Retails
+- VA075 - If at least one field is not valid, the user can not continue registering.
+  - CR - Car Retails
+- VA076 - The admin lands on the application page where they can submit their documents and wait for the super admin to validate.
+  - CR - Car Retails
+  - SA - Super Admin
+- VA077 - If the super admin changes the status, the agency can see the comments made and the status of the application.
+  - CR - Car Retails
+  - SA - Super Admin
+- VA078 - When the status of application is accepted the agency can access the whole page.
+  - CR - Car Retails
+<!-- Screen to register automotive groups:
 
 1. Section or form where they can create new automotive groups.
-2. They will be created with random passwords.
+2. They will be created with random passwords. -->
 
 **Priority**: High
 
@@ -181,11 +244,10 @@ As a manager I want to be able to register sellers so they can make sales and co
 
 **Validation:**
 
-Screen to register sellers:
-
-1. Managers must have a form where they can register vendors from their agency.
-2. The new seller must be created by the manager and with a random password.
-3. All necessary fields must be entered to create the manager.
+- VA081 - Form where managers can register seller from their agency.
+  - CR - Car Retails
+- VA082 - Seller can log in with the password and email given by the agency.
+  - CR - Car Retails
 
 **Priority**: High
 
@@ -200,10 +262,13 @@ Screen to register sellers:
 As a user, I want to be able to cancel the creation of my account so that I do not have an account on a platform that I will not use and that contains my data.
 
 **Validation:**
-When the user creates an account, he receives a confirmation email where he has the option to cancel the account creation in the same email, when canceling (with a hyperlink button) the request is canceled and the data is not stored.
+
+- VA091 - Cancel button deletes user account without storing any personal data in Firebase.
+  - HP - Home Page
+<!-- When the user creates an account, he receives a confirmation email where he has the option to cancel the account creation in the same email, when canceling (with a hyperlink button) the request is canceled and the data is not stored.
 
 1. Availability of cancel account button
-2. Delete user account without storing any personal data in the database
+2. Delete user account without storing any personal data in the database -->
 
 **Priority:** Medium
 
@@ -220,10 +285,16 @@ When the user creates an account, he receives a confirmation email where he has 
 As a user, I want to access the page without registering to see the catalog and decide whether to use the platform to buy a car.
 
 **Validation:**
+
+- VA11 - User can move thru the page without registering.
+  - AC - Auth Clients
+- VA12 - When the user clicks a component that needs registering, redirects to register page.
+  - AC - Auth Clients
+<!--
 The user accesses the page and can perform actions that do not require user verification.
 
 1. The different models available with their characteristics, cost to the public, and agency are shown.
-2. When you click on the account button, the account creation or login interface appears.
+2. When you click on the account button, the account creation or login interface appears. -->
 
 **Priority:** Medium
 
