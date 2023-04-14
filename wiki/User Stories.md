@@ -57,7 +57,7 @@ As a user I want to register on the platform with data that is not very sensitiv
   - DB - Data Base
 - VA014 - If at least one field is not valid, the user can not continue registering.
   - AC - Auth Clients
-- VA015 - When registering succesfully send email validation
+- VA015 - When registering successfully send email validation
   - IM - In App Messaging
 
 **Priority**: Very High
@@ -99,7 +99,7 @@ As a customer, salesperson, manager, super-admin, automotive group administrator
 
   - HP - Home Page
 
-- VA032 - After a specified amount of time, the users account will automatially close and will log out the user.
+- VA032 - After a specified amount of time, the users account will automatically close and will log out the user.
   - AC - Auth Clients
 
 **Priority**: Very High
@@ -215,9 +215,9 @@ As an automotive group I must be able to apply so I can begin operations within 
 
 **Estimate**: 3 week
 
-## **US08 - salesmans register**
+## **US08 - Salesmen register**
 
-As a manager I want to be able to register salesmans so they can make sales.
+As a manager I want to be able to register salesmen so they can make sales.
 
 **Validation:**
 
@@ -330,7 +330,7 @@ As a user/buyer, I want to see the payment options and terms and conditions that
 
 **Validation:**
 
-- VA131 - User can see the available finanicing options offered by the car dealership.
+- VA131 - User can see the available financing options offered by the car dealership.
   - CD - Car Details
   - PY - Payments
 - VA132 - The financing options are dynamic (depending) on the down payment.
@@ -438,7 +438,7 @@ As a car dealership, I want to be able to set up my financing and insurance plan
 
 ## **US18 - Dynamic Pricing**
 
-As a user/buyer, I want to be able to see the effects on the price when adding car customizations and/or choosing differents financing and/or insuarance options.
+As a user/buyer, I want to be able to see the effects on the price when adding car customizations and/or choosing different financing and/or insurance options.
 
 **Validation:**
 
@@ -519,7 +519,7 @@ As a user/consumer, I want to receive notifications of operations (via email and
 
 - V211 Whenever a specific account tries to use actions exclusively allowed for other roles, that account will not be able to perform that actions.
   - AC - Auth Clients
-- V212 When a user is denied access to a specific action, the system will display an unathenticated message in the appropiate page.
+- V212 When a user is denied access to a specific action, the system will display an unauthenticated message in the appropriate page.
   - AC - Auth Clients
 
 **Priority:** Very High
@@ -534,11 +534,11 @@ As a user/consumer, I want to receive notifications of operations (via email and
 
 ## **US22 - Encryption REST**
 
-**As a** super admin **I want** ensure that all the data stored inside our databases are correctly Encrypted as well as only able to be viewed by sepecific roles/user **to be able** to protect the privacy and all sensitive information that are required from clients during their car purchase process.
+**As a** super admin **I want** ensure that all the data stored inside our databases are correctly Encrypted as well as only able to be viewed by specific roles/user **to be able** to protect the privacy and all sensitive information that are required from clients during their car purchase process.
 
 **Verification**
 
-- V221 Whenever the systems recieves any information that is required to be stored in our Database, it has to be encrpyted so if by any chance an intruder manages to access the DB they will not be able to comprehend the information.
+- V221 Whenever the systems receives any information that is required to be stored in our Database, it has to be encrypted so if by any chance an intruder manages to access the DB they will not be able to comprehend the information.
   - AR - Arquitecture
 
 **Priority:** Very High
@@ -553,11 +553,11 @@ As a user/consumer, I want to receive notifications of operations (via email and
 
 ## **US23 - Encryption in transit**
 
-**As a** super admin **I want** to ensure that while the users is sending all the documents and sensitive infarmation will be correctly encrypted (https) **to be able** to gurarantee that no intruder who could intercept the messages could understand its meanings.
+**As a** super admin **I want** to ensure that while the users is sending all the documents and sensitive information will be correctly encrypted (https) **to be able** to guarantee that no intruder who could intercept the messages could understand its meanings.
 
 **Verification**
 
-- V231 During the data transfer from the users to Movu Webpage, all information has to be sented by security protocols (HTTPS)
+- V231 During the data transfer from the users to Movu Webpage, all information has to be sent by security protocols (HTTPS)
   - AR - Arquitecture
 
 **Priority:** Very High
@@ -572,11 +572,11 @@ As a user/consumer, I want to receive notifications of operations (via email and
 
 ## **US24 - Secure Payments**
 
-**As a** super admin **I want** to ensure that all transactions made from the users are correctly secured and encrypted **to be able** to ensure that all payments will always succed.
+**As a** super admin **I want** to ensure that all transactions made from the users are correctly secured and encrypted **to be able** to ensure that all payments will always succeed.
 
 **Verification**
 
-- V241 The user will be able to perform a transaction with the certantty that the money will be correctly sent to the destintation without any probability of lost.
+- V241 The user will be able to perform a transaction with the certainty that the money will be correctly sent to the destination without any probability of lost.
   - PY - Payments
 
 **Priority:** Very High
@@ -614,7 +614,7 @@ As a user/consumer, I want to receive notifications of operations (via email and
 
 **Verification**
 
-- V261 - The sistem will have DDoS implementation while deploying with Bercel.
+- V261 - The system will have DDoS implementation while deploying with Bercel.
 
   - AR - Architecture
 
@@ -649,11 +649,11 @@ As a user/consumer, I want to receive notifications of operations (via email and
 
 ## **US27 - Users Re-engagement**
 
-**As a** super admin **I want** to send notification to users that have not viisted the site after a long time **To be able** to recover theri interest in buying a car from the platform.
+**As a** super admin **I want** to send notification to users that have not visited the site after a long time **To be able** to recover their interest in buying a car from the platform.
 
 **Validation:**
 
-- V271 After 2 weeks from inactivity, the system will send them a emial inviting them to check the new deals and cars at MOVU.
+- V271 After 2 weeks from inactivity, the system will send them a email inviting them to check the new deals and cars at MOVU.
   - IM - In App Messaging
 
 **Priority**: Low
@@ -668,11 +668,11 @@ As a user/consumer, I want to receive notifications of operations (via email and
 
 ## **US28 - Commissions**
 
-**As a** super admin **I want** charge a comision for every car registered by an car dealership **To be able** to make earnings that will allow me to profit from this app, as well as maintaining it.
+**As a** super admin **I want** charge a commission for every car registered by an car dealership **To be able** to make earnings that will allow me to profit from this app, as well as maintaining it.
 
 **Validation:**
 
-- V281 For every cas uploaded to the system, be from catalog upload or indiviudal, a percentage of a the car price should be given to NDS as part of comission.
+- V281 For every cas uploaded to the system, be from catalog upload or individual, a percentage of a the car price should be given to NDS as part of commission.
   - PY - Payments
 
 **Priority**: Very High
@@ -763,7 +763,7 @@ Additional, the data summary will include a summary of the most bought cars as w
 
 ---
 
-## **US33- car dealership Catalog**
+## **US33- Car Dealership Catalog**
 
 As a manager I want manage the car dealership car catalog (CRUD) To be able have a better control on the vehicles offered to the customers.
 
@@ -809,7 +809,7 @@ In the vendor dashboard they will be able to observe a summary of different data
 
 **Validation:**
 
-salesmans will be able to see all their sales on a dedicated screen and the status of those sales.
+Salesmen will be able to see all their sales on a dedicated screen and the status of those sales.
 
 1. Cards for all sales associated with the vendor
 2. All cards will have information about the sale and the current status of it.
@@ -824,13 +824,13 @@ salesmans will be able to see all their sales on a dedicated screen and the stat
 
 ---
 
-## **US36 - Current Status on active Car Purchase**
+## **US36 - Current Status on Car Purchases**
 
 **As** a vendor I want to be able to know the status of all my current active car purchases to be able to keep track on their current progresses, as well as knowing what approvals or requirements are missing on every one of them.
 
 **Validation:**
 
-In the Dasboard, the vendor will be able to view a section where all the current car purchased assigned to him is display.
+In the Dashboard, the vendor will be able to view a section where all the current car purchased assigned to him is display.
 When selecting a specific car purchase, the vendor will get all the information of that process, as well as its current status.
 
 **Priority:** High
@@ -843,7 +843,7 @@ When selecting a specific car purchase, the vendor will get all the information 
 
 ---
 
-## **US37 - Payment status**
+## **US37 - Car status**
 
 As a customer I want to be able to know the status of my order and payment, if the car is being prepared, on the way, etc. To keep track of my purchase and security.
 
@@ -918,7 +918,7 @@ As a user want to modify my personal account information to be able to update an
 
   - NS - Natural Language Processing.
 
-- **Priority**: Very High
+  **Priority**: Very High
 
   **Estimate**: 3 week
 
@@ -1195,7 +1195,7 @@ VA491 - When looking for a car there is going to be a "wish list" button next to
 
 **Validation:**
 
-- VA541 - Once either a chat conversation or vendor chat has been conluded, it will be stored for both customer support review as well as any misuse of the tool.
+- VA541 - Once either a chat conversation or vendor chat has been concluded, it will be stored for both customer support review as well as any misuse of the tool.
 
 - **Priority**: High
 
@@ -1251,7 +1251,7 @@ As a customer I can decide not to take a test drive. To jump directly to the pur
 
 **Validation:**
 
-- VA571 - The user should be able to continue with the car purchase process without schedulling any test drive.
+- VA571 - The user should be able to continue with the car purchase process without scheduling any test drive.
 
 - **Priority**: Medium
 
@@ -1263,9 +1263,9 @@ As a customer I can decide not to take a test drive. To jump directly to the pur
 
 ---
 
-## **US58 - Test Drive Docuemnts**
+## **US58 - Test Drive Documents**
 
-**As a** vendor **I want** users to upload all the required documents to take the driving test (INE, driver's license, etc.) **to be able to** ensuere that the person is allowed to drive.
+**As a** vendor **I want** users to upload all the required documents to take the driving test (INE, driver's license, etc.) **to be able to** ensure that the person is allowed to drive.
 
 **Validation:**
 
@@ -1305,11 +1305,11 @@ When a vehicle is uploaded to the platform, there is a box, "available for a tes
 
 ## **US60 - User Documentation Definitions**
 
-**As a** admin **I want** to define which documentation is required in order for a user to buy a car from my agencies **to be able** to standarize all the procedures in all of my agencies and ensure that the users are applicable for the purchase.
+**As a** admin **I want** to define which documentation is required in order for a user to buy a car from my agencies **to be able** to standardize all the procedures in all of my agencies and ensure that the users are applicable for the purchase.
 
 **Validation:**
 
-- In admin dasboard there will be an option to define which documents are required for every step during the car purchas process.
+- In admin dashboard there will be an option to define which documents are required for every step during the car purchase process.
 - **Priority:** High
 
   **Estimate:** 2 weeks
@@ -1322,7 +1322,7 @@ When a vehicle is uploaded to the platform, there is a box, "available for a tes
 
 ## **US61 - Vendor Documentation Approvals**
 
-**As a** VENDOR **I want** to approve or deny the various docuemnts that the user will be uploading during the car purchase procceudre **to be able** valdiate the corresponding docuemnts before advancing to any future steps.
+**As a** VENDOR **I want** to approve or deny the various documents that the user will be uploading during the car purchase procedure **to be able** validate the corresponding documents before advancing to any future steps.
 
 ---
 
