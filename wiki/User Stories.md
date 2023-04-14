@@ -670,7 +670,7 @@ As a user want to modify my personal account information to be able to update an
 
 - VA000 - The landing page will have a search bar where the users will be able to write a simple car description which will then reutrn a list of vehicles that match that critiera. (Front Page Results)
 - VA000 - The application must have a NL model that allows to interpret the input of user and send the correct request to the DB. (NLP E-Search)
-- VA000 - The DB must be able to filter with the given information and return the list of cars that match the critiera. (NLP E-Search)
+- VA000 - The DB must be able to filter with the given information and return the list of cars that match the critiera. (Front Page Results)
 - VA000 - The resulting "tokens" determined by the NL model will need to have at least 80% of accuracy on what the user intended so the result are coherent as posible but also provide a bit more of variety.(NLP E-Search)
 
 **Priority**: Very High
@@ -686,9 +686,9 @@ As a user want to modify my personal account information to be able to update an
 **Validation:**
 
 - VA000 - In the Landing Page, the app will have a section "Search Guide" that once clicked it will ask the user various questions regarding the car being looked. (Front Page Results)
-- VA000 - The answers of the user will be sent to the DB through an API
-- VA000 - Once the DB obtains the cars that match the criteria, it should return the list back to the Webpage
-- VA000 - The cars with that filter should be displayed to the user.
+- VA000 - The answers of the user will be sent to the DB through an API (Front Page Results)
+- VA000 - The DB should return the list of cars that allign to the filter back to the Webpage (Front Page Results)
+- VA000 - The cars with that filter should be displayed to the user. (Front Page Results)
 
 **Priority**: Low
 **Estimate**: 1 week
@@ -702,10 +702,10 @@ As a user want to modify my personal account information to be able to update an
 
 **Validation:**
 
-- VA000 - In the car display page, the users should be able to select specific filters which allow a more detailed result. (Front Page Results?)
-- VA000 - Once the specific fitlers are selected, the Webpage will send those parameters to the DB
-- VA000 - The DB will obtain the cars that allign with the filters and then return them to the Webpage
-- VA000 - The cars that with that filter should be displayed to the user.
+- VA000 - In the car display page, the users should be able to select specific filters which allow a more detailed result. (Front Page Results)
+- VA000 - Once the specific fitlers are selected, the Webpage will send those parameters to the DB (Front Page Results)
+- VA000 - The DB will obtain the cars that allign with the filters and then return them to the Webpage (Front Page Results)
+- VA000 - The cars that with that filter should be displayed to the user. (Front Page Results)
 
 **Priority**: Very High
 **Estimate**: 1 week
@@ -719,7 +719,9 @@ As a user want to modify my personal account information to be able to update an
 
 **Validation:**
 
-- VA000 - The user can do all types car searches even though they dont have an account (?)
+- VA000 - The user can use the NL search function without having an account ()
+- VA000 - The user can use the formulaire search function without having an account ()
+- VA000 - The user can use the basic filter search function of the app ()
 
 **Priority**: Very High
 **Estimate**: 1 week
@@ -729,12 +731,12 @@ As a user want to modify my personal account information to be able to update an
 
 **US44 - NL Search Always Available**
 
-**As a** user **I want** the search bar always available. **To be able** to search whenever I want.
+**As a** user **I want** to always have access to the searchbar car search. **To be able** to search cars whenever I want.
 
 **Validation:**
 
-- The search bar is visible even when the user scrolls down the page (?)
-- Whenever the user interacts to the search bar, they must allways obtain the car results.
+- VA000 - The search bar is visible even when the user scrolls down the page (Home Page)
+- VA000 - Whenever the user interacts to the search bar, they must allways obtain the car results. (Front Page Results)
 
 **Priority**: Low
 **Estimate**: 1 week
@@ -747,13 +749,13 @@ As a user want to modify my personal account information to be able to update an
 
 **Validation:**
 
-- VA000 - For every car that is displayed, it must have general information before clicking the car for more details:
+- VA000 - For every car that is displayed, it must have general information before clicking the car for more details: (Front Page Results)
 
 1. Images
 2. Initial price
 3. Basic characteristics (doors, capacity, color, etc).
 
-- VA000 - If the user selects a specific car, they will be redirected to another section with all the description of the car.
+- VA000 - If the user selects a specific car, they will be redirected to another section with all the description of the car (Car Details)
 
 **Priority**: Low
 **Estimate**: 1 week
@@ -767,9 +769,9 @@ As a user want to modify my personal account information to be able to update an
 
 **Validation:**
 
-- VA000 - While inspecting the vehicles, the user will be able to click a button that redirects them to a comparative section.
-- VA000 - The webage will give the user the list of all available cars, in which they can select two cars to compare.
-- VA000 - Once the cars are selected, the key car characteristicas will be placed side by side for better analysis.
+- VA000 - While inspecting the vehicles, the user will be able to click a button that redirects them to a comparative section. (Car Details)
+- VA000 - The webage will give the user the list of all available cars, in which they can select two cars to compare. (Front Page Results)
+- VA000 - Once the cars are selected, the key car characteristicas will be placed side by side for better analysis. (Car Details)
 
 **Priority**: Low
 **Estimate**: 1 week
@@ -783,8 +785,8 @@ As a user want to modify my personal account information to be able to update an
 
 **Validation:**
 
-- VA000 - When the user selects a vehicle, they can go through the images provided by the agencies, to explore its structure both inside and outside in detail.
-- VA000 - Inside the car details, the users will be able to view the vehicle 360º
+- VA000 - When the user selects a vehicle, they can go through the images provided by the agencies, to explore its structure both inside and outside in detail. (Car Details)
+- VA000 - Inside the car details, the users will be able to view the vehicle 360º (Cars Details)
 
 **Priority:** Medium
 **Estimate:** 1 week
@@ -792,14 +794,14 @@ As a user want to modify my personal account information to be able to update an
 
 ---
 
-**US49 - Car shopping display**
+**US49 - Car shopping Wishlist**
 
 **As a** user **I want** an online shopping cart **to be able** to have custom list of cars I might buy and save them for later.
 
 **Validation**:
 
-VA000 - When looking for a car there is going to be a "add to cart" button next to each car (both in card and description mode) where the user can add cars to a shopping cart page.
-VA000 - When accesing the shopping cart, all the cars previosly select need to appear in this section.
+VA000 - When looking for a car there is going to be a "add to cart" button next to each car (both in card and description mode) where the user can add cars to a shopping cart page.(Home page)
+VA000 - When accesing the shopping cart, all the cars previosly select need to appear in this section. (Home page)
 
 **Priority**: High
 **Estimate**: 2 week
@@ -813,8 +815,7 @@ VA000 - When accesing the shopping cart, all the cars previosly select need to a
 
 **Validation:**
 
-- No matter where the user is located in the webpage, they should be able to begin a conversation either with a chatbot for general questions and status of their car purchase status.
-- If the chatbot is not enough, they can request the assistant of a vendor por more information.
+- VA000 - Once the user select a specific car for details, they will be able to click a chat button that will contact a vendor that matches the car agency that belongs the car.
 
 **Priority**: High
 **Estimate**: 3 weeks
