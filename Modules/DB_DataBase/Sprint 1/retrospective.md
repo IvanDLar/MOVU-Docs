@@ -20,6 +20,7 @@ DB52 - Database diagram 100%
 
 - Aggregate unseen tables to the schemas after feedback.
 - Define the last database shema with the backend team.
+- Comunication with other modules.
 
 ### Things we did good
 
