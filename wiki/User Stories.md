@@ -42,11 +42,11 @@ Tags: document
 
 ## **US01 - Account Sign Up**
 
-As a user I want to register on the platform with data that is not very sensitive. If I am not sure about buying or directly with Google to protect my integrity and use the services offered by the platform when registering
+As a user I want to register on the platform with data that is not very sensitive. If I am not sure about buying or directly with Google to protect my integrity and use the services offered by the platform when registering.
 
 **Validation:**
 
-- VA011 - The user can register into the platform by email or a google account.
+- VA011 - The user can register into the platform by email or a Google account.
   - AC - Auth Clients
 - VA012 - The user must have a secure password with at least 8 characters.
   - AC - Auth Clients
@@ -55,10 +55,12 @@ As a user I want to register on the platform with data that is not very sensitiv
   - DB - Data Base
 - VA014 - If at least one field is not valid, the user can not continue registering.
   - AC - Auth Clients
+- VA015 - When registering succesfully send email validation
+  - IM - In App Messaging
 
 **Priority**: Very High
 
-**Estimate**: 1 week
+**Estimate**: 3 weeks
 
 ---
 
@@ -70,20 +72,12 @@ As a customer I can log in with email and password or directly with google. To b
 
 **Validation:**
 
-- VA021 - Google sign up button leads you to Google Sign up
+- VA021 - Google login button leads you to Google login
   - AC - Auth Clients
 - VA022 - When entering an email or password that's not in Firebase, shows error and doesn't let the user log in.
   - AC - Auth Clients
-  - DB - Data Base
-- VA023 - When entering an email or password that's in Firebase,lets the user log in.
+- VA023 - When entering an email or password that's in Firebase, the user should log in.
   - AC - Auth Clients
-  - DB - Data Base
-
-<!-- Button that connects with firebase auth and allows you to login directly with google:
-
-1. Button with the Google logo, to let the user understand about this functionality.
-2. A google pop-up will appear that will allow you to easily log in.
-3. It will also be possible to login with username and password. -->
 
 **Priority**: Very High
 
@@ -100,12 +94,10 @@ As a customer, salesperson, manager, super-admin, automotive group administrator
 **Validation:**
 
 - VA031 - When clicking the "Cerrar Sesión" button deletes all user information saved as status in the web application and the user information will no longer be on the front. Which means you will lose access to payment and chat features.
-  - DB - Data Base
   - HP - Home Page
 
-<!-- Button in the navigation bar, which when clicked deletes all user information saved as status in the web application.
-
-1. When you click the button, your information will no longer be on the front. Which means you will lose access to payment and chat features. -->
+- VA032 After a specified amount of time, the users account will automatially close and will log out the user.
+  - AC - Auth Clients
 
 **Priority**: Very High
 
@@ -125,19 +117,17 @@ As a user I want to have the option to change my account information or reset my
   - AC - Auth Clients
 - VA042 - If the email inserted in the "Restablecer Contraseña" screen is stored in the Firebase, an email is send with a link to restore the password.
   - AC - Auth Clients
-  - DB - Data Base
+
 - VA043 - Entering the link that came in an email lets the user insert a new password.
   - AC - Auth Clients
 - VA044 - The user must insert secure password with at least 8 characters.
   - AC - Auth Clients
 - VA045 - The new password is stored in Firebase an the old password is erased.
   - AC - Auth Clients
-  - DB - Data Base
+
 - VA046 - When a registered user clicks the edit button, changes a field and saves the data, it is stored in Firebase and the old information is erased.
-  - DB - Data Base
   - HP - Home Page
 
-<!-- There must be a section in the menu that leads to the stored user information, where you can request changes to your information, the user edits, and emails or messages are sent that need confirmation (by the requesting user) to save the changes in the DB -->
 
 **Priority**: High
 
@@ -162,20 +152,16 @@ As Super-Admin I must be able to register other super users so that several peop
 - VA054 - If at least one field is not valid, the user can not continue registering.
   - SA - Super Admin
 
-<!-- Screen to register other super administrators:
-
-1. Section or form where they can create new super admins.
-2. They will be created with random passwords. -->
 
 **Priority**: High
 
-**Estimate**: 1 week
+**Estimate**: 2 week
 
 ---
 
 ---
 
-## **US06 - Automotive Group register**
+## **US06 - Manage automotive group signup requests**
 
 As Super Admin I must be able to accept an application of an automotive groups so that they can begin operations within the application.
 
@@ -183,70 +169,70 @@ As Super Admin I must be able to accept an application of an automotive groups s
 
 - VA061 - Table with all the applications of the automotive groups.
   - SA - Super Admin
+  - DB - Data Base
 - VA062 - Super Admin can change the status of application from "En revisión" to "Activa" or "Inactiva".
   - SA - Super Admin
 - VA063 - Super Admin can check the information (submission documents) the automotive group send to validate.
   - SA - Super Admin
 
-<!-- Screen to register automotive groups:
-
-1. Section or form where they can create new automotive groups.
-2. They will be created with random passwords. -->
 
 **Priority**: High
 
-**Estimate**: 1 week
+**Estimate**: 2 week
 
 ---
 
 ---
 
-## **US07 - Agency register**
+## **US07 - Automotive group register**
 
 As an automotive group I must be able to apply so I can begin operations within the application.
 
 **Validation:**
 
-- VA071 - Sign in page for Agency.
+- VA071 - Sign in page for car dealership.
   - CR - Car Retails
-- VA072 - The user can register into the platform by email or a google account.
+- VA072 - The automotive group administrator can register into the platform by email or a google account.
   - CR - Car Retails
-- VA073 - The user must have a secure password with at least 8 characters.
+- VA073 - The automotive group administrator must have a secure password with at least 8 characters.
   - CR - Car Retails
 - VA074 - The email and password must be stored in firebase.
   - CR - Car Retails
-- VA075 - If at least one field is not valid, the user can not continue registering.
+- VA075 - If at least one field is not valid, the automotive group administrator can not continue registering.
   - CR - Car Retails
-- VA076 - The admin lands on the application page where they can submit their documents and wait for the super admin to validate.
-  - CR - Car Retails
-  - SA - Super Admin
-- VA077 - If the super admin changes the status, the agency can see the comments made and the status of the application.
+- VA076 - The automotive group administrator lands on the application page where they can submit their documents and wait for the super admin to validate.
   - CR - Car Retails
   - SA - Super Admin
-- VA078 - When the status of application is accepted the agency can access the whole page.
+- VA077 - If the super admin changes the status, the car dealership can see the comments made and the status of the application.
   - CR - Car Retails
-  <!-- Screen to register automotive groups:
-
-1. Section or form where they can create new automotive groups.
-2. They will be created with random passwords. -->
+  - SA - Super Admin
+- VA078 - When the status of application is accepted the car dealership can access the automotive group administrator web page sections.
+  - CR - Car Retails
 
 **Priority**: High
 
-**Estimate**: 1 week
+**Estimate**: 3 week
+
+## **US07 - Car dealership register**
+
+**Validation:**
+
+**Priority**: High
+
+**Estimate**: 3 week
 
 ---
-
 ---
 
 ## **US08 - Sellers register**
 
-As a manager I want to be able to register sellers so they can make sales and contact customers within the application.
+As a manager I want to be able to register sellers so they can make sales.
 
 **Validation:**
 
-- VA081 - Form where managers can register seller from their agency.
+- VA081 - Form where managers can register seller from their car dealership.
   - CR - Car Retails
-- VA082 - Seller can log in with the password and email given by the agency.
+- VA082 - Seller can log in with the password and email given by the car dealership.
   - CR - Car Retails
 
 **Priority**: High
@@ -257,18 +243,17 @@ As a manager I want to be able to register sellers so they can make sales and co
 
 ---
 
-## **US09 - Cancel account**
+## **US09 - Delete account**
 
-As a user, I want to be able to cancel the creation of my account so that I do not have an account on a platform that I will not use and that contains my data.
+As a user, I want to be able to delete my account so that I do not have an account on a platform that I will not use and that contains my data.
 
 **Validation:**
 
-- VA091 - Cancel button deletes user account without storing any personal data in Firebase.
-  - HP - Home Page
-  <!-- When the user creates an account, he receives a confirmation email where he has the option to cancel the account creation in the same email, when canceling (with a hyperlink button) the request is canceled and the data is not stored.
-
-1. Availability of cancel account button
-2. Delete user account without storing any personal data in the database -->
+- VA091 - Display message that informs the user how to delete their account (via email).
+  - Home Page
+- VA092 - Delete the user information from DB and Firebase.
+  - Home Page
+  - DB
 
 **Priority:** Medium
 
@@ -280,21 +265,16 @@ As a user, I want to be able to cancel the creation of my account so that I do n
 
 ---
 
-## **US10 - Access without registration**
+## **US10 - Non-registered users navigation**
 
 As a user, I want to access the page without registering to see the catalog and decide whether to use the platform to buy a car.
 
 **Validation:**
 
-- VA11 - User can move thru the page without registering.
-  - AC - Auth Clients
-- VA12 - When the user clicks a component that needs registering, redirects to register page.
-  - AC - Auth Clients
-  <!--
-  The user accesses the page and can perform actions that do not require user verification.
-
-1. The different models available with their characteristics, cost to the public, and agency are shown.
-2. When you click on the account button, the account creation or login interface appears. -->
+- VA101 - When the user clicks a component that needs registering (buyin a car, scheduling test drive and profile page), redirects to register page.
+  - CR - Car Details
+- VA101 - Users should be redirected to the page it was after signing up/in.
+  - CR - Car Details
 
 **Priority:** Medium
 
@@ -306,7 +286,7 @@ As a user, I want to access the page without registering to see the catalog and 
 
 ---
 
-## **US11 - Register payment info in agency**
+## **US11 - Register payment info in car dealership**
 
 As a customer I must be able to register a payment method. To be able to make transactions in the application and buy the vehicles.
 
@@ -340,7 +320,7 @@ As a car retailer I must enter data to which the funds of any purchase will arri
 
 **Validation:**
 
-- V121 Agency submits bank account details.
+- V121 car dealership submits bank account details.
     - CR - Car Retailers
 - V122 Save encrypted data in the database.
     - CR - Car Retailers
@@ -358,11 +338,11 @@ As a car retailer I must enter data to which the funds of any purchase will arri
 
 ## **US13 - Payment opportunities for clients**
 
-As a user/buyer, I want to see the payment options and terms and conditions that each agency offers me to be able to make choices and finance according to my economic possibilities.
+As a user/buyer, I want to see the payment options and terms and conditions that each car dealership offers me to be able to make choices and finance according to my economic possibilities.
 
 **Validation:**
 
-- VA131 User can see the available finanicng options offered by the agency.
+- VA131 User can see the available finanicng options offered by the car dealership.
   - CD - Car Details
   - PY - Payments
 - VA132 The options are dynamic (depending) on the down payment.
@@ -381,13 +361,17 @@ As a user/buyer, I want to see the payment options and terms and conditions that
 
 ## **US14 - Payments for custom order**
 
-As a buyer, I want to have the option of customizing elements of my vehicle (as long as the model/agency allows it).
+As a buyer, I want to have the option of customizing elements of my vehicle (as long as the model/car dealership allows it).
 
 **Validation:**
 - VA141 Display list of all available customizations.
+  -
 - VA142 If a customization is not currently available gray out the button holding the option.
+  -
 - VA143 A customized button is displayed on available vehicles.
+  -
 - VA144 The user can view the customizable vehicles and customize them.
+  -
 
 **Priority:** Medium
 
@@ -406,7 +390,7 @@ As a user, I want to download vehicle quotes in PDF or have a space within my pr
 **Validation:**
 
 - VA151 Display the "download" button near the displayed price of the car.
-  -
+  - 
 - VA152 The quote is downloaded in the client's browser
   -
 
@@ -422,10 +406,10 @@ As a user, I want to download vehicle quotes in PDF or have a space within my pr
 
 ## **US16 - Setting up financing plans**
 
-As an agency, I want to be able to set up my financing and insurance plans (including rates and plans) to manage agency costs and monitor necessary changes according to the market.
+As an car dealership, I want to be able to set up my financing and insurance plans (including rates and plans) to manage car dealership costs and monitor necessary changes according to the market.
 
 **Validation:**
-When a manager uploads a car, he will need to fill out a cost section where he can add fixed options that his agency has available, such as the different insurance plans, and financing options so that platform users can view them in their quotes.
+When a manager uploads a car, he will need to fill out a cost section where he can add fixed options that his car dealership has available, such as the different insurance plans, and financing options so that platform users can view them in their quotes.
 
 1. VA161 A customizable forms that the manager can modify and add different financing options, insurance plans etc...
   - CR - Car Retailers
@@ -519,7 +503,7 @@ As a user/consumer, I want to receive notifications of operations (via email and
 
 ## **US20 - Multi factor Authentication**
 
-**As a** person with an agency account in the webpage **I want** to have double authentication **to be able** to have more security at preventing anyone else to access all my information.
+**As a** person with an car dealership account in the webpage **I want** to have double authentication **to be able** to have more security at preventing anyone else to access all my information.
 
 **Verification**
 
@@ -685,7 +669,7 @@ As a user/consumer, I want to receive notifications of operations (via email and
 
 ## **US28 - Commissions**
 
-**As a** super admin **I want** charge a comision for every car registered by an agency **To be able** to make earnings that will allow me to profit from this app, as well as maintaining it.
+**As a** super admin **I want** charge a comision for every car registered by an car dealership **To be able** to make earnings that will allow me to profit from this app, as well as maintaining it.
 
 **Validation:**
 
@@ -703,11 +687,11 @@ As a user/consumer, I want to receive notifications of operations (via email and
 
 ## **US29 - Data Visualization AD**
 
-**As a** administrator (automotive agency) **I want** to obtain certain data summary from all my registered agencies **To be able** analyze their overall performance (cars sold, most purchased cars per agency).
+**As a** administrator (automotive car dealership) **I want** to obtain certain data summary from all my registered agencies **To be able** analyze their overall performance (cars sold, most purchased cars per car dealership).
 
 **Validation:**
 
-- V291 In the Admin Dashboard, the user will be able to visualize a data summary of all the agencies owned (number of sales per agency, most sold cars, etc)
+- V291 In the Admin Dashboard, the user will be able to visualize a data summary of all the agencies owned (number of sales per car dealership, most sold cars, etc)
 
 **Priority**: Medium
 
@@ -740,7 +724,7 @@ As a user/consumer, I want to receive notifications of operations (via email and
 
 ## **US31 - Vendors Administration**
 
-**As** a manager I want to administrate my vendors from the agency (CRUD) to be able to have an easy experience managing their accounts.
+**As** a manager I want to administrate my vendors from the car dealership (CRUD) to be able to have an easy experience managing their accounts.
 
 **Validation:**
 
@@ -759,7 +743,7 @@ Once the manager performs this modifications, the DB of vendors should be update
 
 ## **US32 - Data Visualization MG**
 
-**As** a manager I want to visualize the most important data from my agency To be able to better understand how my vendors are performing, as well as the most viewed and sold cars.
+**As** a manager I want to visualize the most important data from my car dealership To be able to better understand how my vendors are performing, as well as the most viewed and sold cars.
 
 **Validation:**
 
@@ -776,13 +760,13 @@ Additional, the data summary will include a summary of the most bought cars as w
 
 ---
 
-## **US33- Agency Catalog**
+## **US33- car dealership Catalog**
 
-As a manager I want manage the agency car catalog (CRUD) To be able have a better control on the vehicles offered to the customers.
+As a manager I want manage the car dealership car catalog (CRUD) To be able have a better control on the vehicles offered to the customers.
 
 **Validation:**
 
-The manager will be able to upload the agency car catalog by either a csv with standard data, as well as adding them one by one.
+The manager will be able to upload the car dealership car catalog by either a csv with standard data, as well as adding them one by one.
 Once the catalog has been added successfully, the manager can either edit current vehicles in the catalog or delete them.
 
 **Priority:** High
@@ -1115,11 +1099,11 @@ VA492 - When accesing the shopping cart, all the cars previosly select need to a
 
 ## **US50 - Chat with Vendor**
 
-**As** a user **I want** to have an easy communication between the agency vendors **to be able** to ask all my questions and follow ups on my current car purchase status.
+**As** a user **I want** to have an easy communication between the car dealership vendors **to be able** to ask all my questions and follow ups on my current car purchase status.
 
 **Validation:**
 
-- VA501 - Once the user select a specific car for details, they will be able to click a chat button that will contact a vendor that matches the car agency that belongs the car.
+- VA501 - Once the user select a specific car for details, they will be able to click a chat button that will contact a vendor that matches the car car dealership that belongs the car.
 
 - **Priority**: High
 
@@ -1211,7 +1195,7 @@ VA492 - When accesing the shopping cart, all the cars previosly select need to a
 **Validation:**
 
 - VA551 - In the user Dashboard, the user will be able to select an option to request a Test Drive
-- VA552 - Once the user answers a form with specific information as well add sending its valid drive license, he will have to wait form the agency approval
+- VA552 - Once the user answers a form with specific information as well add sending its valid drive license, he will have to wait form the car dealership approval
 - VA553 - Once its done, its dashboard will update with the test drive details.
 
 - **Priority:** High
@@ -1266,10 +1250,10 @@ As a customer I can decide not to take a test drive. To jump directly to the pur
 
 **Validation:**
 
-- VA581 - When requesting a vehicle test drive, the user will have to enter data required by the agency to achieve registration
+- VA581 - When requesting a vehicle test drive, the user will have to enter data required by the car dealership to achieve registration
 
 1. Input to upload multiple files.
-2. Include all files specified by that agency in the input.
+2. Include all files specified by that car dealership in the input.
 
 - **Priority**: Medium
 
@@ -1283,12 +1267,12 @@ As a customer I can decide not to take a test drive. To jump directly to the pur
 
 ## **US59 - Filter of Cars applicable for Test Drive**
 
-**As a** user, **I want** to see a filter or section within the profile of an agency where the vehicles that are available for a test drive are available **to be able** to easily choose one.
+**As a** user, **I want** to see a filter or section within the profile of an car dealership where the vehicles that are available for a test drive are available **to be able** to easily choose one.
 
 **Validation:**
-When a vehicle is uploaded to the platform, there is a box, "available for a test drive", when selected it is added to your inventory for test drive requests, customers can see which vehicle they can request at the selected agency (management view)
+When a vehicle is uploaded to the platform, there is a box, "available for a test drive", when selected it is added to your inventory for test drive requests, customers can see which vehicle they can request at the selected car dealership (management view)
 
-1.  When selecting an agency (by search or from a vehicle), a section is displayed where all the vehicles available for a test drive are listed.
+1.  When selecting an car dealership (by search or from a vehicle), a section is displayed where all the vehicles available for a test drive are listed.
 
 - **Priority:** Medium
 
