@@ -5,7 +5,11 @@ Link to test report: https://drive.google.com/drive/folders/1SAmzdMGOE4jMKBKnFlb
 ## Delivery
 
 
-### Authentication proccess daiagrams  
+### Api docs  
+
+- API documentantion for all uses cases from this module
+
+## Authentication proccess daiagrams  
 
 - flow diagram of the authentication process 
 - Auth arquitecture flow diagram 
