@@ -213,17 +213,6 @@ As an automotive group I must be able to apply so I can begin operations within 
 
 **Estimate**: 3 week
 
-## **US07 - Car dealership register**
-
-**Validation:**
-
-**Priority**: High
-
-**Estimate**: 3 week
-
----
----
-
 ## **US08 - Sellers register**
 
 As a manager I want to be able to register sellers so they can make sales.
@@ -283,30 +272,27 @@ As a user, I want to access the page without registering to see the catalog and 
 **Classification:** Must Have
 
 ---
-
 ---
 
-## **US11 - Register payment info in car dealership**
+## **US11 - User payment information registration**
 
 As a customer I must be able to register a payment method. To be able to make transactions in the application and buy the vehicles.
 
 **Validation:**
 
-When selecting to pay in a car, I will have the option to choose between multiple payment methods through a simple click. This together with stripe will allow users to select their payment methods and do everything within the platform.
-
-- V111 Be able to select from a variety of payment methods.
-  - Py - Payments
-- V112 Submit personal information in order to make the payment.
+- VA111 - Be able to select from a variety of payment methods (Credit Card, Dealership bank information, etc...)
   - PY - Payments
-- V113 A stripe component will be rendered to make the payment
+- VA112 - Submit personal information in order to make the payment.
   - PY - Payments
-- V114 If successful, modify database. If an error occurs, show it to the user.
+- VA113 - A stripe component will be rendered to make the payment (if stripe is chosen as the payment method).
+  - PY - Payments
+- VA114 - If successful, add transaction information (Ej.- payment history) to the database. If an error occurs, show it to the user.
   - PY - Payments
   - DB - DataBase
 
-**Priority**: Medium
+**Priority**: High
 
-**Estimate**: 1 week
+**Estimate**: 3 week
 
 **Classification:** Must Have
 
@@ -314,17 +300,16 @@ When selecting to pay in a car, I will have the option to choose between multipl
 
 ---
 
-## **US12 - Register payment info**
+## **US12 - Register car dealership payment information**
 
-As a car retailer I must enter data to which the funds of any purchase will arrive. So that the funds reach the desired account.
+As a car dealership I must submit the data of the car dealership bank account to where the funds of any purchase will arrive. So that the funds reach the desired account.
 
 **Validation:**
 
-- V121 car dealership submits bank account details.
+- VA121 - Car dealership submits bank account details to Stripe.
     - CR - Car Retailers
-- V122 Save encrypted data in the database.
-    - CR - Car Retailers
-    - DB - Data Base
+- VA122 - Save encrypted data in Stripe.
+    - PY - Payments
 
 **Priority**: Medium
 
@@ -342,10 +327,10 @@ As a user/buyer, I want to see the payment options and terms and conditions that
 
 **Validation:**
 
-- VA131 User can see the available finanicng options offered by the car dealership.
+- VA131 User can see the available finanicing options offered by the car dealership.
   - CD - Car Details
   - PY - Payments
-- VA132 The options are dynamic (depending) on the down payment.
+- VA132 The financing options are dynamic (depending) on the down payment.
   - CD - Car Details
   - PY - Payments
 
@@ -365,13 +350,13 @@ As a buyer, I want to have the option of customizing elements of my vehicle (as 
 
 **Validation:**
 - VA141 Display list of all available customizations.
-  -
+  - CD - Car Details
+
 - VA142 If a customization is not currently available gray out the button holding the option.
-  -
+  - CD - Car Details
+
 - VA143 A customized button is displayed on available vehicles.
-  -
-- VA144 The user can view the customizable vehicles and customize them.
-  -
+  - CD - Car Details
 
 **Priority:** Medium
 
@@ -390,9 +375,9 @@ As a user, I want to download vehicle quotes in PDF or have a space within my pr
 **Validation:**
 
 - VA151 Display the "download" button near the displayed price of the car.
-  - 
+  - CD - Car Details
 - VA152 The quote is downloaded in the client's browser
-  -
+  - CD - Car Details
 
 **Priority:** Medium
 
@@ -406,14 +391,13 @@ As a user, I want to download vehicle quotes in PDF or have a space within my pr
 
 ## **US16 - Setting up financing plans**
 
-As an car dealership, I want to be able to set up my financing and insurance plans (including rates and plans) to manage car dealership costs and monitor necessary changes according to the market.
+As a car dealership, I want to be able to set up my financing and insurance plans (including rates and plans) to manage car dealership costs and monitor necessary changes according to the market.
 
 **Validation:**
-When a manager uploads a car, he will need to fill out a cost section where he can add fixed options that his car dealership has available, such as the different insurance plans, and financing options so that platform users can view them in their quotes.
 
-1. VA161 A customizable forms that the manager can modify and add different financing options, insurance plans etc...
+- VA161 - When a manager uploads a car, he will need to fill out a cost section where he can add fixed options that his car dealership has available, such as the different insurance plans, and financing options so that platform users can view them in their quotes.
   - CR - Car Retailers
-2. VA162 A submit button that will upload to the cars page the financing  and insurance options.
+- VA162 A submit button that will upload to the cars page the financing  and insurance options.
   - CR - Car Retailers
 
 **Priority:** Medium
@@ -426,69 +410,52 @@ When a manager uploads a car, he will need to fill out a cost section where he c
 
 ---
 
-## **US17 - Sales price display**
-
-As a user, I want to see the price of sale to the public without having to register.
+## **US17 - Car dealership register**
 
 **Validation:**
-When viewing vehicles in the catalog or in an overview on the main page (as featured or promoted models), the retail prices are displayed.
 
-- VA171 Display of prices without prior registration or registration.
-  - FR - Front Page Results
-  - PY - Payments
+**Priority**: High
 
-**Priority:** Medium
-
-**Estimate:** 1 week
-
-**Classification:** Must Have
+**Estimate**: 3 week
 
 ---
-
 ---
 
-## **US18 - Vehicles quotation**
+## **US18 - Dynamic Pricing**
 
-As a user, I want to quote a vehicle model and see what factors can increase the final cost of a model ().
+As a user/buyer, I want to be able to see the effects on the price when adding car customizations and/or choosing differents financing and/or insuarance options.
 
 **Validation:**
-When selecting a specific vehicle, approximate expenses can be selected in the calculator (at the bottom of the page) to show an approximation of the final price, such as insurance, down payment and customization... 
-
-- VA182 Show approximations depending on the chosen vehicle
+- VA641 Reflect changes on the final price when selecting extras, such as car customizations and financing/insurance options. 
   - CD - Car Details
 
 **Priority:** Medium
 
 **Estimate:** 1 week
 
-**Classification:** Could Have
+**Classification:** Should Have
 
 ---
-
 ---
-
-## **US19 - Account movement notifications**
+## **US19 - Account actions notifications**
 
 As a user/consumer, I want to receive notifications of operations (via email and/or sms) carried out on my account to be sure of my actions and that my account is not used by third parties.
 
 **Verification**
 
-- VA191 When a change operation is made within the account send notification
+- VA191 When a change operation is made within the account send notification (email and/or sms).
   - IM - In App Messaging
   
-- VA192 When requesting a driving test send notification
+- VA192 When requesting a driving test send notification (email and/or sms).
   - IM - In App Messaging
 
-- VA193 When requesting a quote send notification
+- VA193 When requesting a quote send notification (email and/or sms).
   - IM - In App Messaging
 
-- VA194 When trying to purchase a vehicle send a notification.
+- VA194 When trying to purchase a vehicle send a notification (email and/or sms).
   - IM - In App Messaging
 
-- VA195 Request a test drive and have a notice sent by email
-  - IM - In App Messaging
-
-- VA196 Confirm a vehicle purchase and have confirmation sent to the email
+- VA195 Confirm a vehicle purchase and have confirmation sent to the email.
   - IM - In App Messaging
 
 **Priority:** Medium
@@ -503,7 +470,7 @@ As a user/consumer, I want to receive notifications of operations (via email and
 
 ## **US20 - Multi factor Authentication**
 
-**As a** person with an car dealership account in the webpage **I want** to have double authentication **to be able** to have more security at preventing anyone else to access all my information.
+**As a** person with a car dealership account in the webpage **I want** to have double authentication **to be able** to have more security at preventing anyone else to access all my information.
 
 **Verification**
 
@@ -1339,23 +1306,6 @@ As a user/buyer I want to be able to see which financing and insurance plans are
 **Estimate:** 1 week
 
 **Classification:** Must Have
-
----
----
-
-## **US64 - Dynamic Pricing**
-
-As a user/buyer, I want to be able to see the effects on the price when adding car customizations and/or choosing differents financing and/or insuarance options.
-
-**Validation:**
-- VA641 Reflect changes on the final price when selecting extras, such as car customizations and financing/insurance options. 
-  - CD - Car Details
-
-**Priority:** Medium
-
-**Estimate:** 1 week
-
-**Classification:** Should Have
 
 ---
 ---
