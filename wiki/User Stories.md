@@ -907,6 +907,7 @@ As a user want to modify my personal account information to be able to update an
 - VA403 - The DB must be able to filter with the given information and return the list of cars that match the criteria.
   - FP - Front Page Results
 - VA404 - The resulting "tokens" determined by the NL model will need to have at least 80% of accuracy on what the user intended so the result are coherent as possible but also provide a bit more of variety.
+
   - NS - Natural Language Processing.
 
 - **Priority**: Very High
@@ -980,6 +981,7 @@ As a user/buyer I want to be able to see which financing and insurance plans are
 - VA432 - The user can use the form search function without having an account.
   - FP - Front Page Results
 - VA433 - The user can use the basic filter search function of the app.
+
   - FP - Front Page Results
 
 - **Priority**: Very High
@@ -1001,6 +1003,7 @@ As a user/buyer I want to be able to see which financing and insurance plans are
 - VA441 - The search bar is visible even when the user scrolls down the page.
   - HP - Home Page
 - VA442 - Whenever the user interacts to the search bar, they must always obtain the car results.
+
   - FP - Front Page Results
 
 - **Priority**: Medium
@@ -1020,9 +1023,11 @@ As a user/buyer I want to be able to see which financing and insurance plans are
 **Validation:**
 
 - VA451 - For every car that is displayed, it must have general information before clicking the car for more details.
+
   - FP - Front Page Results
 
-- VA45 - If the user selects a specific car, they will be redirected to another section with all the description of the car.
+- VA452 - If the user selects a specific car, they will be redirected to another section with all the description of the car.
+
   - CD - Car Details.
 
 - **Priority**: Medium
@@ -1046,6 +1051,7 @@ As a user/buyer I want to be able to see which financing and insurance plans are
 - VA462 - The webpage will give the user the list of all available cars, in which they can select two cars to compare.
   - FP - Front Page Results
 - VA464 - Once the cars are selected, the key car characteristics will be placed side by side for better analysis.
+
   - CD - Car Details.
 
 - **Priority**: Low
@@ -1067,6 +1073,7 @@ As a user/buyer I want to be able to see which financing and insurance plans are
 - VA471 - When the user selects a vehicle, they can go through the images provided by the car dealerships, to explore its structure both inside and outside in detail.
   - CD - Car Details.
 - VA472 - Inside the car details, the users will be able to view the vehicle 360º.
+
   - CD - Car Details.
 
 - **Priority:** Medium
@@ -1084,8 +1091,9 @@ As a user/buyer I want to be able to see which financing and insurance plans are
 **Validation**:
 
 VA491 - When looking for a car there is going to be a "wish list" button next to each car (both in card and description mode) where the user can add cars to a wish list page.
-  - CD - Car Details.
-VA492 - When accessing the wishlist, all the cars previously select need to appear in this section.
+
+- CD - Car Details.
+  VA492 - When accessing the wishlist, all the cars previously select need to appear in this section.
 - HP - Home Page
 
 - **Priority**: High
@@ -1105,7 +1113,8 @@ VA492 - When accessing the wishlist, all the cars previously select need to appe
 **Validation:**
 
 - VA501 - Once the user select a specific car for details, they will be able to click a chat button that will contact a salesman that matches the car car dealership that belongs the car.
-   - IM - In app Messaging
+
+  - IM - In app Messaging
 
 - **Priority**: High
 
