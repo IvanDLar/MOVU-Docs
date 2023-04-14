@@ -7,6 +7,7 @@
 - AC  Set up Firebase Auth 
 - AC  customJWT lambda
 - AC  Create api validator middleware
+- AC  Auth context on next
  
 # Risks
 
