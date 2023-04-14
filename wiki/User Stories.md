@@ -96,7 +96,7 @@ As a customer, salesperson, manager, super-admin, automotive group administrator
 - VA031 - When clicking the "Cerrar Sesión" button deletes all user information saved as status in the web application and the user information will no longer be on the front. Which means you will lose access to payment and chat features.
   - HP - Home Page
 
-- VA032 After a specified amount of time, the users account will automatially close and will log out the user.
+- VA032 - After a specified amount of time, the users account will automatially close and will log out the user.
   - AC - Auth Clients
 
 **Priority**: Very High
@@ -143,11 +143,11 @@ As Super-Admin I must be able to register other super users so that several peop
 
 **Validation:**
 
-- VA051 - The super admin can register into the platform by email or a google account.
+- VA051 - The super admin can register into the platform by email or a Google account.
   - SA - Super Admin
 - VA052 - The super admin must have a secure password with at least 8 characters.
   - SA - Super Admin
-- VA053 - The email and password must be stored in firebase.
+- VA053 - The email and password must be stored in Firebase.
   - SA - Super Admin
 - VA054 - If at least one field is not valid, the user can not continue registering.
   - SA - Super Admin
@@ -161,7 +161,7 @@ As Super-Admin I must be able to register other super users so that several peop
 
 ---
 
-## **US06 - Manage automotive group signup requests**
+## **US06 - Manage automotive group sign up requests**
 
 As Super Admin I must be able to accept an application of an automotive groups so that they can begin operations within the application.
 
@@ -192,11 +192,11 @@ As an automotive group I must be able to apply so I can begin operations within 
 
 - VA071 - Sign in page for car dealership.
   - CR - Car Retails
-- VA072 - The automotive group administrator can register into the platform by email or a google account.
+- VA072 - The automotive group administrator can register into the platform by email or a Google account.
   - CR - Car Retails
 - VA073 - The automotive group administrator must have a secure password with at least 8 characters.
   - CR - Car Retails
-- VA074 - The email and password must be stored in firebase.
+- VA074 - The email and password must be stored in Firebase.
   - CR - Car Retails
 - VA075 - If at least one field is not valid, the automotive group administrator can not continue registering.
   - CR - Car Retails
@@ -253,7 +253,7 @@ As a user, I want to be able to delete my account so that I do not have an accou
   - Home Page
 - VA092 - Delete the user information from DB and Firebase.
   - Home Page
-  - DB
+  - DB - DataBase
 
 **Priority:** Medium
 
@@ -271,9 +271,9 @@ As a user, I want to access the page without registering to see the catalog and 
 
 **Validation:**
 
-- VA101 - When the user clicks a component that needs registering (buyin a car, scheduling test drive and profile page), redirects to register page.
+- VA101 - When the user clicks a component that needs registering (buying a car, scheduling test drive and profile page), redirects to register page.
   - CR - Car Details
-- VA101 - Users should be redirected to the page it was after signing up/in.
+- VA102 - Users should be redirected to the page it was after signing up/in.
   - CR - Car Details
 
 **Priority:** Medium
