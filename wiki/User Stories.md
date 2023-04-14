@@ -383,12 +383,16 @@ Confirm a vehicle purchase and have confirmation sent to the email
 ---
 ## **US20 - Multi factor Authentication**
 
-**As a** person with an account in the webpage **I want** to have double authentication **to be able** to have more security at preventing anyone else to access all my information.
+**As a** person with an agency account in the webpage **I want** to have double authentication **to be able** to have more security at preventing anyone else to access all my information.
 
 **Verification**
 
-- Whenever someone with an account tries to log in, a second authenticator must be required in order to visualize personal information.
-- In case the information given is wron, the information of the account will not be shown.
+- V201 Whenever someone with an account tries to log in, the system will ask for an authenticator code.
+  - AC - Auth Clients
+- V202 In case the information given is wrong, the system will not allow the user to access the account.
+  - AC - Auth Clients
+- V203 - The user can retry the login process as many times as he wants.
+  - AC - Auth Clients
 
 **Priority:** Medium
 
@@ -404,7 +408,10 @@ Confirm a vehicle purchase and have confirmation sent to the email
 
 **Verification**
 
-- Whenever a specific account tries to use actions exclusively allowed for other roles, that account will not be able to perform that actions.
+- V211 Whenever a specific account tries to use actions exclusively allowed for other roles, that account will not be able to perform that actions.
+  - AC - Auth Clients
+- V212 When a user is denied access to a specific action, the system will display an unathenticated message in the appropiate page.
+  - AC - Auth Clients
 
 **Priority:** Very High
 
@@ -420,7 +427,7 @@ Confirm a vehicle purchase and have confirmation sent to the email
 
 **Verification**
 
-- Whenever the systems recieves any information that is required to be stored in our Database, it has to be encrpyted so if by any chance an intruder manages to access the DB they will not be able to comprehend the information.
+- V221 Whenever the systems recieves any information that is required to be stored in our Database, it has to be encrpyted so if by any chance an intruder manages to access the DB they will not be able to comprehend the information.
 
 **Priority:** Very High
 
@@ -430,13 +437,13 @@ Confirm a vehicle purchase and have confirmation sent to the email
 
 ---
 ---
-## **US23 - Encryption in motion**
+## **US23 - Encryption in transit**
 
 **As a** super admin **I want** to ensure that while the users is sending all the documents and sensitive infarmation will be correctly encrypted (https) **to be able** to gurarantee that no intruder who could intercept the messages could understand its meanings.
 
 **Verification**
 
-- During the data transfer from the users to Movu Webpage, all information has to be sented by security protocols (HTTPS)
+- V231 During the data transfer from the users to Movu Webpage, all information has to be sented by security protocols (HTTPS)
 
 **Priority:** Very High
 
@@ -452,7 +459,7 @@ Confirm a vehicle purchase and have confirmation sent to the email
 
 **Verification**
 
-- The user will be able to perform a transaction with the certantty that the money will be correctly sent to the destintation without any probability of lost.
+- V241 The user will be able to perform a transaction with the certantty that the money will be correctly sent to the destintation without any probability of lost.
 
 **Priority:** Very High
 
@@ -496,7 +503,7 @@ Confirm a vehicle purchase and have confirmation sent to the email
 
   **Validation:**
 
-- In the Super Admin Dashboard, there will be a section which contains some data Summaries from all the car dealerships.
+- V261 In the Super Admin Dashboard, there will be a section which contains some data Summaries from all the car dealerships.
 
 **Priority**: Medium
 
@@ -512,7 +519,7 @@ Confirm a vehicle purchase and have confirmation sent to the email
 
 **Validation:**
 
-After 2 weeks from inactivity, the system will send them a emial inviting them to check the new deals and cars at MOVU.
+- V271 After 2 weeks from inactivity, the system will send them a emial inviting them to check the new deals and cars at MOVU.
 
 **Priority**: Low
 
@@ -528,7 +535,7 @@ After 2 weeks from inactivity, the system will send them a emial inviting them t
 
 **Validation:**
 
-For every cas uploaded to the system, be from catalog upload or indiviudal, a percentage of a the car price should be given to NDS as part of comission.
+- V281 For every cas uploaded to the system, be from catalog upload or indiviudal, a percentage of a the car price should be given to NDS as part of comission.
 
 **Priority**: Very High
 
@@ -544,7 +551,7 @@ For every cas uploaded to the system, be from catalog upload or indiviudal, a pe
 
 **Validation:**
 
-- In the Admin Dashboard, the user will be able to visualize a data summary of all the agencies owned (number of sales per agency, most sold cars, etc)
+- V291 In the Admin Dashboard, the user will be able to visualize a data summary of all the agencies owned (number of sales per agency, most sold cars, etc)
 
 **Priority**: Medium
 
