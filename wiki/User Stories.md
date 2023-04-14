@@ -75,7 +75,7 @@ As a customer I can log in with email and password or directly with google. To b
 - VA022 - When entering an email or password that's not in Firebase, shows error and doesn't let the user log in.
   - AC - Auth Clients
   - DB - Data Base
-- VA023 - When entering an email or password that's  in Firebase,lets the user log in.
+- VA023 - When entering an email or password that's in Firebase,lets the user log in.
   - AC - Auth Clients
   - DB - Data Base
 
@@ -126,7 +126,7 @@ As a user I want to have the option to change my account information or reset my
 - VA042 - If the email inserted in the "Restablecer Contraseña" screen is stored in the Firebase, an email is send with a link to restore the password.
   - AC - Auth Clients
   - DB - Data Base
-- VA043 -  Entering the link that came in an email lets the user insert a new password.
+- VA043 - Entering the link that came in an email lets the user insert a new password.
   - AC - Auth Clients
 - VA044 - The user must insert secure password with at least 8 characters.
   - AC - Auth Clients
@@ -225,7 +225,7 @@ As an automotive group I must be able to apply so I can begin operations within 
   - SA - Super Admin
 - VA078 - When the status of application is accepted the agency can access the whole page.
   - CR - Car Retails
-<!-- Screen to register automotive groups:
+  <!-- Screen to register automotive groups:
 
 1. Section or form where they can create new automotive groups.
 2. They will be created with random passwords. -->
@@ -265,7 +265,7 @@ As a user, I want to be able to cancel the creation of my account so that I do n
 
 - VA091 - Cancel button deletes user account without storing any personal data in Firebase.
   - HP - Home Page
-<!-- When the user creates an account, he receives a confirmation email where he has the option to cancel the account creation in the same email, when canceling (with a hyperlink button) the request is canceled and the data is not stored.
+  <!-- When the user creates an account, he receives a confirmation email where he has the option to cancel the account creation in the same email, when canceling (with a hyperlink button) the request is canceled and the data is not stored.
 
 1. Availability of cancel account button
 2. Delete user account without storing any personal data in the database -->
@@ -290,8 +290,8 @@ As a user, I want to access the page without registering to see the catalog and 
   - AC - Auth Clients
 - VA12 - When the user clicks a component that needs registering, redirects to register page.
   - AC - Auth Clients
-<!--
-The user accesses the page and can perform actions that do not require user verification.
+  <!--
+  The user accesses the page and can perform actions that do not require user verification.
 
 1. The different models available with their characteristics, cost to the public, and agency are shown.
 2. When you click on the account button, the account creation or login interface appears. -->
@@ -912,10 +912,10 @@ As a user want to modify my personal account information to be able to update an
 
 **Validation:**
 
-- VA000 - The landing page will have a search bar where the users will be able to write a simple car description which will then reutrn a list of vehicles that match that critiera. (Front Page Results)
-- VA000 - The application must have a NL model that allows to interpret the input of user and send the correct request to the DB. (NLP E-Search)
-- VA000 - The DB must be able to filter with the given information and return the list of cars that match the critiera. (Front Page Results)
-- VA000 - The resulting "tokens" determined by the NL model will need to have at least 80% of accuracy on what the user intended so the result are coherent as posible but also provide a bit more of variety.(NLP E-Search)
+- VA401 - The landing page will have a search bar where the users will be able to write a simple car description which will then reutrn a list of vehicles that match that critiera. (Front Page Results)
+- VA402 - The application must have a NL model that allows to interpret the input of user and send the correct request to the DB. (NLP E-Search)
+- VA403 - The DB must be able to filter with the given information and return the list of cars that match the critiera. (Front Page Results)
+- VA404 - The resulting "tokens" determined by the NL model will need to have at least 80% of accuracy on what the user intended so the result are coherent as posible but also provide a bit more of variety.(NLP E-Search)
 
 - **Priority**: Very High
 
@@ -933,10 +933,10 @@ As a user want to modify my personal account information to be able to update an
 
 **Validation:**
 
-- VA000 - In the Landing Page, the app will have a section "Search Guide" that once clicked it will ask the user various questions regarding the car being looked. (Front Page Results)
-- VA000 - The answers of the user will be sent to the DB through an API (Front Page Results)
+- VA411 - In the Landing Page, the app will have a section "Search Guide" that once clicked it will ask the user various questions regarding the car being looked. (Front Page Results)
+- VA412 - The answers of the user will be sent to the DB through an API (Front Page Results)
 - VA000 - The DB should return the list of cars that allign to the filter back to the Webpage (Front Page Results)
-- VA000 - The cars with that filter should be displayed to the user. (Front Page Results)
+- VA413 - The cars with that filter should be displayed to the user. (Front Page Results)
 
 **Priority**: Low
 
@@ -954,10 +954,10 @@ As a user want to modify my personal account information to be able to update an
 
 **Validation:**
 
-- VA000 - In the car display page, the users should be able to select specific filters which allow a more detailed result. (Front Page Results)
-- VA000 - Once the specific fitlers are selected, the Webpage will send those parameters to the DB (Front Page Results)
-- VA000 - The DB will obtain the cars that allign with the filters and then return them to the Webpage (Front Page Results)
-- VA000 - The cars that with that filter should be displayed to the user. (Front Page Results)
+- VA421 - In the car display page, the users should be able to select specific filters which allow a more detailed result. (Front Page Results)
+- VA422 - Once the specific fitlers are selected, the Webpage will send those parameters to the DB (Front Page Results)
+- VA423 - The DB will obtain the cars that allign with the filters and then return them to the Webpage (Front Page Results)
+- VA424 - The cars that with that filter should be displayed to the user. (Front Page Results)
 
 **Priority**: Very High
 
@@ -975,9 +975,9 @@ As a user want to modify my personal account information to be able to update an
 
 **Validation:**
 
-- VA000 - The user can use the NL search function without having an account ()
-- VA000 - The user can use the formulaire search function without having an account ()
-- VA000 - The user can use the basic filter search function of the app ()
+- VA431 - The user can use the NL search function without having an account ()
+- VA432 - The user can use the formulaire search function without having an account ()
+- VA433 - The user can use the basic filter search function of the app ()
 
 - **Priority**: Very High
 
@@ -995,8 +995,8 @@ As a user want to modify my personal account information to be able to update an
 
 **Validation:**
 
-- VA000 - The search bar is visible even when the user scrolls down the page (Home Page)
-- VA000 - Whenever the user interacts to the search bar, they must allways obtain the car results. (Front Page Results)
+- VA441 - The search bar is visible even when the user scrolls down the page (Home Page)
+- VA442 - Whenever the user interacts to the search bar, they must allways obtain the car results. (Front Page Results)
 
 - **Priority**: Low
 
@@ -1014,13 +1014,13 @@ As a user want to modify my personal account information to be able to update an
 
 **Validation:**
 
-- VA000 - For every car that is displayed, it must have general information before clicking the car for more details: (Front Page Results)
+- VA451 - For every car that is displayed, it must have general information before clicking the car for more details: (Front Page Results)
 
 1. Images
 2. Initial price
 3. Basic characteristics (doors, capacity, color, etc).
 
-- VA000 - If the user selects a specific car, they will be redirected to another section with all the description of the car (Car Details)
+- VA45 - If the user selects a specific car, they will be redirected to another section with all the description of the car (Car Details)
 
 - **Priority**: Low
 
@@ -1038,9 +1038,9 @@ As a user want to modify my personal account information to be able to update an
 
 **Validation:**
 
-- VA000 - While inspecting the vehicles, the user will be able to click a button that redirects them to a comparative section. (Car Details)
-- VA000 - The webage will give the user the list of all available cars, in which they can select two cars to compare. (Front Page Results)
-- VA000 - Once the cars are selected, the key car characteristicas will be placed side by side for better analysis. (Car Details)
+- VA461 - While inspecting the vehicles, the user will be able to click a button that redirects them to a comparative section. (Car Details)
+- VA462 - The webage will give the user the list of all available cars, in which they can select two cars to compare. (Front Page Results)
+- VA464 - Once the cars are selected, the key car characteristicas will be placed side by side for better analysis. (Car Details)
 
 - **Priority**: Low
 
@@ -1058,8 +1058,8 @@ As a user want to modify my personal account information to be able to update an
 
 **Validation:**
 
-- VA000 - When the user selects a vehicle, they can go through the images provided by the agencies, to explore its structure both inside and outside in detail. (Car Details)
-- VA000 - Inside the car details, the users will be able to view the vehicle 360º (Cars Details)
+- VA471 - When the user selects a vehicle, they can go through the images provided by the agencies, to explore its structure both inside and outside in detail. (Car Details)
+- VA472 - Inside the car details, the users will be able to view the vehicle 360º (Cars Details)
 
 - **Priority:** Medium
 
@@ -1075,8 +1075,8 @@ As a user want to modify my personal account information to be able to update an
 
 **Validation**:
 
-VA000 - When looking for a car there is going to be a "add to cart" button next to each car (both in card and description mode) where the user can add cars to a shopping cart page.(Home page)
-VA000 - When accesing the shopping cart, all the cars previosly select need to appear in this section. (Home page)
+VA491 - When looking for a car there is going to be a "add to cart" button next to each car (both in card and description mode) where the user can add cars to a shopping cart page.(Home page)
+VA492 - When accesing the shopping cart, all the cars previosly select need to appear in this section. (Home page)
 
 - **Priority**: High
 
@@ -1094,7 +1094,7 @@ VA000 - When accesing the shopping cart, all the cars previosly select need to a
 
 **Validation:**
 
-- VA000 - Once the user select a specific car for details, they will be able to click a chat button that will contact a vendor that matches the car agency that belongs the car.
+- VA501 - Once the user select a specific car for details, they will be able to click a chat button that will contact a vendor that matches the car agency that belongs the car.
 
 - **Priority**: High
 
@@ -1112,7 +1112,7 @@ VA000 - When accesing the shopping cart, all the cars previosly select need to a
 
 **Validation:**
 
-- At all times, the user can quickly begin a conversation with our chatbot, which will give the user the various questions that it can respond to.
+- VA511 - At all times, the user can quickly begin a conversation with our chatbot, which will give the user the various questions that it can respond to.
 
 - **Priority**: Medium
 
@@ -1130,7 +1130,7 @@ VA000 - When accesing the shopping cart, all the cars previosly select need to a
 
 **Validation:**
 
-- Whenever a update on the users car purchase progress is done, they should be able to receive an email detailing the current status.
+- VA521 - Whenever a update on the users car purchase progress is done, they should be able to receive an email detailing the current status.
 
 - **Priority**: Medium
 
@@ -1148,8 +1148,8 @@ VA000 - When accesing the shopping cart, all the cars previosly select need to a
 
 **Validation:**
 
-- In the Vendor Dashboard, the vendor will be able to visualize all it conversations with clients.
-- Once a conversation has ended, the vendor will be able to delete it from the dashboard and store it in archives.
+- VA531 - In the Vendor Dashboard, the vendor will be able to visualize all it conversations with clients.
+- VA532 - Once a conversation has ended, the vendor will be able to delete it from the dashboard and store it in archives.
 
 - **Priority**: Medium
 
@@ -1167,7 +1167,7 @@ VA000 - When accesing the shopping cart, all the cars previosly select need to a
 
 **Validation:**
 
-- Once either a chat conversation or vendor chat has been conluded, it will be stored for both customer support review as well as any misuse of the tool.
+- VA541 - Once either a chat conversation or vendor chat has been conluded, it will be stored for both customer support review as well as any misuse of the tool.
 
 - **Priority**: High
 
@@ -1185,9 +1185,9 @@ VA000 - When accesing the shopping cart, all the cars previosly select need to a
 
 **Validation:**
 
-- In the user Dashboard, the user will be able to select an option to request a Test Drive
-- Once the user answers a form with specific information as well add sending its valid drive license, he will have to wait form the agency approval
-- Once its done, its dashboard will update with the test drive details.
+- VA551 - In the user Dashboard, the user will be able to select an option to request a Test Drive
+- VA552 - Once the user answers a form with specific information as well add sending its valid drive license, he will have to wait form the agency approval
+- VA553 - Once its done, its dashboard will update with the test drive details.
 
 - **Priority:** High
 
@@ -1205,7 +1205,7 @@ VA000 - When accesing the shopping cart, all the cars previosly select need to a
 
 **Validation:**
 
-- In the vendor Dashboard, it will be a section specified to manage the test drives. Here the vendor can view the applications as well as approving or denying the test.
+- VA561 - In the vendor Dashboard, it will be a section specified to manage the test drives. Here the vendor can view the applications as well as approving or denying the test.
 
 - **Priority:** High
 
@@ -1223,7 +1223,7 @@ As a customer I can decide not to take a test drive. To jump directly to the pur
 
 **Validation:**
 
-- The user should be able to continue with the car purchase process without schedulling any test drive.
+- VA571 - The user should be able to continue with the car purchase process without schedulling any test drive.
 
 - **Priority**: Medium
 
@@ -1241,7 +1241,7 @@ As a customer I can decide not to take a test drive. To jump directly to the pur
 
 **Validation:**
 
-When requesting a vehicle test drive, the user will have to enter data required by the agency to achieve registration
+- VA581 - When requesting a vehicle test drive, the user will have to enter data required by the agency to achieve registration
 
 1. Input to upload multiple files.
 2. Include all files specified by that agency in the input.
