@@ -26,7 +26,7 @@ A user manual will be created, here we will document:
 
 ### Frontend demo
 
-- The functionality mentiones above will also be included as a part of a demo te NDS
+- The functionality mentioned above will also be included as a part of a demo to NDS
 
 ### Infrastructure/architecture diagram
 
