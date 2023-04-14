@@ -4,11 +4,18 @@
 
 ## Issues In progress
 
-- AC  Set up Firebase Auth 
+
 - AC  customJWT lambda
 - AC  Create api validator middleware
-- AC  Auth context on next
- 
+
+
+## Completed Issues 
+
+
+ - AC  Set up Firebase Auth 
+ - AC  Auth context on next
+
+
 # Risks
 
 * Having an insceure login/signup proccess 
