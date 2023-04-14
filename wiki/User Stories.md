@@ -611,7 +611,7 @@ As a user/consumer, I want to receive notifications of operations (via email and
 
 **Validation:**
 
-- V261 In the Super Admin Dashboard, there will be a section which contains some data Summaries from all the car dealerships.
+- V481 In the Super Admin Dashboard, there will be a section which contains some data Summaries from all the car dealerships.
 - PR - Performance Reports
 
 **Priority**: Medium
