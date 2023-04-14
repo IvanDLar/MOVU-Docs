@@ -12,6 +12,7 @@
 # Risks
 
 * Having an insceure login/signup proccess 
+ 
  **Mitigation** Using firebase as an authentication provider
 
 
