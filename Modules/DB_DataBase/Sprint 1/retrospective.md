@@ -9,7 +9,8 @@ DB52 - Database diagram 90%
 
 ### User stories percentage
 
-- todo
+- US01 - Account Sign Up 0%
+- US06 -  Manage automotive group sign up requests 0%
 
 ### Risks
 
@@ -18,8 +19,8 @@ DB52 - Database diagram 90%
 
 ### Things we can improve
 
-- todo
+- Aggregate unseen tables to the schemas after feedback.
 
 ### Things we did good
 
-- todo
+- Fast development of dabase scripts awaiting feedback. 
