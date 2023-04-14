@@ -611,7 +611,7 @@ As a user/consumer, I want to receive notifications of operations (via email and
 
 **Validation:**
 
-- V481 In the Super Admin Dashboard, there will be a section which contains some data Summaries from all the car dealerships.
+- V261 In the Super Admin Dashboard, there will be a section which contains some data Summaries from all the car dealerships.
 - PR - Performance Reports
 
 **Priority**: Medium
@@ -1076,7 +1076,7 @@ As a user/buyer I want to be able to see which financing and insurance plans are
 
 **Verification**
 
-- V261 - The system will have DDoS implementation while deploying with Bercel.
+- V481 - The system will have DDoS implementation while deploying with Bercel.
 
   - AR - Architecture
 
