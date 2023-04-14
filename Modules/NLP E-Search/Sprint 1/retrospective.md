@@ -6,7 +6,7 @@
 
 - NS - Integrate Luis to AWS SSO: not longer required
 - NS - Luis base configuration: 50%
-- NS - Create Search Endpoint V1: 90% 
+- NS - Create Search Endpoint V1: 100% 
 - NS - Create ML pipeline to create text embedding: 50%
 - NS - Upload Dummy Data: 40%
 - NS - Upload ML Model to ElasticSearch: 100%
