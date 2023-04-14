@@ -192,7 +192,7 @@ As an automotive group I must be able to apply so I can begin operations within 
 
 **Validation:**
 
-- VA071 - Sign in page for car dealership.
+- VA071 - Sign in page for automotive group.
   - CR - Car Retails
 - VA072 - The automotive group administrator can register into the platform by email or a Google account.
   - CR - Car Retails
@@ -205,10 +205,10 @@ As an automotive group I must be able to apply so I can begin operations within 
 - VA076 - The automotive group administrator lands on the application page where they can submit their documents and wait for the super admin to validate.
   - CR - Car Retails
   - SA - Super Admin
-- VA077 - If the super admin changes the status, the car dealership can see the comments made and the status of the application.
+- VA077 - If the super admin changes the status, the automotive group can see the comments made and the status of the application.
   - CR - Car Retails
   - SA - Super Admin
-- VA078 - When the status of application is accepted the car dealership can access the automotive group administrator web page sections.
+- VA078 - When the status of application is accepted the automotive group can access the automotive group administrator web page sections.
   - CR - Car Retails
 
 **Priority**: High
@@ -330,10 +330,10 @@ As a user/buyer, I want to see the payment options and terms and conditions that
 
 **Validation:**
 
-- VA131 User can see the available finanicing options offered by the car dealership.
+- VA131 - User can see the available finanicing options offered by the car dealership.
   - CD - Car Details
   - PY - Payments
-- VA132 The financing options are dynamic (depending) on the down payment.
+- VA132 - The financing options are dynamic (depending) on the down payment.
   - CD - Car Details
   - PY - Payments
 
@@ -352,16 +352,13 @@ As a user/buyer, I want to see the payment options and terms and conditions that
 As a buyer, I want to have the option of customizing elements of my vehicle (as long as the model/car dealership allows it).
 
 **Validation:**
-
-- VA141 Display list of all available customizations.
-
+- VA141 - Display list of all available customizations.
   - CD - Car Details
 
-- VA142 If a customization is not currently available gray out the button holding the option.
-
+- VA142 - If a customization is not currently available gray out the button holding the option.
   - CD - Car Details
 
-- VA143 A customized button is displayed on available vehicles.
+- VA143 - A customized button is displayed on available vehicles.
   - CD - Car Details
 
 **Priority:** Medium
@@ -380,9 +377,9 @@ As a user, I want to download vehicle quotes in PDF or have a space within my pr
 
 **Validation:**
 
-- VA151 Display the "download" button near the displayed price of the car.
+- VA151 - Display the "download" button near the displayed price of the car.
   - CD - Car Details
-- VA152 The quote is downloaded in the client's browser
+- VA152 - The quote is downloaded in the client's browser
   - CD - Car Details
 
 **Priority:** Medium
@@ -417,12 +414,23 @@ As a car dealership, I want to be able to set up my financing and insurance plan
 ---
 
 ## **US17 - Car dealership register**
+**As a** automotive group manager **I want** to **be able** to register all of the car dealerships that I manage.
 
 **Validation:**
+- VA171 - Form where automotive group manager can input the necessary information in order to submit the car dealership application.
+  - CR - Car Retails
+- VA172 - The automotive group administrator lands on the application page where they can submit the documents to register the car dealership and wait for the super admin to validate.
+  - CR - Car Retails
+  - SA - Super Admin
+- VA173 - If the super admin changes the status, the car dealership can see the comments made and the status of the application.
+  - CR - Car Retails
+  - SA - Super Admin
+- VA174 - When the status of application is accepted the car dealership gains access the car dealership administration web page sections.
+  - CR - Car Retails
 
 **Priority**: High
 
-**Estimate**: 3 week
+**Estimate**: 2 week
 
 ---
 
