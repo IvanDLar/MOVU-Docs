@@ -174,6 +174,8 @@ As Super Admin I must be able to accept an application of an automotive groups s
   - SA - Super Admin
 - VA063 - Super Admin can check the information (submission documents) the automotive group send to validate.
   - SA - Super Admin
+- VA064 - Super Admin can check a list of all the automitive groups with their data, including the dealership list for each group.
+  - SA - Super Admin
 
 **Priority**: High
 
