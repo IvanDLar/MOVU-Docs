@@ -1,18 +1,7 @@
 ### Thursday 13, 2023
 
-# User stories complete
-
-## Issues In progress
-
-
-## Completed Issues 
-
+# User stories completed
 
 # Risks
 
-
-# Things we did good 
- 
 # Things we can improve
-
-
