@@ -24,8 +24,8 @@
 - NS - Label dataset for ner: 100%
 - NS - Generate API DOCS: 80%
 - NS - Create Autocompletion endpoint V1: 100%
-- NS - Search service V2: 30%
-- NS - Search Front V1: 0%
+- NS - Search service V2: 85%
+- NS - Search Front V1: 100%
 
 # Risks + mitigation
 
