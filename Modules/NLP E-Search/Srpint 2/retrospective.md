@@ -32,7 +32,7 @@
 - Synchronization issues between postgres and elastic: use an existing service like PGSync / research ways to trigger lambdas on db change.
 - The semantic search model might not be the most precise: use a different model, such as the openAI model or LLaMA / leverage keyword search and semantic search for specific use cases.
 - The listings descriptions are not written in natural language and that might impact search: when an agency uploads a listing, they should provide a description for it / use LUIS to identify properties in listings in natural languages / use a model to build this descriptions.
-- We suprassed the free tier for aws open search service. The free tier restarts every month, so for the remaining time we will decide in between using google cloud's elastic search service, download docker images and upload them to an ec2 instance or use another aws account just for this service.
+- We surpassed the free tier for aws open search service. The free tier restarts every month, so for the remaining time we will decide in between using google cloud's elastic search service, download docker images and upload them to an ec2 instance or use another aws account just for this service.
 
 # Things we can improve
 
