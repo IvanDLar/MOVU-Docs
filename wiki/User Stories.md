@@ -80,6 +80,8 @@ As a customer I can log in with email and password or directly with google. To b
   - AC - Auth Clients
 - VA023 - When entering an email or password that's in Firebase, the user should log in.
   - AC - Auth Clients
+- VA024 - When a user is logged in, the navbar should change to display the user data and functionalities
+  - HP - Home Page
 
 **Priority**: Very High
 
