@@ -20,34 +20,29 @@
 ## Pending Validations
 
 
- - AC  Set up Firebase Auth 
- - AC  Auth context on next
+ - VA212 When a user is denied access to a specific action, the system will display an unathenticated message in the appropiate page.
+ - VA101 - When the user clicks a component that needs registering (buying a car, scheduling test drive and profile page), redirects to register page.
 
 
 # Risks
 
-* Having an insceure login/signup proccess 
+* Bad communication 
  
-    **Mitigation** Use firebase as an authentication provider
-    
-* Having insecure endpoints in API allows for unauthenticated clients to send requests to api.
- 
-    **Mitigation** Create a middleware validator that will check for the validity of the user's jwt. Allow access to the main function or not, depending on 
-    if the token is valid
+    **Mitigation** Had 3 weekly meetings and chats with everyone involved in the module 
 
-* User's with weak passwords are vulnerable to attakcs
+* People struggling with their tickets
  
-    **Mitigation** Add validators on the frontend to ensure only secure passwords are allowd
+    **Mitigation** Have more experienced person help others while developing this complex tasks
+
+
 
 
 # Things we did good 
  
-- Got familiar with firebase as an authentication provider 
-- Created endpoints to retrieve user's data 
-- Defined all the tasks we need to achieve in order to complete all user stories related to this module.
+- Finished 96% if the whole module 
+- Great communication 
+
 
 # Things we can improve
 
-- Start working on tickets since day 1 of the sprint
-- Complete at least 1 user story 
-- Faster implementation time for every ticket
+- Better followup on every task in progress.
