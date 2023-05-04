@@ -15,13 +15,13 @@
 
 ## Issues progress
 
-CR - Create Front End view for login page : 
-CR - Endpoint (signup) to register car dealerships : 
-CR - Endpoint to approve car dealerships : 
-CR - Endpoint for car dealerships to register accounts for their employees : 
-CR - Sign up / View to make a car dealership registration request : 
-CR - Indicate the type of user logged in (super admin, admin, seller, user). The access of each user depends on their type : 
-CR - Add claims for different user types : 
+- CR - Create Front End view for login page : 
+- CR - Endpoint (signup) to register car dealerships : 
+- CR - Endpoint to approve car dealerships : 
+- CR - Endpoint for car dealerships to register accounts for their employees : 
+- CR - Sign up / View to make a car dealership registration request : 
+- CR - Indicate the type of user logged in (super admin, admin, seller, user). The access of each user depends on their type : 
+- CR - Add claims for different user types : 
 
 
 # Risks + mitigations
