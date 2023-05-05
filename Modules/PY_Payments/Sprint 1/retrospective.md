@@ -21,23 +21,26 @@ No user stories completed.
 
 # Risks
 
-* Bad communication 
+* Don't know how to use stripe, must people do not have experience with this platorm
  
-    **Mitigation** Had 3 weekly meetings and chats with everyone involved in the module 
+    **Mitigation** Used official api documentation from stripe and followed examples from there
 
-* People struggling with their tickets
+* A lot of tickets are blocked 
  
-    **Mitigation** Have more experienced person help others while developing this complex tasks
-
+    **Mitigation** Completed most relevant tickets in the begginign of the sprint, which unblocked related tasks
 
 
 
 # Things we did good 
  
-- Finished 96% if the whole module 
+- Achieved sprint goal
 - Great communication 
-
+- Laid the foundation of this module 
+- Implemented checkout ui 
+- Implemented backend payment endpoint
 
 # Things we can improve
 
 - Better followup on every task in progress.
+- Complete more validations during the sprint
+
