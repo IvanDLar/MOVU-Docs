@@ -1,25 +1,22 @@
 
 ### Friday 5th of May 2023
 
+# Sprint Goal:
+
+Complete setup in stripe platform and create foundation endpoints for payments
+
 # User stories worked on this sprint
 
-- US01 - Account Sign Up
-- US03 - Account Logout
-- US04 - Reset Password
-- US20 - Login / Sign Up
+- US11 - User payment information registration
+- US35 - Sells status
+- US14 - Payments for custom order
+- US24 - Secure Payments
 
 No user stories completed.
 
 # Validations
 
-
-| Completed                | Not Completed                         |
-|--------------------------|---------------                        |
-| - US03 - Account Logout  | - US01 - Account Sign Up              |  
-| - US04 - Reset Password  |                                       |     
-| - US20 - Login / Sign Up |                                       |
-
-
+ - VA122 - Save encrypted data in Stripe  
 
 
 # Risks
