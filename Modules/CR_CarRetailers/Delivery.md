@@ -28,11 +28,7 @@ A user manual will be created, here we will document:
 
 - The functionality mentioned above will also be included as a part of a demo to NDS
 
-### Infrastructure/architecture diagram
+### Technical document
 
 - A diagram that explains the different steps in the flow of the functionalities mentiones above.
 - The diagram will also include the components involved in the process (aws, firebase).
-
-### Code
-
-- All the code files, including the configuration and infrastructure code files will be provided.
