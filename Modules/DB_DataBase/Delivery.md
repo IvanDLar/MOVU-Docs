@@ -17,7 +17,7 @@ A testing document will be delivered, the tests performed will be:
 
 ### Infrastructure/architecture diagram
 
-- A diagram that explains the different steps in the flow of the functionalities mentiones above.
+- A diagram that explains the relations between the tables of the project.
 - The diagram will also include the components involved in the process (aws, RDS).
 
 ### Code
