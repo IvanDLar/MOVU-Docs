@@ -5,7 +5,7 @@
 - [Validations](#validations)
 - [Risk and Mitigations](#risk-and-mitigations)
 - [Test Document](#test-document)
-- [Demo Videos](#demo-videos)
+- [Demo Videos](#test-drive-views)
 - [Code](#code)
 
 ## Introduction
@@ -37,7 +37,7 @@
 ## Test Document
 ...
 
-## Demo Videos
+## Test Drive Views
 ...
 
 ## Code
