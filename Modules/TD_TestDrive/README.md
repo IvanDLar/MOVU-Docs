@@ -30,11 +30,8 @@
 ## Risk and Mitigations
 | Risk                 | Mitigations            |
 |----------------------|------------------------|
-| 4/5 team members have not made end points and the one that did was occupied with other groups.
-   | We focused on the front end the first week while we started practicing with the end points.
-   |
-| We are a small group with many task that need to be done   | Dividing the task evenly for each team member, and did regular meeting to help each other.
-   |
+| 4/5 team members have not made end points and the one that did was occupied with other groups.| We focused on the front end the first week while we started practicing with the end points.|
+| We are a small group with many task that need to be done   | Dividing the task evenly for each team member, and did regular meeting to help each other.|
 
 
 ## Test Document
