@@ -9,7 +9,7 @@
 - [Code](#code)
 
 ## Introduction
-...
+At Movu, we prioritize the client’s experience during the purchase of a new car, knowing that the best way to know which car to buy is to test it yourself. We developed all the needed features so  the user can request a test drive by selecting their preferred car and filling out a simple form. In this document we present the most relevant information of the “TestDrive” module.
 
 ## User Stories
 - [US55 - Easy Test Drive Application](https://github.com/IvanDLar/MOVU-Docs/milestone/19)
