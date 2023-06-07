@@ -1,10 +1,10 @@
 # FR - Front Page Results
 
-## Date: 17 may 2023
+## Date: 7 june 2023
 
 ## Version
 
-* v0.2 - Joshua Amaya
+* v0.3 - Joshua Amaya
 
 ## Document Structure
 
@@ -98,11 +98,9 @@ MOVU application exposes an API that enables users to perform various actions, s
 
 * **Endpoints**: The API provides several endpoints to interact with different functionalities of the application. These endpoints include:
 
-    * '/compsignup'
-    * '/forgot'
-    * '/home'
-    * '/index'
-    * '/login'
-    * '/purchaseList'
-    * '/signup'
-    * '/wishList'
+    * '/compareCars': This view shows a list of the cars you wish to compare, and you can delete or buy them (by making the required choice) if desired
+    * '/employee/profile': This tab displays the employee's information, showing name, email, address and dealership, as well as the possibility to edit the basic information.
+    * '/employee/usuarios': This tab displays the employee's information, showing name, email, telephone, address; the individual's interests can be added as well as uploading official documents that can be used to make purchases within the application.
+    * '/home': This view is the landing page, which is initially displayed when the application is opened.
+    * '/search': View where all cars resulting from a specific search are displayed as a table, also showing manual filters such as region, price, and car variants.
+    * '/wishList': Window where the favorite cars selected by the user are displayed, either to compare different models and buy them later or to save offers and favorite brands.
