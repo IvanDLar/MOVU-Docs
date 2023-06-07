@@ -43,7 +43,9 @@ At Movu, we prioritize the client’s experience during the purchase of a new ca
 
 ![TD Employee Table](https://github.com/IvanDLar/MOVU-Docs/blob/main/Modules/TD_TestDrive/img/employee_testDriveList.png)
 
-blah blah blah
+This will be the section where the salesman will be able to manage their active and inactive car testing appointments, they will be able to validate the information of each and every one of the appointments that were made as well as changing the status of this appointments.
+
+Its important to highlight that the salesman will only be able to view the test drive appointments that they were assigned by the car dealership manager.
 
 - Details of Test Drive
 
