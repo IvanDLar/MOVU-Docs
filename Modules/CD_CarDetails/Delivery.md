@@ -22,6 +22,8 @@ E-comerce car details
 
 ![image](https://github.com/IvanDLar/MOVU-Docs/assets/110345846/5dd76a51-8828-4d9b-b64b-bbb0d2ad9b36)
 
+![image](https://github.com/IvanDLar/MOVU-Docs/assets/73249378/707cf479-7cb0-458a-83f4-0c28f67bf1f4)
+
 
 ### Code
 
