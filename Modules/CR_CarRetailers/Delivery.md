@@ -27,8 +27,3 @@ A user manual will be created, here we will document:
 ### Frontend demo
 
 - The functionality mentioned above will also be included as a part of a demo to NDS
-
-### Technical document
-
-- A diagram that explains the different steps in the flow of the functionalities mentiones above.
-- The diagram will also include the components involved in the process (aws, firebase).
