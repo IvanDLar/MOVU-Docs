@@ -20,6 +20,7 @@ E-comerce car details
 
 ![Captura de Pantalla 2023-06-07 a la(s) 18 47 35](https://github.com/IvanDLar/MOVU-Docs/assets/78172208/00d0999e-4681-419e-901f-52f47b77372c)
 
+![image](https://github.com/IvanDLar/MOVU-Docs/assets/110345846/5dd76a51-8828-4d9b-b64b-bbb0d2ad9b36)
 
 
 ### Code
