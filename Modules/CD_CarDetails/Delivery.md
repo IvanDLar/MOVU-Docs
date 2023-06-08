@@ -10,7 +10,7 @@ Link to test report: https://drive.google.com/drive/folders/1SAmzdMGOE4jMKBKnFlb
 - React components will be tested for the document, therefore every view (page) will include it's own test results.
 - Integration with stripe will be included in the tests.
 
-### Demo
+### View Demo
 
 - Show the design of UI and show the functionality of the app focusing in the process of how the user can watch the car details.
 - In the demo we will also provide the list of all the user stories completed with their respective validations.
