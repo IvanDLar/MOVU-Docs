@@ -1,6 +1,6 @@
 # Demo
 
-##Introduction
+## Introduction
 
 This document contains the demo of the Home Page module. It will show the visual result of the page as well as the functioning of the search and links. In the demo we will also provide the list of all the user stories completed with their respective validations.
 
