@@ -3,7 +3,6 @@
 - [Introduction](#introduction)
 - [User Stories](#user-stories)
 - [Validations](#validations)
-- [Risk and Mitigations](#risk-and-mitigations)
 - [Test Document](#test-document)
 - [Test Drive Views](#test-drive-views)
 - [Code](#code)
@@ -25,14 +24,6 @@ At Movu, we prioritize the client’s experience during the purchase of a new ca
 - [VA553 - Once TD button is activated and the forms to request the TD are complete its dashboard will update with the test drive details.](https://github.com/IvanDLar/MOVU-Docs/issues/67)
 - [VA552 - Once the user answers a form with specific information as well add sending its valid driver license, he will have to wait for the agencies approval](https://github.com/IvanDLar/MOVU-Docs/issues/66)
 - [VA561 - Salesman Dashboard will be a section to manage the test drives. Here the salesman can view the applications as well as approving or denying the test](https://github.com/IvanDLar/MOVU-Docs/issues/86)
-
-
-## Risk and Mitigations
-| Risk                 | Mitigations            |
-|----------------------|------------------------|
-| 4/5 team members have not made end points and the one that did was occupied with other groups.| We focused on the front end the first week while we started practicing with the end points.|
-| We are a small group with many task that need to be done   | Dividing the task evenly for each team member, and did regular meeting to help each other.|
-
 
 ## Test Document
 The test drive tests will start the 9th of June, unitl then we don't count with the test document.
