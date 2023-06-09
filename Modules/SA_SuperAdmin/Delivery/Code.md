@@ -4,7 +4,7 @@
 
 1. [Introduction](#introduction)
 2. [Main Files](#main-files)
-3. [Page Descriptions](#component-descriptions)
+3. [Page Descriptions](#page-descriptions)
    - [1. Automotive groups list](#1.-automotive-groups-list)
    - [2. Automotive group details](#2.-Automotive-group-details)
    - [3. Automotive group dealerships](#3.-Automotive-group-dealerships)
@@ -14,10 +14,6 @@
    - [7. Super admins users list](#2.-Automotive-group-details)
    - [8. Super admin user details](#2.-Automotive-group-details)
    - [9. Create new super admin](#9.-Create-new-super-admin)
-4. [Key Functionality](#key-functionality)
-5. [API Integration](#api-integration)
-6. [Responsive Design](#responsive-design)
-7. [Accessibility](#accessibility)
 
 ## Introduction
 
