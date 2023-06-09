@@ -62,6 +62,9 @@ The user manual document can be found here: [User Manual](./Delivery/UserManual.
 ### Code
 
 The code for the Super Admin module is available in the repository. The modular approach ensures maintainability and ease of future updates.
+Additionally, a document was created describing the features and functionality of the module's pages.
+
+The code description document can be found here: [Code Description](./Delivery/Code.md)
 
 ## Technologies and Libraries
 
