@@ -13,18 +13,18 @@
    - [API Documentation](#api-documentation)
 5. [Technologies and Libraries](#technologies-and-libraries)
 
+## Introduction
+
+This README file outlines the delivery of the Super Admin module, which is part of a larger Next.js project. The Super Admin features various components and functionalities, including creation of new super admins, approval of new automotive groups, and view billing data of the automotive groups. The goal of this document is to provide a comprehensive overview of the project, as well as instructions on how to access and review the delivery components.
+
 ## User Stories
 
-The following are the user stories that were developed and fulfilled by this module. In the [demo deliverable](./Delivery/Demo.md), there is a more detailed description of how the requirements of each of these stories are met.
+The following are the user stories that were developed and fulfilled by this module. In the [demo delivery](./Delivery/Demo.md), there is a more detailed description of how the requirements of each of these stories are met.
 
 - [US06 - Manage automotive group sign up requests](https://github.com/IvanDLar/MOVU-Docs/milestone/42)
 - [US62 - Automotive Groups Documentation Application Approvals](https://github.com/IvanDLar/MOVU-Docs/milestone/64)
 - [US05 - Super admin register](https://github.com/IvanDLar/MOVU-Docs/milestone/38)
 - [US25 - Data Privacy](https://github.com/IvanDLar/MOVU-Docs/milestone/7)
-
-## Introduction
-
-This README file outlines the delivery of the Super Admin module, which is part of a larger Next.js project. The Super Admin features various components and functionalities, including creation of new super admins, approval of new automotive groups, and view billing data of the automotive groups. The goal of this document is to provide a comprehensive overview of the project, as well as instructions on how to access and review the delivery components.
 
 ## Project Structure
 
