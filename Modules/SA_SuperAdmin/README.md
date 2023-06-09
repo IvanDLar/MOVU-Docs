@@ -71,7 +71,7 @@ The code description document can be found here: [Code Description](./Delivery/C
 
 The API Documentation is a set of instructions and guidelines that explain how to interact with a particular endpoints developed for the Super Admin Module.
 
-The API Documentation description document can be found here: [API Documentation](./Delivery/APIDocumentation.md)
+The API Documentation description document can be found here: [API Documentation](./Delivery/API_Documentation.md)
 
 ## Technologies and Libraries
 
