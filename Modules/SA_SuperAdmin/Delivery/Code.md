@@ -1,94 +1,70 @@
-# Code Document: Home Page Module
+# Code Document: Super Admin Module
 
 ## Table of Contents
 
 1. [Introduction](#introduction)
-2. [File Structure](#file-structure)
-3. [Component Descriptions](#component-descriptions)
-   - [AdsBanner](#adsbanner)
-   - [CarCarussel](#carcarussel)
-   - [FindSection](#findsection)
-   - [HomeSearchBar](#homesearchbar)
-   - [SearchCarSection](#searchcarsection)
-   - [Suggestions](#suggestions)
-   - [TestDriveSection](#testdrivesection)
-4. [Key Functionality](#key-functionality)
-5. [API Integration](#api-integration)
-6. [Responsive Design](#responsive-design)
-7. [Accessibility](#accessibility)
+2. [Main Files](#main-files)
+3. [Page Descriptions](#page-descriptions)
+   - [1. Automotive groups list](#1.-automotive-groups-list)
+   - [2. Automotive group details](#2.-Automotive-group-details)
+   - [3. Automotive group dealerships](#3.-Automotive-group-dealerships)
+   - [4. My profile](#4.-My-profile)
+   - [5. Change password](#2.-Automotive-group-details)
+   - [6. Requests list](#2.-Automotive-group-details)
+   - [7. Super admins users list](#2.-Automotive-group-details)
+   - [8. Super admin user details](#2.-Automotive-group-details)
+   - [9. Create new super admin](#9.-Create-new-super-admin)
 
 ## Introduction
 
-This code document provides an in-depth explanation of the Home Page module, including its components, key functionality, and design considerations. The Home Page is built using Next.js, TypeScript, React, and Tailwind CSS, and it features various sections to deliver a seamless user experience. The purpose of this document is to provide insights into the code structure and the implementation details of each component.
+This code document provides an in-depth explanation of the Super Addmin module, including its pages, key functionality, and design considerations. The Super Admin module is built using Next.js, TypeScript, React, and Tailwind CSS, and it features various sections to deliver a seamless user experience. The purpose of this document is to provide insights into the code structure and the implementation details of each page.
 
-## File Structure
+## Main Files
 
-The file structure for the Home Page module is organized as follows:
+1. `pages/super-admin/groups/index.tsx`
+2. `pages/super-admin/groups/[automotiveGroupId]/index.tsx`
+3. `pages/super-admin/groups/[automotiveGroupId]/concesionarias.tsx`
+4. `pages/super-admin/profile/index.tsx`
+5. `pages/super-admin/profile/change-password.tsx`
+6. `pages/super-admin/requests/index.tsx`
+7. `pages/super-admin/users/index.tsx`
+8. `pages/super-admin/users/detalles.tsx`
+9. `pages/super-admin/users/nuevo.tsx`
 
-pages/
+## Page Descriptions
 
-└── index.tsx
+### 1. Automotive groups list
 
-components/
+`/groups/index.tsx` On this page, you can view a list of all automotive groups registered in the system. For each group, you can see its name, logo, creation date, and a button to view the group details.
 
-└── home/
+### 2. Automotive group details
 
-├── AdsBanner.tsx
+`/groups/[automotiveGroupId]/index.tsx` On this page, you can view the details of a group. In addition to its basic information such as name and location, you can see the billing data: the number of dealerships it has, the number of listed cars, and the total sales.
 
-├── CarCarussel.tsx
+### 3. Automotive group dealerships
 
-├── FindSection.tsx
+`/groups/[automotiveGroupId]/concesionarias.tsx` On this page, you can view the list of all dealerships within a group, as well as their details.
 
-├── HomeSearchBar.tsx
+### 4. My profile
 
-├── SearchCarSection.tsx
+`/profile/index` On this page, you can view the data of the logged-in super administrator, such as their name, email, phone number, etc.
 
-├── Suggestions.tsx
+### 5. Change password
 
-└── TestDriveSection.tsx
+`/profile/change-password.tsx` On this page, the super administrator can update their password.
 
-## Component Descriptions
+### 6. Requests list
 
-### AdsBanner
+`/requests/index.tsx` On this page, you can view the list of requests made by new groups. Additionally, you can see the details of each request and have the ability to approve or reject them.
 
-`AdsBanner.tsx` is a component that displays a promotional banner at the bottom of the Home Page. The banner showcases the latest offers or important announcements. It can include a call-to-action button that redirects users to relevant pages or sections.
+### 7. Super admins users list
 
-### CarCarussel
+`/users/index.tsx` On this page, you can see a list of all super administrators in the system.
 
-`CarCarussel.tsx` is a component that displays a carousel of featured cars. The carousel can include high-quality images of the cars along with their names, prices, and a brief description. The carousel should be fully responsive and allow users to navigate between different cars using navigation arrows or swipe gestures on touch devices.
+### 8. Super admin user details
 
-### FindSection
+`/users/detalles.tsx` On this page, the details of a super administrator are displayed, including their name, email, and phone number.
 
-`FindSection.tsx` A regular section with some information and a call to action button.
+### 9. Create new super admin
 
-### HomeSearchBar
-
-`HomeSearchBar.tsx` is a component that renders a search bar in the Home Page, allowing users to search for cars by make, model, or keyword. The search bar should include a search button and an input field with autocomplete functionality to assist users in their search process. Upon submitting a search, users will be redirected to the Search Cars page with the relevant search results.
-
-### SearchCarSection
-
-`SearchCarSection.tsx` A regular section with some information and a call to action button.
-
-### Suggestions
-
-`Suggestions.tsx` is a component that displays a list of suggestions for users based on their browsing history or popular trends. These suggestions can include car models, articles, or even promotional offers. Users can click on the suggestions to navigate to the relevant pages.
-
-### TestDriveSection
-
-`TestDriveSection.tsx` is a component that promotes the test drive feature. It displays a call-to-action that encourages users to schedule a test drive for their preferred car models. The section can include an attractive background image, a heading, a short description, and a button that directs users to the test drive scheduling page.
-
-## Key Functionality
-
-The Home Page module is designed to provide a seamless user experience, offering quick access to the most important features and information. Key functionality includes the car search feature, navigation between different sections, and the ability to view and interact with car listings.
-
-## API Integration
-
-The Home Page module integrates with a car search API to provide users with accurate and up-to-date information about the available cars. The API integration allows for dynamic loading of car listings based on user search queries, as well as filtering options to refine the search results.
-
-## Responsive Design
-
-The Home Page module is built with responsive design principles to ensure a consistent and visually appealing experience across various devices, including desktops, laptops, tablets, and smartphones. The layout and components adapt to different screen sizes and resolutions to provide an optimal viewing and interaction experience.
-
-## Accessibility
-
-Accessibility is a crucial consideration in the development of the Home Page module. All components are designed to be accessible to users with disabilities, ensuring that the website is usable by as many people as possible. This includes the use of proper semantic HTML elements, ARIA attributes, and keyboard navigation support.
+`/users/nuevo.tsx` On this page, you can create a new super administrator account. It is a form that requests the data of the new administrator, such as name, email, and other required information.
