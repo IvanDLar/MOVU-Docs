@@ -85,8 +85,6 @@
 
 #### Risks + Mitigations
 
-- This is a very big module and it touches a lot of other modules, which could provoke interference with each other's work: Have a sprint planning every Monday to assign tasks and invite other module leaders to the meeting.
-- There are a lot of people in the module, and we can't all always attend the meetings: Report status in chat and record the meetings.
 - The data model does not align with the car dealership registration request: Create a separate table for the requests.
 - Testing the endpoints is difficult because we require accounts of different types to test them: Create fake accounts with privileges to test the endpoints.
 - Documentation was not started earlier, which led to delays in completing it: Prioritize documentation from the beginning of the next sprint.
@@ -103,12 +101,5 @@
 
 #### Things We Will Do to Improve Next Sprint
 
-- Start the sprint sooner and organize task assignments better.
-- Make sure that everyone understands their assigned tasks and knows who to go to for questions.
-- Communicate better with the database and authentication teams to avoid misunderstandings.
-- Prioritize documentation alongside code development to avoid delays.
-- Ensure that documentation is started early in the sprint and completed in a timely manner.
-
-#### Additional Information
-
+- Prioritize documentation. Ensure that documentation is started early in the sprint and completed in a timely manner.
 - The documentation, including API docs, user manual for dealerships, and test reports, was not started until this week. This was mainly due to the fact that we had to focus on development as the end of the project nears.
