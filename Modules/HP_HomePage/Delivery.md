@@ -64,10 +64,3 @@ The Home Page module is built using the following technologies and libraries:
 2. [TypeScript](https://www.typescriptlang.org/)
 3. [React](https://reactjs.org/)
 4. [Tailwind CSS](https://tailwindcss.com/)
-
-## Contact
-
-For questions and inquiries, please contact the project maintainers:
-
-- Your Name - your.email@example.com
-- Project Link: [https://github.com/yourusername/yourrepository](https://github.com/yourusername/yourrepository)
