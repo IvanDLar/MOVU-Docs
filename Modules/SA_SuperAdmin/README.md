@@ -10,6 +10,7 @@
    - [Demo](#demo)
    - [User Manual](#user-manual)
    - [Code](#code)
+   - [API Documentation](#api-documentation)
 5. [Technologies and Libraries](#technologies-and-libraries)
 
 ## User Stories
@@ -65,6 +66,12 @@ The code for the Super Admin module is available in the repository. The modular 
 Additionally, a document was created describing the features and functionality of the module's pages.
 
 The code description document can be found here: [Code Description](./Delivery/Code.md)
+
+### API Documentation
+
+The API Documentation is a set of instructions and guidelines that explain how to interact with a particular endpoints developed for the Super Admin Module.
+
+The API Documentation description document can be found here: [API Documentation](./Delivery/APIDocumentation.md)
 
 ## Technologies and Libraries
 
