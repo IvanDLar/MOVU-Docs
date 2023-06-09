@@ -3,13 +3,23 @@
 ## Table of Contents
 
 1. [Introduction](#introduction)
-2. [Project Structure](#project-structure)
-3. [Delivery Components](#delivery-components)
+2. [User Stories](#user-stories)
+3. [Project Structure](#project-structure)
+4. [Delivery Components](#delivery-components)
    - [Test Document](#test-document)
    - [Demo](#demo)
    - [User Manual](#user-manual)
    - [Code](#code)
-4. [Technologies and Libraries](#technologies-and-libraries)
+5. [Technologies and Libraries](#technologies-and-libraries)
+
+## User Stories
+
+The following are the user stories that were developed and fulfilled by this module. In the [demo deliverable](./Delivery/Demo.md), there is a more detailed description of how the requirements of each of these stories are met.
+
+- [US06 - Manage automotive group sign up requests](https://github.com/IvanDLar/MOVU-Docs/milestone/42)
+- [US62 - Automotive Groups Documentation Application Approvals](https://github.com/IvanDLar/MOVU-Docs/milestone/64)
+- [US05 - Super admin register](https://github.com/IvanDLar/MOVU-Docs/milestone/38)
+- [US25 - Data Privacy](https://github.com/IvanDLar/MOVU-Docs/milestone/7)
 
 ## Introduction
 
