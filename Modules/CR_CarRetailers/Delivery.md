@@ -1,6 +1,6 @@
 # CR Car Retailers
 
-Link to test report: https://drive.google.com/drive/folders/1SAmzdMGOE4jMKBKnFlbp9TjuHa3fW9tI
+Link to test report: https://docs.google.com/spreadsheets/d/1UY9lWwb_Ee5Gme_uNZh_7DGlrfb-NyOw/edit#gid=1320355392
 
 ## Delivery
 
