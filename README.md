@@ -18,6 +18,7 @@ The MOVU Team
 
 - [Software Requirements Specification](SRS.md)
 - [Repositories](wiki/Repositories.md)
+- [Test report](wiki/PruebasRecorridoMovu.xlsx)
 - [Project Plan](wiki/Project%20Plan.md)
 - [Epics](wiki/Epics.md)
 - [User Stories](wiki/User%20Stories.md)
