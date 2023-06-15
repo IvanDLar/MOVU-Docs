@@ -1,6 +1,6 @@
 # PY Payments Delivery
 
-Link to test report: https://drive.google.com/drive/folders/1SAmzdMGOE4jMKBKnFlbp9TjuHa3fW9tI
+Link to test report: [https://drive.google.com/drive/folders/1SAmzdMGOE4jMKBKnFlbp9TjuHa3fW9tI](https://docs.google.com/spreadsheets/d/1FycuoYT6rRdNic2yVCziYj3SA039EHzW/edit#gid=1320355392)
 
 ## Delivery
 
