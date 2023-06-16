@@ -5,6 +5,7 @@
 - [Validations](#validations)
 - [Test Document](#test-document)
 - [Test Drive Views](#test-drive-views)
+- [User Manual](#user-manual)
 - [Code](#code)
 
 ## Introduction
@@ -26,9 +27,12 @@ At Movu, we prioritize the client’s experience during the purchase of a new ca
 - [VA561 - Salesman Dashboard will be a section to manage the test drives. Here the salesman can view the applications as well as approving or denying the test](https://github.com/IvanDLar/MOVU-Docs/issues/86)
 
 ## Test Document
-The test drive tests will start the 9th of June, unitl then we don't count with the test document.
+- [Test Document in excel](https://github.com/IvanDLar/MOVU-Docs/blob/main/Modules/TD_TestDrive/Delivery/PruebasRecorridoTestDrive.xlsx%20-%20Tours.pdf)
 
 ## Test Drive Views
+
+- [Test Drive Views Video](https://github.com/IvanDLar/MOVU-Docs/blob/main/Modules/TD_TestDrive/Delivery/TestDriveViews.mp4)
+
 ### Salesman Views
 - Test Drive Table
 
@@ -62,6 +66,10 @@ The user can see their test drive information in this view. The tracker helps th
 ![User test drive list](https://github.com/IvanDLar/MOVU-Docs/blob/main/Modules/TD_TestDrive/img/testDriveList.png)
 
 On the users menu they can click on "Pruebas de Manejo" so they can see the test drives they have solicitated, even the ones finished or canceled.
+
+## User Manual
+
+- [User Manual pdf](https://github.com/IvanDLar/MOVU-Docs/blob/main/Modules/TD_TestDrive/Delivery/TD_Manual.pdf)
 
 ## Code
 ...
