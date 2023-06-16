@@ -36,36 +36,44 @@ At Movu, we prioritize the client’s experience during the purchase of a new ca
 ### Salesman Views
 - Test Drive Table
 
-![TD Employee Table](https://github.com/IvanDLar/MOVU-Docs/blob/main/Modules/TD_TestDrive/img/employee_testDriveList.png)
-
-This will be the section where the salesman will be able to manage their active and inactive car testing appointments, they will be able to validate the information of each and every one of the appointments that were made as well as changing the status of this appointments.
-
-Its important to highlight that the salesman will only be able to view the test drive appointments that they were assigned by the car dealership manager.
+This will be the section where the salesman will be able to manage their active and inactive car testing appointments, they will be able to validate the information of each and every one of the appointments that were made as well as changing the status of this appointments. It's important to highlight that the salesman will only be able to view the test drive appointments that they were assigned by the car dealership manager. (Image 1.1)
 
 - Details of Test Drive
-
-![Details of test drive](https://github.com/IvanDLar/MOVU-Docs/blob/main/Modules/TD_TestDrive/img/TDDetails.png)
-
-This view shows the test drive details that salesman can see, these views are not available or accessible to other users. The name and model will be displayed for which the test drive was requested. On the other hand, there will be a document verification section, where salesman will be able to check the documents uploaded by the user, in this case it will be necessary to check that the driver's license has been uploaded correctly. Finally, the application can be accepted or rejected. This status can be checked in the previous page Test Drive Table
+This view shows the test drive details that salesman can see, these views are not available or accessible to other users. The name and model will be displayed for which the test drive was requested. On the other hand, there will be a document verification section, where salesman will be able to check the documents uploaded by the user, in this case it will be necessary to check that the driver's license has been uploaded correctly. Finally, the application can be accepted or rejected. This status can be checked in the previous page Test Drive Table. (Image 1.2)
 
 ### Ecommerce Views
 - Test Drive application forms
 
-![User test drive forms](https://github.com/IvanDLar/MOVU-Docs/blob/main/Modules/TD_TestDrive/img/testDriveDoc.png)
-
-The view is for our users to set all the required information we need for us to give them a test drive. First it is asked for a document, where the user has to upload a picture of their driver's license, after it, the user is able to set the date and time that fits best for both the tester and the dealership’s employee. At last, the user must see the name that was used to register their account (users must be logged in to access this view), and after it, they must fill in the direction of where they wish the test drive to be carried out and finally, send their request to the dealership for review.
+The view is for our users to set all the required information we need for us to give them a test drive. First it is asked for a document, where the user has to upload a picture of their driver's license, after it, the user is able to set the date and time that fits best for both the tester and the dealership’s employee. At last, the user must see the name that was used to register their account (users must be logged in to access this view), and after it, they must fill in the direction of where they wish the test drive to be carried out and finally, send their request to the dealership for review. (Image 2.1)
 
 - Test Drive Information 
 
-![User test drive information](https://github.com/IvanDLar/MOVU-Docs/blob/main/Modules/TD_TestDrive/img/testDriveData.png)
-
-The user can see their test drive information in this view. The tracker helps the user to see how their process is going. This tracker shows the same status that is on the salesman table, and it refreshes when the status changes. The tracker has 3 types of circles: "check", "onway" and "pending", and depending on the status is the type of circle the tracker has. Also the user can see the information of their test drive, like the car they solicitated, the date, hour and the address of the test drive.
+The user can see their test drive information in this view. The tracker helps the user to see how their process is going. This tracker shows the same status that is on the salesman table, and it refreshes when the status changes. The tracker has 3 types of circles: "check", "onway" and "pending", and depending on the status is the type of circle the tracker has. Also the user can see the information of their test drive, like the car they solicitated, the date, hour and the address of the test drive. (Image 2.2)
 
 - User Test Drive List
 
+On the users menu they can click on "Pruebas de Manejo" so they can see the test drives they have solicitated, even the ones finished or canceled. (Image 2.3)
+
+### Images
+![TD Employee Table](https://github.com/IvanDLar/MOVU-Docs/blob/main/Modules/TD_TestDrive/img/employee_testDriveList.png)
+
+<div align="center"> 1.1 </div>
+
+![Details of test drive](https://github.com/IvanDLar/MOVU-Docs/blob/main/Modules/TD_TestDrive/img/TDDetails.png)
+
+<div align="center"> 1.2 </div>
+
+![User test drive forms](https://github.com/IvanDLar/MOVU-Docs/blob/main/Modules/TD_TestDrive/img/testDriveDoc.png)
+
+<div align="center"> 2.1 </div>
+
+![User test drive information](https://github.com/IvanDLar/MOVU-Docs/blob/main/Modules/TD_TestDrive/img/testDriveData.png)
+
+<div align="center"> 2.2 </div>
+
 ![User test drive list](https://github.com/IvanDLar/MOVU-Docs/blob/main/Modules/TD_TestDrive/img/testDriveList.png)
 
-On the users menu they can click on "Pruebas de Manejo" so they can see the test drives they have solicitated, even the ones finished or canceled.
+<div align="center"> 2.3 </div>
 
 ## User Manual
 
