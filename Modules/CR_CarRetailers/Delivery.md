@@ -1,12 +1,13 @@
 # CR Car Retailers
 
-Link to test report: https://drive.google.com/drive/folders/1SAmzdMGOE4jMKBKnFlbp9TjuHa3fW9tI
+Link to test report: https://docs.google.com/spreadsheets/d/1UY9lWwb_Ee5Gme_uNZh_7DGlrfb-NyOw/edit#gid=1320355392
 
 ## Delivery
 
 ### Test document
 
 A testing document will be delivered, the tests performed will be:
+
 - Api testing: test the upload car, drive test and create car retailers endpoints
 - Integration testing: login
 - End to end UI testing: test the user flow when uploading cars, drive tests, car retailers.
@@ -19,6 +20,7 @@ A testing document will be delivered, the tests performed will be:
 ### User manual
 
 A user manual will be created, here we will document:
+
 - The steps that car retailers need to take to upload cars
 - The steps automobile group owners need to take to create car retailers and add employees
 - The steps a user need to take to request drive tests

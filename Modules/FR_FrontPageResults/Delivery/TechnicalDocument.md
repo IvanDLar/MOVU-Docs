@@ -1,10 +1,10 @@
 # FR - Front Page Results
 
-## Date: 7 june 2023
+## Date: 12 june 2023
 
 ## Version
 
-* v0.3 - Joshua Amaya
+* v1.1 - Joshua Amaya
 
 ## Document Structure
 
@@ -56,41 +56,73 @@ Localhost refers to the local development environment on a computer where the ap
 
 ## Installation Instructions
 
-### **Install Node.js in the computer**
-    
-Node.js can be downloaded from 
-    
-    https://nodejs.org/en/download 
+### 1. Install Git
 
-### **Install yarn**
+If you haven't already, download and install Git from the official website for your operating system (https://git-scm.com/).
 
-Yarn must be installed form the command line as follows
+### 2. Clone the repository
 
-```
-npm install --global yarn
-```
+Open a terminal or command prompt and navigate to the directory where you want to store the project. Then, run the following command to clone the repository:
 
-### **.env file**
+   ```
+   git clone <repository_url>
+   ```
 
-It is necessary to have the most recent version of the .env file inside the project in order to access it with the appropriate credentials. In case of not obtaining it, a personal .env file can be created following the structure provided in 
+   Replace `<repository_url>` with the URL of the GitHub repository.
 
+   ```
+   git clone https://github.com/IvanDLar/MOVU-FrontEnd.git
+   ```
+
+### 3. Install Node.js
+
+Next.js requires Node.js to be installed on your machine. You can download it from the official website
+
+   ```
+   (https://nodejs.org/)
+   ```
+
+   and follow the installation instructions.
+
+### 4. Navigate to the project directory
+
+Use the `cd` command to change into the project directory that was created when you cloned the repository. For example:
+
+   ```
+   cd MOVU-FrontEnd
+   ```
+
+### 5. Install project dependencies
+
+The project tyically has dependencies listed in a `package.json` file. To install these dependencies, run the following command:
+
+   ```
+   npm install
+   ```
+
+   This will download and install all the necessary packages required by the project.
+
+### 6. **.env file**
+
+It is necessary to have the most recent version of the .env file inside the project in order to access it with the appropriate credentials. In case of not obtaining it, a personal .env file can be created following the structure provided in
+
+   ```
     .env.example
+   ```
 
-### **Run application**
+### 7. Start the development server
 
-To run the proyect, type in command line
+Once the dependencies are installed, you can start the Next.js development server using the following command:
 
-```
-yarn dev
-```
+   ```
+   npm run dev
+   ```
 
-### **Open app in browser**
+   This command will start the development server and provide you with a local URL where you can view the project in your web browser. Typically, it will be `http://localhost:3000`.
 
-The application will start running in port 3000. Open the browser in the following link:
+### 8. Open the project in a web browser
 
-```
-http://localhost:3000/
-```
+Launch your preferred web browser and navigate to the local development URL provided by the previous step (`http://localhost:3000` by default). You should now see the Next.js project running locally.
 
 ## API Description
 
