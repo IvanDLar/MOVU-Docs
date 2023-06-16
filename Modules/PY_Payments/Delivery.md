@@ -10,7 +10,7 @@ Link to test report: [https://drive.google.com/drive/folders/1SAmzdMGOE4jMKBKnFl
 
 ### Documentation 
 
-- Document explaining payment process for customers
+- Diagram of the arquitecture proposed and the flow it follows.
 
 ### Demo
 
