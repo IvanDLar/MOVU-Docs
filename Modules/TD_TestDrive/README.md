@@ -59,7 +59,7 @@ On the users menu they can click on "Pruebas de Manejo" so they can see the test
 
 <div align="center"> 1.1 </div>
 
-![Details of test drive](https://github.com/IvanDLar/MOVU-Docs/blob/main/Modules/TD_TestDrive/img/TDDetails.png)
+![Details of test drive](https://github.com/IvanDLar/MOVU-Docs/blob/main/Modules/TD_TestDrive/img/testDriveDetails.png)
 
 <div align="center"> 1.2 </div>
 
