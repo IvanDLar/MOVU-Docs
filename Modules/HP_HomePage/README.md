@@ -56,6 +56,8 @@ The graphical results document can be found here: [Graphical Results](./Delivery
 
 The code for the Home Page module is available in the repository. The modular approach ensures maintainability and ease of future updates.
 
+The code description document can be found here: [Code Description](./Delivery/Code.md)
+
 ## Technologies and Libraries
 
 The Home Page module is built using the following technologies and libraries:

@@ -19,6 +19,10 @@ This test document focuses on verifying the correct functionality of the Home Pa
 
 Tests will be executed both manually and automatically. Manual tests will be performed by developers and testers during development, while automatic tests will be executed by the Github Actions Pipeline on every pull request.
 
-## Test Document
+## Test Documents
 
+Unit Tests:
 https://docs.google.com/spreadsheets/d/1_1B6nP4WEh3aPtIm7VPP2QjLVewNsBuH/edit?usp=sharing&ouid=102605215776960836222&rtpof=true&sd=true
+
+Path Tests:
+https://docs.google.com/spreadsheets/d/1iU7LFj1fwO8C58xiwR5gzYJx6YOeZxIm/edit?usp=sharing&ouid=107797780739456330946&rtpof=true&sd=true
