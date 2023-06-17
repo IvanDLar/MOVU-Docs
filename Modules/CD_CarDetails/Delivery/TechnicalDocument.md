@@ -12,6 +12,7 @@
 2. User Stories
 3. API Description
     * Endpoint Details
+4. Views
 
 ## Introduction
 
@@ -48,3 +49,12 @@ MOVU application exposes an API that enables users to perform various actions, s
     * '/purchaseDetails': In this view the customer can visualize the status of his purchase, from the creation of the order to the arrival of the vehicle. Likewise, the image of the vehicle, the make and model as well as its corresponding logo are displayed. Divided into two boxes, the details of the transaction as well as the total cost of the purchase are displayed. The details include the name of the seller, the date of arrival and request, the status of the car, the dealer in charge of the sale and the shipping address. At the end, there are two buttons, the first one to view the documents generated from the transaction and another button to request help from an employee in case there is any problem with the order.
     * '/carDetails': The page displays detailed information about the vehicle to be sold, showing its model, make and logo as well as its base price. On the other hand, a description provided by the agency and the details of the vehicle are displayed. The image of the car is shown in 360° for the user's convenience as well as a gallery section so that the client can get to know the car in more detail. If required, all the details about the variants that the product has, such as the type of body, transmission or gasoline, are displayed. Among the buttons is the one to buy or to schedule a test drive if the user decides to try the car before buying it.
     * '/carDetailsDelearship': In this view, dealers can register a new vehicle that will be displayed within the application. In order for the vehicle to appear correctly in the system, the requested fields must be filled in, such as model name, type of traction, year, brake system, number of doors, among other variants. Likewise, a base price is assigned and the pertinent forms are filled out in order to register the vehicle.
+ 
+## Views
+![Captura de Pantalla 2023-06-07 a la(s) 18 47 19](https://github.com/IvanDLar/MOVU-Docs/assets/78172208/9aedb1bb-8d1f-4062-a93f-b6df7669dd3d)
+
+![Captura de Pantalla 2023-06-07 a la(s) 18 47 35](https://github.com/IvanDLar/MOVU-Docs/assets/78172208/00d0999e-4681-419e-901f-52f47b77372c)
+
+![image](https://github.com/IvanDLar/MOVU-Docs/assets/110345846/5dd76a51-8828-4d9b-b64b-bbb0d2ad9b36)
+
+![image](https://github.com/IvanDLar/MOVU-Docs/assets/73249378/707cf479-7cb0-458a-83f4-0c28f67bf1f4)
